@@ -22,7 +22,7 @@ export default async function RootLayout({
   const { locale } = await params;
 
   // Ensure that the incoming `locale` is valid
-  if (!['en', 'ko', 'ja', 'zh', 'es', 'fr', 'de', 'ar', 'el', 'ru'].includes(locale as any)) {
+  if (!['en', 'ko', 'ja', 'zh', 'es', 'fr', 'de', 'ar', 'el', 'ru', 'hu'].includes(locale as any)) {
     notFound();
   }
 
