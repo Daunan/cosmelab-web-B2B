@@ -1,0 +1,35 @@
+{
+    "Hero": {
+        "title": "Global Partner for K-Beauty Innovation",
+        "subtitle": "Your premier gateway to Korean cosmetics excellence.",
+        "cta": "Explore Brands"
+    },
+    "Brands": {
+        "title": "Our Premier Brands",
+        "description": "Discover our curated selection of top-tier K-Beauty brands."
+    },
+    "WhyUs": {
+        "title": "Why Partner With Us",
+        "items": {
+            "direct": "Direct Manufacturer Supply",
+            "logistics": "Global Logistics Network",
+            "terms": "Flexible B2B Terms"
+        }
+    },
+    "Collections": {
+        "title": "Featured Collections"
+    },
+    "Footer": {
+        "copyright": "© 2026 COSMELAB. All rights reserved."
+    },
+    "Navigation": {
+        "home": "Home",
+        "brands": "Brands",
+        "about": "About Us",
+        "contact": "Contact"
+    },
+    "Recommendation": {
+        "start": "Find Your Perfect Product",
+        "cta": "Start Quiz"
+    }
+}

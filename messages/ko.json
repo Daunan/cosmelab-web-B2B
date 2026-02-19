@@ -1,0 +1,35 @@
+{
+    "Hero": {
+        "title": "K-Beauty 혁신의 글로벌 파트너",
+        "subtitle": "한국 화장품의 우수성을 세계로 전하는 최고의 파트너입니다.",
+        "cta": "브랜드 살펴보기"
+    },
+    "Brands": {
+        "title": "프리미어 브랜드",
+        "description": "엄선된 프리미엄 K-Beauty 브랜드를 만나보세요."
+    },
+    "WhyUs": {
+        "title": "코스메랩과 함께해야 하는 이유",
+        "items": {
+            "direct": "제조사 직접 공급",
+            "logistics": "글로벌 물류 네트워크",
+            "terms": "유연한 B2B 거래 조건"
+        }
+    },
+    "Collections": {
+        "title": "추천 컬렉션"
+    },
+    "Footer": {
+        "copyright": "© 2026 COSMELAB. All rights reserved."
+    },
+    "Navigation": {
+        "home": "홈",
+        "brands": "브랜드",
+        "about": "회사 소개",
+        "contact": "문의하기"
+    },
+    "Recommendation": {
+        "start": "나에게 맞는 제품 찾기",
+        "cta": "퀴즈 시작하기"
+    }
+}
