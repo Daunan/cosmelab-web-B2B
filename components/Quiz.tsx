@@ -321,15 +321,7 @@ export default function Quiz({ locale }: QuizProps) {
                                                 <ShoppingBag className="w-5 h-5 mr-2" />
                                                 {t.buyingLink}
                                             </a>
-                                            <a
-                                                href={BRAND_INTRODUCE_URL}
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="flex-1 min-w-[160px] inline-flex items-center justify-center px-6 py-4 bg-white text-black border-2 border-black font-medium rounded-xl hover:bg-gray-50 transition-colors"
-                                            >
-                                                <span className="mr-2">📄</span>
-                                                {t.brandFile}
-                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -346,33 +338,7 @@ export default function Quiz({ locale }: QuizProps) {
 
             </AnimatePresence>
 
-            {/* Contact Footer */}
-            <footer className="mt-20 border-t border-gray-200 pt-12 w-full text-center text-gray-500">
-                <h3 className="text-sm font-bold uppercase tracking-widest mb-6 opacity-50">{t.contact}</h3>
-                <div className="flex flex-col md:flex-row justify-center gap-8 items-center">
-                    <div className="flex items-center gap-3">
-                        <span className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600">📧</span>
-                        <div className="text-left">
-                            <div className="text-xs uppercase font-bold text-gray-400">Email</div>
-                            <a href="mailto:overseas@cosmelab.com" className="text-black font-medium hover:text-blue-600">overseas@cosmelab.com</a>
-                        </div>
-                    </div>
-                    <div className="flex items-center gap-3">
-                        <span className="w-10 h-10 rounded-full bg-green-50 flex items-center justify-center text-green-600">💬</span>
-                        <div className="text-left">
-                            <div className="text-xs uppercase font-bold text-gray-400">WhatsApp</div>
-                            <a href="https://wa.me/821050938474" className="text-black font-medium hover:text-green-600">+82 10-5093-8474</a>
-                        </div>
-                    </div>
-                    <div className="flex items-center gap-3">
-                        <span className="w-10 h-10 rounded-full bg-pink-50 flex items-center justify-center text-pink-600">📸</span>
-                        <div className="text-left">
-                            <div className="text-xs uppercase font-bold text-gray-400">Instagram</div>
-                            <a href="https://www.instagram.com/cosmelab_official_global/" target="_blank" rel="noopener noreferrer" className="text-black font-medium hover:text-pink-600">@cosmelab_official_global</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+
         </div>
     );
 }
