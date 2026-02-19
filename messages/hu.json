@@ -1,0 +1,35 @@
+{
+    "Hero": {
+        "title": "Globális Partner a K-Beauty Innovációban",
+        "subtitle": "Az Ön elsődleges kapuja a koreai kozmetikai kiválóságokhoz.",
+        "cta": "Márkák Felfedezése"
+    },
+    "Brands": {
+        "title": "Kiemelt Márkáink",
+        "description": "Fedezze fel válogatott prémium K-Beauty márkáinkat."
+    },
+    "WhyUs": {
+        "title": "Miért Válasszon Minket",
+        "items": {
+            "direct": "Közvetlen Gyártói Ellátás",
+            "logistics": "Globális Logisztikai Hálózat",
+            "terms": "Rugalmas B2B Feltételek"
+        }
+    },
+    "Collections": {
+        "title": "Kiemelt Kollekciók"
+    },
+    "Footer": {
+        "copyright": "© 2026 COSMELAB. Minden jog fenntartva."
+    },
+    "Navigation": {
+        "home": "Főoldal",
+        "brands": "Márkák",
+        "about": "Rólunk",
+        "contact": "Kapcsolat"
+    },
+    "Recommendation": {
+        "start": "Találja Meg A Tökéletes Terméket",
+        "cta": "Kvíz Indítása"
+    }
+}

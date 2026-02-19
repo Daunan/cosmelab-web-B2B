@@ -202,6 +202,25 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         phases: ["ΒΗΜΑ 01: Κατηγορία", "ΒΗΜΑ 02: Ανάγκη", "Η Πρότασή μας"],
         instructions: ["Επιλέξτε μια κατηγορία φροντίδας", "Ποια είναι η κύρια ανάγκη της επιδερμίδας σας;", "Επιλέξαμε αυτά τα προϊόντα για εσάς:"],
         snsFeedbackBtn: "SNS Feedback from global"
+    },
+    [Language.HU]: {
+        start: "KEZDÉS",
+        next: "KÖVETKEZŐ",
+        back: "VISSZA",
+        reset: "ÚJRAKEZDÉS",
+        buyingLink: "VÁSÁRLÁS ONLINE",
+        brandFile: "MÁRKA ÚTMUTATÓ",
+        catalog: "KATALÓGUS LETÖLTÉSE",
+        contact: "KAPCSOLAT",
+        b2b: "B2B ÉS GLOBÁLIS PARTNERSÉG",
+        hero: {
+            sub: "CosmeLab Co., Ltd.",
+            title: "COSMELAB\nPRÉMIUM\nKURÁCIÓ.",
+            desc: "Fedezze fel a legjobb K-Beauty innovációk szinergiáját. Berrisom, G9SKIN, AMILL és COSCELL szakértői megoldások."
+        },
+        phases: ["01. LÉPÉS: Fókusz", "02. LÉPÉS: Probléma", "Személyre Szabott Megoldás"],
+        instructions: ["Válassza ki az elsődleges célt", "Mi a fő bőrproblémája?", "Ezeket a prémium termékeket választottuk Önnek:"],
+        snsFeedbackBtn: "SNS Visszajelzés a világból"
     }
 };
 
