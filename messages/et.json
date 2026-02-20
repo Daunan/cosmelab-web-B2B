@@ -1,0 +1,35 @@
+{
+    "Hero": {
+        "title": "K-Beauty Innovatsiooni Globaalne Partner",
+        "subtitle": "Teie peamine värav Korea kosmeetika tipptasemele.",
+        "cta": "Avasta Brände"
+    },
+    "Brands": {
+        "title": "Meie Tippbrändid",
+        "description": "Avastage meie hoolikalt valitud K-Beauty brändid."
+    },
+    "WhyUs": {
+        "title": "Miks Meiega Koostööd Teha",
+        "items": {
+            "direct": "Tootja Otsetarne",
+            "logistics": "Globaalne Logistikavõrk",
+            "terms": "Paindlikud B2B Tingimused"
+        }
+    },
+    "Collections": {
+        "title": "Esiletoodud Kollektsioonid"
+    },
+    "Footer": {
+        "copyright": "© 2026 COSMELAB. Kõik õigused kaitstud."
+    },
+    "Navigation": {
+        "home": "Kodu",
+        "brands": "Brändid",
+        "about": "Meist",
+        "contact": "Kontakt"
+    },
+    "Recommendation": {
+        "start": "Leia Oma Täiuslik Toode",
+        "cta": "Alusta Quiz"
+    }
+}

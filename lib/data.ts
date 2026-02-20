@@ -194,15 +194,14 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         contact: "ΕΠΙΚΟΙΝΩΝΙΑ",
         b2b: "ΣΥΝΕΡΓΑΣΙΑ B2B",
         hero: {
-            sub: "CosmeLab Co., Ltd.",
             title: "COSMELAB\nPREMIUM\nΦΡΟΝΤΙΔΑ.",
             desc: "Ζήστε τη συνέργεια των κορυφαίων μαρκών K-Beauty: Berrisom, G9SKIN, AMILL και COSCELL."
         },
-        sidebar: ["ΑΡΧΙΚΗ", "ΦΡΟΝΤΙΔΑ", "ΑΝΑΓΚΕΣ", "ΠΡΟΤΑΣΗ"],
-        phases: ["ΒΗΜΑ 01: Κατηγορία", "ΒΗΜΑ 02: Ανάγκη", "Η Πρότασή μας"],
-        instructions: ["Επιλέξτε μια κατηγορία φροντίδας", "Ποια είναι η κύρια ανάγκη της επιδερμίδας σας;", "Επιλέξαμε αυτά τα προϊόντα για εσάς:"],
+        phases: ["ΒΗΜΑ 01: Κατηγορία", "ΒΗΜΑ 02: Πρόβλημα", "Η Ρουτίνα Σας"],
+        instructions: ["Επιλέξτε κατηγορία φροντίδας", "Ποιο είναι το κύριο πρόβλημά σας;", "Επιλέξαμε αυτά τα προϊόντα για εσάς:"],
         snsFeedbackBtn: "SNS Feedback from global"
     },
+
     [Language.HU]: {
         start: "KEZDÉS",
         next: "KÖVETKEZŐ",
@@ -221,6 +220,26 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         phases: ["01. LÉPÉS: Fókusz", "02. LÉPÉS: Probléma", "Személyre Szabott Megoldás"],
         instructions: ["Válassza ki az elsődleges célt", "Mi a fő bőrproblémája?", "Ezeket a prémium termékeket választottuk Önnek:"],
         snsFeedbackBtn: "SNS Visszajelzés a világból"
+    },
+    [Language.ET]: {
+        start: "ALUSTA",
+        next: "EDASI",
+        back: "TAGASI",
+        reset: "LÄHTESTA",
+        buyingLink: "OSTA VEEBIST",
+        brandFile: "BRÄNDI JUHEND",
+        catalog: "LAE KATALOOG",
+        contact: "KONTAKT",
+        b2b: "B2B JA GLOBAALNE PARTNERLUS",
+        hero: {
+            sub: "CosmeLab Co., Ltd.",
+            title: "COSMELAB\nPREMIUM\nKURATSIOON.",
+            desc: "Avastage parim K-Beauty innovatsiooni sünergia. Berrisom, G9SKIN, AMILL ja COSCELL ekspertlahendused."
+        },
+        sidebar: ["AVALEHT", "HOOLDUS", "VAJADUS", "SOOVITUS"],
+        phases: ["SAMM 01: Fookus", "SAMM 02: Probleem", "Meie Soovitus"],
+        instructions: ["Vali hoolduse kategooria", "Mis on sinu peamine nahamure?", "Valisime sulle need tooted:"],
+        snsFeedbackBtn: "SNS Tagasiside maailmast"
     }
 };
 
@@ -239,7 +258,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.DE]: { title: 'Make-up-Tattoo', subtitle: 'Berrisom: Professionelle Langzeit-Lösungen' },
             [Language.KR]: { title: '메이크업 타투', subtitle: 'Berrisom: 지속력 끝판왕, 프로페셔널 솔루션' },
             [Language.CN]: { title: '纹身彩妆', subtitle: 'Berrisom: 持久专业的彩妆方案' },
-            [Language.HU]: { title: 'Smink Tetoválás', subtitle: 'Berrisom: Professzionális Tartós Megoldások' }
+            [Language.HU]: { title: 'Smink Tetoválás', subtitle: 'Berrisom: Professzionális Tartós Megoldások' },
+            [Language.ET]: { title: 'Meik ja Tätoveering', subtitle: 'Berrisom: Professionaalsed kauakestvad lahendused' }
         },
         options: [
             {
@@ -252,7 +272,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Lippenpflege', sub: 'Langanhaltende Lippen-Tattoos' },
                     [Language.KR]: { label: '립 케어', sub: '하루 종일 생생한 롱래스팅 틴트' },
                     [Language.CN]: { label: '唇部护理', sub: '超长持久纹身唇彩' },
-                    [Language.HU]: { label: 'Ajakápolás', sub: 'Hosszan tartó tetoválás ajaktinták' }
+                    [Language.HU]: { label: 'Ajakápolás', sub: 'Hosszan tartó tetoválás ajaktinták' },
+                    [Language.ET]: { label: 'Huulehooldus', sub: 'Kauakestvad tätoveeringu huulevärvid' }
                 }
             },
             {
@@ -265,7 +286,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Brauenpflege', sub: '8 Tage langanhaltende Definition' },
                     [Language.KR]: { label: '아이브로우', sub: '최대 8일 지속, 자연스러운 눈썹 타투' },
                     [Language.CN]: { label: '眉部护理', sub: '8天持久自然眉妆' },
-                    [Language.HU]: { label: 'Szemöldök Ápolás', sub: '8 napig tartó természetes definiálás' }
+                    [Language.HU]: { label: 'Szemöldök Ápolás', sub: '8 napig tartó természetes definiálás' },
+                    [Language.ET]: { label: 'Kulmude Hooldus', sub: '8 päeva püsiv loomulik kuju' }
                 }
             },
             {
@@ -278,7 +300,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Konturierung', sub: '7 Tage anhaltendes 3D-Shading' },
                     [Language.KR]: { label: '쉐딩 타투', sub: '7일 지속 3D 윤곽 메이크업' },
                     [Language.CN]: { label: '修容纹身', sub: '7天持久立体修容' },
-                    [Language.HU]: { label: 'Árnyékoló Tetoválás', sub: '7 napig tartó 3D kontúrozás' }
+                    [Language.HU]: { label: 'Árnyékoló Tetoválás', sub: '7 napig tartó 3D kontúrozás' },
+                    [Language.ET]: { label: 'Varjutav Tätoveering', sub: '7 päeva püsiv 3D kontuurimine' }
                 }
             }
         ]
@@ -297,7 +320,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.DE]: { title: 'Hautpflege', subtitle: 'G9SKIN: Feuchtigkeit mit Milchproteinen' },
             [Language.KR]: { title: '스킨케어', subtitle: 'G9SKIN: 우유 단백질로 완성하는 촉촉한 피부' },
             [Language.CN]: { title: '护肤', subtitle: 'G9SKIN: 牛奶蛋白保湿护理' },
-            [Language.HU]: { title: 'Bőrápolás', subtitle: 'G9SKIN: Jellegzetes Tej és Hidratálás' }
+            [Language.HU]: { title: 'Bőrápolás', subtitle: 'G9SKIN: Jellegzetes Tej és Hidratálás' },
+            [Language.ET]: { title: 'Nahahooldus', subtitle: 'G9SKIN: Piima ja niisutav hooldus' }
         },
         options: [
             {
@@ -310,7 +334,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Tone-up Pflege', sub: 'Sofortige Leuchtkraft-Creme' },
                     [Language.KR]: { label: '톤업 케어', sub: '즉각적인 화이트닝 & 톤업 효과' },
                     [Language.CN]: { label: '提亮护理', sub: '瞬间提亮美白霜' },
-                    [Language.HU]: { label: 'Tónusjavítás', sub: 'Azonnali ragyogást adó krém' }
+                    [Language.HU]: { label: 'Tónusjavítás', sub: 'Azonnali ragyogást adó krém' },
+                    [Language.ET]: { label: 'Tooniv Hooldus', sub: 'Kohene sära andev kreem' }
                 }
             },
             {
@@ -323,7 +348,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Feuchtigkeitskur', sub: 'Tiefenwirksame Feuchtigkeitspflege' },
                     [Language.KR]: { label: '수분 케어', sub: '피부 깊숙이 채워지는 강력한 보습' },
                     [Language.CN]: { label: '保湿护理', sub: '深层补水保湿' },
-                    [Language.HU]: { label: 'Hidratálás', sub: 'Mélyhidratáló ápolás' }
+                    [Language.HU]: { label: 'Hidratálás', sub: 'Mélyhidratáló ápolás' },
+                    [Language.ET]: { label: 'Niisutav Hooldus', sub: 'Sügavniisutus' }
                 }
             },
             {
@@ -336,7 +362,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Maskenpflege', sub: 'Professionelle Wirkstoffmasken' },
                     [Language.KR]: { label: '마스크 케어', sub: '집에서 즐기는 에스테틱 홈케어' },
                     [Language.CN]: { label: '面膜护理', sub: '专业美容院级面膜' },
-                    [Language.HU]: { label: 'Maszk Ápolás', sub: 'Professzionális esztétikai maszkok' }
+                    [Language.HU]: { label: 'Maszk Ápolás', sub: 'Professzionális esztétikai maszkok' },
+                    [Language.ET]: { label: 'Maski Hooldus', sub: 'Professisonaalsed esteetilised maskid' }
                 }
             }
         ]
@@ -355,7 +382,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.DE]: { title: 'Tiefenreinigung', subtitle: 'AMILL: Reinigung mit Getreideextrakten' },
             [Language.KR]: { title: '딥 클렌징', subtitle: 'AMILL: 곡물 에너지로 맑고 깨끗하게' },
             [Language.CN]: { title: '深层清洁', subtitle: 'AMILL: 超级谷物净化' },
-            [Language.HU]: { title: 'Mélytisztítás', subtitle: 'AMILL: Szuper Gabona Tisztítás' }
+            [Language.HU]: { title: 'Mélytisztítás', subtitle: 'AMILL: Szuper Gabona Tisztítás' },
+            [Language.ET]: { title: 'Sügavpuhastus', subtitle: 'AMILL: Superteravilja puhastus' }
         },
         options: [
             {
@@ -368,7 +396,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Reinigungsschaum', sub: 'Cremiger Schaum mit Getreide' },
                     [Language.KR]: { label: '폼 클렌징', sub: '부드러운 곡물 거품 세안' },
                     [Language.CN]: { label: '泡沫洁面', sub: '柔滑谷物洁面泡沫' },
-                    [Language.HU]: { label: 'Hab Típus', sub: 'Krémes gabona tisztító hab' }
+                    [Language.HU]: { label: 'Hab Típus', sub: 'Krémes gabona tisztító hab' },
+                    [Language.ET]: { label: 'Vahtpuitastus', sub: 'Kreemjas teraviljavaht' }
                 }
             },
             {
@@ -381,7 +410,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Reinigungsöl', sub: 'Mildes Öl mit Reisextrakten' },
                     [Language.KR]: { label: '오일 클렌징', sub: '순한 쌀겨 오일 클렌징' },
                     [Language.CN]: { label: '卸妆油', sub: '温和米糠卸妆油' },
-                    [Language.HU]: { label: 'Olaj Termék', sub: 'Kíméletes rizs tisztító olaj' }
+                    [Language.HU]: { label: 'Olaj Termék', sub: 'Kíméletes rizs tisztító olaj' },
+                    [Language.ET]: { label: 'Õlipuhastus', sub: 'Mahe riisi puhastusõli' }
                 }
             }
         ]
@@ -400,7 +430,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.DE]: { title: 'Anti-Aging', subtitle: 'COSCELL: Klinische Zellreparatur' },
             [Language.KR]: { title: '안티에이징', subtitle: 'COSCELL: 전문가급 리페어 솔루션' },
             [Language.CN]: { title: '抗衰老', subtitle: 'COSCELL: 临床级修复护理' },
-            [Language.HU]: { title: 'Öregedésgátlás', subtitle: 'COSCELL: Klinikai Szintű Helyreállítás' }
+            [Language.HU]: { title: 'Öregedésgátlás', subtitle: 'COSCELL: Klinikai Szintű Helyreállítás' },
+            [Language.ET]: { title: 'Vananemisvastane', subtitle: 'COSCELL: Kliiniline nahaparandus' }
         },
         options: [
             {
@@ -413,7 +444,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Augenpflege', sub: 'Retinol-Intensivkur' },
                     [Language.KR]: { label: '아이백 케어', sub: '레티놀 집중 아이 트리트먼트' },
                     [Language.CN]: { label: '眼袋护理', sub: '视黄醇眼部护理' },
-                    [Language.HU]: { label: 'Szemtáska Ápolás', sub: 'Retinolos szemkezelés' }
+                    [Language.HU]: { label: 'Szemtáska Ápolás', sub: 'Retinolos szemkezelés' },
+                    [Language.ET]: { label: 'Silmakotid', sub: 'Retinooliga silmaravi' }
                 }
             },
             {
@@ -426,7 +458,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Halspflege', sub: 'Straffung in nur 1 Minute' },
                     [Language.KR]: { label: '넥 케어', sub: '1분 만에 되찾는 목주름 탄력' },
                     [Language.CN]: { label: '颈部护理', sub: '1分钟紧致修复' },
-                    [Language.HU]: { label: 'Nyak Ápolás', sub: 'Feszesség helyreállítása 1 perc alatt' }
+                    [Language.HU]: { label: 'Nyak Ápolás', sub: 'Feszesség helyreállítása 1 perc alatt' },
+                    [Language.ET]: { label: 'Kaelahooldus', sub: 'Trimmib 1 minutiga' }
                 }
             },
             {
@@ -439,7 +472,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Serumpflege', sub: 'Galvanik- & Retinol-Kur' },
                     [Language.KR]: { label: '세럼 케어', sub: '갈바닉 & 레티놀 더블 케어' },
                     [Language.CN]: { label: '精华护理', sub: '电离子视黄醇护理' },
-                    [Language.HU]: { label: 'Szérum Ápolás', sub: 'Galván és Retinol kezelés' }
+                    [Language.HU]: { label: 'Szérum Ápolás', sub: 'Galván és Retinol kezelés' },
+                    [Language.ET]: { label: 'Seerumhooldus', sub: 'Galvaaniline ja retinoolhooldus' }
                 }
             },
             {
@@ -452,7 +486,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Grüne Papaya-Linie', sub: 'Poren-Care mit PDRN' },
                     [Language.KR]: { label: '그린 파파야 라인', sub: 'PDRN 모공 집중 케어' },
                     [Language.CN]: { label: '青木瓜系列', sub: 'PDRN毛孔护理系列' },
-                    [Language.HU]: { label: 'Zöld Papaya Család', sub: 'PDRN pórusápoló család' }
+                    [Language.HU]: { label: 'Zöld Papaya Család', sub: 'PDRN pórusápoló család' },
+                    [Language.ET]: { label: 'Rohelise Papaia Sari', sub: 'PDRN pooride hooldus' }
                 }
             },
             {
@@ -465,7 +500,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'VITA-LINIE', sub: '99% reine Vitamin-C-Kapseln' },
                     [Language.KR]: { label: '비타 라인', sub: '순수 비타민 C 99% 캡슐 라인' },
                     [Language.CN]: { label: '维他命系列', sub: '99%纯维生素C胶囊系列' },
-                    [Language.HU]: { label: 'VITA CSALÁD', sub: 'C-vitamin 99% kapszula család' }
+                    [Language.HU]: { label: 'VITA CSALÁD', sub: 'C-vitamin 99% kapszula család' },
+                    [Language.ET]: { label: 'VITA SARI', sub: '99% C-vitamiini kapslid' }
                 }
             }
         ]
@@ -569,6 +605,14 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Elkenődésmentes Tapadás:</strong> A lehúzás után tökéletes tömítést képez, amely nem kenődik bögrékre, maszkokra vagy kézre.</li>
                     <li><strong>Kiváló Tartósság:</strong> Egyetlen alkalmazás egész napos színt biztosít. Használható színátmenetes vagy fényes hatás elérésére is.</li>
                 </ul>
+            `,
+            [Language.ET]: `
+                <h4 class="font-bold mb-2">Huule Tätoveeringu Tint: Elav Värv 5 Minutiga</h4>
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Mugav Pealekandmine & Kohene Pigmentatsioon:</strong> Kandke paks kiht, laske 5 minutit kuivada ja koorige maha koheseks ja elavaks värviks. Integreeritud silikoonotsik tagab täpse pealekandmise.</li>
+                    <li><strong>Ei Määri:</strong> Pärast koorimist ei jäta jälgi tassidele, maskidele ega kätele.</li>
+                    <li><strong>Erakordne Püsivus:</strong> Üks kord peale kandes püsib terve päeva. Sobib nii loomulikuks üleminekuks kui ka läikiva huuleõliga kandmiseks.</li>
+                </ul>
             `
         },
         translations: {
@@ -578,7 +622,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'LIP TATTOO TINT PACK', description: "L'emblématique tattoo à lèvres pelable. Couleur vibrante 32h sans transfert." },
             [Language.DE]: { name: 'LIP TATTOO TINT PACK', description: 'Die weltweit erste abziehbare Lippentönung. Hält 32 Stunden ohne abzufärben.' },
             [Language.KR]: { name: '립 타투 틴트 팩', description: '원조 뜯는 틴트. 묻어남 없이 32시간 지속되는 선명한 발색을 경험하세요.' },
-            [Language.HU]: { name: 'LIP TATTOO TINT PACK', description: "Az ikonikus lehúzható tinta. Élénk színt biztosít 32 órán át, elkenődés nélkül." }
+            [Language.HU]: { name: 'LIP TATTOO TINT PACK', description: "Az ikonikus lehúzható tinta. Élénk színt biztosít 32 órán át, elkenődés nélkül." },
+            [Language.ET]: { name: 'LIP TATTOO TINT PACK', description: "Ikooniline mahakooritav tint. Tagab elava värvi 32 tunniks ilma määrimata." }
         }
     },
     {
@@ -596,7 +641,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'JELLY TATTOO TINT', description: 'Tattoo à lèvres pelable au fini gelée pour une couleur éclatante.' },
             [Language.DE]: { name: 'JELLY TATTOO TINT', description: 'Ein abziehbares Lippen-Tattoo mit lebendigen Farben und geschmeidigem Jelly-Finish.' },
             [Language.KR]: { name: '젤리 타투 틴트', description: '촉촉한 젤리 텍스처로 완성하는 생생한 컬러와 편안한 사용감.' },
-            [Language.HU]: { name: 'JELLY TATTOO TINT', description: 'Fényes lehúzható tinta csomag, amely élénk színt ad kényelmes zselés felülettel.' }
+            [Language.HU]: { name: 'JELLY TATTOO TINT', description: 'Fényes lehúzható tinta csomag, amely élénk színt ad kényelmes zselés felülettel.' },
+            [Language.ET]: { name: 'JELLY TATTOO TINT', description: 'Läikiv mahakooritav tint, mis annab elava värvi ja mugava želee-viimistluse.' }
         }
     },
     {
@@ -684,6 +730,13 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Páratlan, Hosszan Tartó Teljesítmény:</strong> A termék 5-7 napig tartó pigmentációt biztosít egyetlen használattal. Ez jelentősen csökkenti a reggeli sminkelési rutint.</li>
                     <li><strong>Természetes Esztétika:</strong> Természetes megjelenést eredményez, nem mesterséges hatást. A körömlakk ecsethez hasonló applikátor könnyű irányítást tesz lehetővé, kezdőknek is.</li>
                 </ul>
+            `,
+            [Language.ET]: `
+                <h4 class="font-bold mb-2">Kulmude Tätoveeringu Pakk: Erakordne Püsivus</h4>
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Võrratu Püsivus:</strong> Toode püsib 5-7 päeva ühe kasutuse järel. See vähendab oluliselt igahommikust meikimist.</li>
+                    <li><strong>Loomulik Tulemus:</strong> Jätab loomuliku, mitte kunstliku mulje. Küünelaki pintsli sarnane aplikaator teeb kasutamise lihtsaks ka algajatele.</li>
+                </ul>
             `
         },
         translations: {
@@ -693,7 +746,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'OOPS MY BROW TATTOO', description: 'Teinture sourcils professionnelle tenue 8 jours, fini naturel.' },
             [Language.DE]: { name: 'OOPS MY BROW TATTOO', description: 'Professionelles Augenbrauen-Tattoo für ein natürliches Aussehen, hält bis zu 8 Tage.' },
             [Language.KR]: { name: '웁스 마이 아이브로우 타투', description: '최대 8일 지속. 매일 그릴 필요 없는 자연스러운 눈썹 문신 효과.' },
-            [Language.HU]: { name: 'OOPS MY BROW TATTOO', description: 'Professzionális szemöldök megoldás, amely akár 8 napig is tart természetes megjelenéssel.' }
+            [Language.HU]: { name: 'OOPS MY BROW TATTOO', description: 'Professzionális szemöldök megoldás, amely akár 8 napig is tart természetes megjelenéssel.' },
+            [Language.ET]: { name: 'OOPS MY BROW TATTOO', description: 'Professisonaalne kulmuvärv, mis püsib kuni 8 päeva loomuliku välimusega.' }
         }
     },
     {
@@ -761,6 +815,13 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Teljes Smink Hatás:</strong> "Teljes smink" vizuális hatást nyújt, amely alkalmas aktív tevékenységekhez, például utazáshoz vagy vízi sportokhoz.</li>
                 </ul>
             `,
+            [Language.ET]: `
+                <h4 class="font-bold mb-2">Mitme Tsooni Rakendus</h4>
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li>Lisaks huultele ja kulmudele sobib nina, juuksepiiri ja silmade aluse kontuurimiseks. Loob selged näojooned, andes enesekindlust ka ilma meigita.</li>
+                    <li><strong>Täismeigi Efekt:</strong> Pakub "täismeigi" visuaalset efekti, mis sobib aktiivseks tegevuseks, reisimiseks või veespordiks.</li>
+                </ul>
+            `,
             [Language.ME]: `
                 <h4 class="font-bold mb-2">تطبيق متعدد المناطق</h4>
                 <ul class="list-disc pl-5 space-y-1 text-sm">
@@ -790,7 +851,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'SHADING TATTOO', description: 'Définissez et sculptez vos contours pour un fini 3D durable.' },
             [Language.DE]: { name: 'SHADING TATTOO', description: 'Definieren und modellieren Sie Ihre Gesichtskonturen mit langanhaltendem 3D-Finish.' },
             [Language.KR]: { name: '쉐딩 타투', description: '7일 동안 지속되는 입체 윤곽. 땀과 물에도 지워지지 않는 강력한 3D 페이스 라인.' },
-            [Language.HU]: { name: 'SHADING TATTOO', description: 'Definiálja és formálja arcvonásait precíz, hosszan tartó 3D felülettel.' }
+            [Language.HU]: { name: 'SHADING TATTOO', description: 'Definiálja és formálja arcvonásait precíz, hosszan tartó 3D felülettel.' },
+            [Language.ET]: { name: 'SHADING TATTOO', description: 'Määratle ja vormi oma näojooni täpse, kauakestva 3D viimistlusega.' }
         }
     },
     {
@@ -879,6 +941,13 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Textúra:</strong> "Friss tejszínhab" állagú, amely azonnal a bőrbe olvad.</li>
                     <li><strong>Teljesítmény:</strong> "Játékváltó" a fakó bőr számára, azonnali tónusjavító hatást kínál a "smink nélküli" megjelenéshez. Hatékonyan fedi el a bőrhibákat.</li>
                 </ul>
+            `,
+            [Language.ET]: `
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Viraalne Hitt:</strong> Tuntud kui "Piimapaki nahahooldus", populaarne oma Instagrami-sõbraliku pakendi ja unikaalse tekstuuri poolest.</li>
+                    <li><strong>Tekstuur:</strong> "Värske vahukoore" laadne konsistents, mis sulab koheselt nahka.</li>
+                    <li><strong>Tulemus:</strong> "Mängumuutja" tuhmi naha jaoks, pakkudes kohest tooni parandavat efekti "meigivaba" välimuse saavutamiseks. Katab tõhusalt iluvead.</li>
+                </ul>
             `
         },
         translations: {
@@ -888,7 +957,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'WHITE IN WHIPPING CREAM', description: 'Crème éclat instantanée aux protéines de lait pour un teint radieux.' },
             [Language.DE]: { name: 'WHITE WHIPPING CREAM', description: 'Sofort-Aufhellungscreme mit Milchproteinen für einen strahlenden Glow.' },
             [Language.KR]: { name: '화이트 인 생크림', description: '우유 단백질 추출물 함유. 바르는 즉시 화사해지는 톤업 매직.' },
-            [Language.HU]: { name: 'WHITE IN WHIPPING CREAM', description: 'Azonnali tónusjavító krém tejfehérjével a ragyogó bőrért.' }
+            [Language.HU]: { name: 'WHITE IN WHIPPING CREAM', description: 'Azonnali tónusjavító krém tejfehérjével a ragyogó bőrért.' },
+            [Language.ET]: { name: 'WHITE IN WHIPPING CREAM', description: 'Kohene tooni andev kreem piimavalguga särava jume heaks.' }
         }
     },
     {
@@ -906,7 +976,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'WHITE IN MOISTURE CREAM', description: 'Crème hydratante profonde pour une peau nourrie et lumineuse.' },
             [Language.DE]: { name: 'WHITE MOISTURE CREAM', description: 'Intensive Feuchtigkeitspflege, die die Haut nährt und zum Strahlen bringt.' },
             [Language.KR]: { name: '화이트 인 수분 크림', description: '피부 속부터 차오르는 수분광. 미백과 보습을 한번에 해결하는 데일리 크림.' },
-            [Language.HU]: { name: 'WHITE IN MOISTURE CREAM', description: 'Mélyhidratáló krém, amely belülről táplálja és ragyogóvá teszi a bőrt.' }
+            [Language.HU]: { name: 'WHITE IN MOISTURE CREAM', description: 'Mélyhidratáló krém, amely belülről táplálja és ragyogóvá teszi a bőrt.' },
+            [Language.ET]: { name: 'WHITE IN MOISTURE CREAM', description: 'Sügavniisutav kreem, mis toidab ja helestab nahka seestpoolt.' }
         }
     },
     {
@@ -1005,6 +1076,14 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Hatékonyság:</strong> Tejfehérjével dúsítva, világosító és feszesítő tulajdonságokkal rendelkezik, durva savak használata nélkül. Téli bőrápolásra ajánlott.</li>
                     <li><strong>Értékajánlat:</strong> A jelentős 300 ml-es térfogat és a kettős funkció (fehérítés/ránctalanítás) a kulcs.</li>
                 </ul>
+            `,
+            [Language.ET]: `
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Turu Tagasiside:</strong> Kõrgelt hinnatud kui "õrn, suure mahutavusega niisutav toonik".</li>
+                    <li><strong>Kasutajakogemus:</strong> Unikaalne "lahjendatud piima" tekstuur – kreemjas, kuid kerge, imendub kiiresti ilma kleepuva tundeta.</li>
+                    <li><strong>Tõhusus:</strong> Rikastatud piimavalguga, mis helestab ja pinguldab ilma karmide hapeteta. Soovitatav talvise nahahoolduse jaoks.</li>
+                    <li><strong>Väärtus:</strong> Suur 300 ml maht ja topeltfunktsioon (valgendamine/kortsudevastane) on peamised müügiargumendid.</li>
+                </ul>
             `
         },
         translations: {
@@ -1014,7 +1093,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'WHITE IN MILK TONER', description: 'Tonique hydratant doux grand format (300ml) aux protéines de lait.' },
             [Language.DE]: { name: 'WHITE IN MILK TONER', description: 'Sanfter, feuchtigkeitsspendender Toner (300ml) mit Milchproteinen.' },
             [Language.KR]: { name: '화이트 인 밀크 토너', description: '300ml 대용량 순한 보습 토너. 우유 단백질 성분이 피부를 맑고 촉촉하게 가꿔줍니다.' },
-            [Language.HU]: { name: 'WHITE IN MILK TONER', description: 'Gyengéd, nagy kiszerelésű (300ml) hidratáló toner. Tejfehérjével dúsítva a világosításért és hidratálásért.' }
+            [Language.HU]: { name: 'WHITE IN MILK TONER', description: 'Gyengéd, nagy kiszerelésű (300ml) hidratáló toner. Tejfehérjével dúsítva a világosításért és hidratálásért.' },
+            [Language.ET]: { name: 'WHITE IN MILK TONER', description: 'Õrn, suure mahutavusega (300ml) niisutav toonik. Rikastatud piimavalguga helestamiseks ja niisutamiseks.' }
         }
     },
     {
@@ -1058,6 +1138,9 @@ export const PRODUCTS: Product[] = [
             `,
             [Language.HU]: `
                 <p>Európában (pl. MiiN Cosmetics) és világszerte népszerű, mint egyedi "öngondoskodás" ajándék, köszönhetően különleges, magazin stílusú csomagolásának.</p>
+            `,
+            [Language.ET]: `
+                <p>Populaarne Euroopas (nt MiiN Cosmetics) ja kogu maailmas kui unikaalne "enesehoolduse" kingitus tänu oma erilisele ajakirja stiilis pakendile.</p>
             `
         },
         translations: {
@@ -1067,7 +1150,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'SELF AESTHETIC MASQUE', description: 'Masques esthétiques experts pour chaque zone du corps.' },
             [Language.DE]: { name: 'SELF AESTHETIC MASKE', description: 'Spezialisierte Wirkstoffmasken für die gezielte Pflege jeder Körperpartie.' },
             [Language.KR]: { name: '셀프 에스테틱 마스크', description: '머리부터 발끝까지, 집에서 즐기는 부위별 맞춤 에스테틱 홈케어.' },
-            [Language.HU]: { name: 'SELF AESTHETIC MASK', description: 'Speciális esztétikai maszkok minden testrész célzott ápolására.' }
+            [Language.HU]: { name: 'SELF AESTHETIC MASK', description: 'Speciális esztétikai maszkok minden testrész célzott ápolására.' },
+            [Language.ET]: { name: 'SELF AESTHETIC MASK', description: 'Spetsiaalsed esteetilised maskid iga kehaosa hoolduseks.' }
         }
     },
     {
@@ -1085,7 +1169,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'HUILE NETTOYANTE AMILL', description: "Huile démaquillante au riz coréen pour un nettoyage en douceur." },
             [Language.DE]: { name: 'AMILL REINIGUNGSÖL', description: 'Mildes Reinigungsöl mit koreanischem Reis zur sanften Entfernung von Unreinheiten.' },
             [Language.KR]: { name: '에이밀 클렌징 오일', description: '순한 쌀겨 성분이 메이크업을 부드럽게 녹여주는 저자극 클렌징 오일.' },
-            [Language.HU]: { name: 'AMILL CLEANSING OIL', description: 'Gyengéd tisztító olaj koreai rizzsel a smink és szennyeződések kíméletes eltávolítására.' }
+            [Language.HU]: { name: 'AMILL CLEANSING OIL', description: 'Gyengéd tisztító olaj koreai rizzsel a smink és szennyeződések kíméletes eltávolítására.' },
+            [Language.ET]: { name: 'AMILL CLEANSING OIL', description: 'Mahe puhastusõli Korea riisiga, eemaldab meigi ja mustuse õrnalt.' }
         }
     },
     {
@@ -1103,7 +1188,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'MOUSSE NETTOYANTE AMILL', description: 'Nettoyant onctueux aux grains pour purifier sans dessécher.' },
             [Language.DE]: { name: 'AMILL REINIGUNGSSCHAUM', description: 'Cremiger Reinigungsschaum auf Getreidebasis für porentiefe Reinheit.' },
             [Language.KR]: { name: '에이밀 클렌징 폼', description: '곡물 에너지로 모공 속 노폐물까지 말끔하게 씻어내는 크리미한 폼.' },
-            [Language.HU]: { name: 'AMILL CLEANSING FOAM', description: 'Krémes, gabona alapú hab, amely tisztítja a pórusokat anélkül, hogy szárítana.' }
+            [Language.HU]: { name: 'AMILL CLEANSING FOAM', description: 'Krémes, gabona alapú hab, amely tisztítja a pórusokat anélkül, hogy szárítana.' },
+            [Language.ET]: { name: 'AMILL CLEANSING FOAM', description: 'Kreemjas teraviljapõhine vaht, mis puhastab poorid ilma niiskust röövimata.' }
         }
     },
     {
@@ -1121,7 +1207,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'AMILL BUBBLE FOAM', description: 'Micro-bulles instantanées pour une purification aux céréales.' },
             [Language.DE]: { name: 'AMILL BUBBLE FOAM', description: 'Mikroblasen-Reiniger für eine sanfte und gründliche Reinigung.' },
             [Language.KR]: { name: '에이밀 버블 폼', description: '풍성한 마이크로 버블이 자극 없이 딥 클렌징을 도와주는 곡물 버블 폼.' },
-            [Language.HU]: { name: 'AMILL BUBBLE FOAM', description: 'Azonnali mikro-buborékos tisztító az alapos, gabona alapú tisztításért.' }
+            [Language.HU]: { name: 'AMILL BUBBLE FOAM', description: 'Azonnali mikro-buborékos tisztító az alapos, gabona alapú tisztításért.' },
+            [Language.ET]: { name: 'AMILL BUBBLE FOAM', description: 'Kohene mikromullidega puhastaja põhjalikuks teraviljapuhastuseks.' }
         }
     },
     {
@@ -1147,7 +1234,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'CRÈME YEUX RÉTINOL', description: 'Réduction instantanée des rides et effet lifting en 1 minute.' },
             [Language.DE]: { name: 'RETINOL AUGENCREME', description: 'Sofortige Faltenreduzierung und Lifting-Effekt für die Augenpartie.' },
             [Language.KR]: { name: '레티놀 볼륨 아이백 크림', description: '단 1분 만에 경험하는 기적. 눈밑 지방과 주름을 즉각적으로 개선하는 리프팅 크림.' },
-            [Language.HU]: { name: 'RETINOL EYEBAG CREAM', description: 'Azonnali ránc- és táskacsökkentő hatás a szem alatt 1 perc alatt.' }
+            [Language.HU]: { name: 'RETINOL EYEBAG CREAM', description: 'Azonnali ránc- és táskacsökkentő hatás a szem alatt 1 perc alatt.' },
+            [Language.ET]: { name: 'RETINOL EYEBAG CREAM', description: 'Kohene kortsude ja silmakottide vähendamine 1 minutiga.' }
         }
     },
     {
@@ -1165,7 +1253,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'CRÈME COU', description: 'Crème avancée pour lisser les rides et raffermir le cou.' },
             [Language.DE]: { name: 'HALS CREME', description: 'Fortschrittliche Halscreme zur Glättung von Falten und Straffung.' },
             [Language.KR]: { name: '넥 크림', description: '목 주름을 집중 케어하여 매끈하고 탄력 있는 목 라인을 완성합니다.' },
-            [Language.HU]: { name: 'NECK CREAM', description: 'Fejlett nyakkrém a ráncok kisimítására és a feszesség helyreállítására.' }
+            [Language.HU]: { name: 'NECK CREAM', description: 'Fejlett nyakkrém a ráncok kisimítására és a feszesség helyreállítására.' },
+            [Language.ET]: { name: 'NECK CREAM', description: 'Täiustatud kaelakreem kortsude silumiseks ja elastsuse taastamiseks.' }
         }
     },
     {
@@ -1231,6 +1320,11 @@ export const PRODUCTS: Product[] = [
                 <ul class="list-disc pl-5 space-y-1 text-sm">
                     <li><strong>Innovatív Technológia (Galván):</strong> Mikroáramú (Galván) technológiát tartalmaz. Ez lehetővé teszi a retinol mélyebb behatolását irritáció nélkül, így alkalmas az érzékeny szemkörnyékre is.</li>
                 </ul>
+            `,
+            [Language.ET]: `
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Innovatiivne Tehnoloogia (Galvanic):</strong> Sisaldab mikrovoolu (Galvanic) tehnoloogiat. See võimaldab retinoolil tungida sügavamale nahka ilma ärrituseta, sobides ka tundlikule silmaümbrusele.</li>
+                </ul>
             `
         },
         translations: {
@@ -1240,7 +1334,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'SÉRUM GALVANIQUE', description: 'Sérum inspiré des micro-courants pour une absorption maximale du rétinol.' },
             [Language.DE]: { name: 'GALVANIC SERUM', description: 'Von Mikrostrom inspiriertes Serum, das die Retinolaufnahme verstärkt.' },
             [Language.KR]: { name: '레티노 갈바닉 세럼 100', description: '갈바닉 미세전류 기술로 레티놀 흡수율을 극대화한 고기능성 세럼.' },
-            [Language.HU]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikroáram ihlette szérum, amely fokozza a retinol felszívódását a maximális hatékonyságért.' }
+            [Language.HU]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikroáram ihlette szérum, amely fokozza a retinol felszívódását a maximális hatékonyságért.' },
+            [Language.ET]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikrovoolust inspireeritud seerum, mis võimendab retinooli imendumist.' }
         }
     },
     {
@@ -1256,7 +1351,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'AMPOULE PAPAYE PDRN', description: 'Ampoule concentrée pour affiner les pores et lisser le grain de peau.' },
             [Language.DE]: { name: 'GRÜNE PAPAYA AMPOULE', description: 'Konzentrat zur Porenverfeinerung und Hautglättung auf PDRN-Basis.' },
             [Language.KR]: { name: '그린 파파야 PDRN 앰플', description: 'PDRN 성분이 모공을 촘촘하게 케어하고 피부결을 매끈하게 정돈해주는 고농축 앰플.' },
-            [Language.HU]: { name: 'GREEN PAPAYA PDRN AMPOULE', description: 'Koncentrált ampulla, amely finomítja a pórusokat és simítja a textúrát PDRN segítségével.' }
+            [Language.HU]: { name: 'GREEN PAPAYA PDRN AMPOULE', description: 'Koncentrált ampulla, amely finomítja a pórusokat és simítja a textúrát PDRN segítségével.' },
+            [Language.ET]: { name: 'GREEN PAPAYA PDRN AMPOULE', description: 'Kontsentreeritud ampull, mis ahendab poore ja silub tekstuuri PDRN abil.' }
         }
     },
     {
@@ -1274,7 +1370,8 @@ export const PRODUCTS: Product[] = [
             [Language.FR]: { name: 'MOUSSE GOMMAGE PAPAYE', description: 'Mousse exfoliante douce pour un teint lisse et clarifié.' },
             [Language.DE]: { name: 'GREEN PAPAYA PEELINGSCHAUM', description: 'Verfeinernder Peelingschaum für ein seidig glattes Hautgefühl.' },
             [Language.KR]: { name: '그린 파파야 고마쥬 폼', description: '묵은 각질과 노폐물을 부드럽게 제거하여 맑고 깨끗한 피부로 가꿔주는 고마쥬 폼.' },
-            [Language.HU]: { name: 'GREEN PAPAYA GOMAGE FOAM', description: 'Hámlasztó hab, amely eltávolítja a szennyeződéseket, miközben finomítja a bőr textúráját.' }
+            [Language.HU]: { name: 'GREEN PAPAYA GOMAGE FOAM', description: 'Hámlasztó hab, amely eltávolítja a szennyeződéseket, miközben finomítja a bőr textúráját.' },
+            [Language.ET]: { name: 'GREEN PAPAYA GOMAGE FOAM', description: 'Kooriv vaht, mis eemaldab mustuse ja silub naha tekstuuri.' }
         }
     },
     {
@@ -1384,6 +1481,15 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Alkalmazás és Textúra:</strong> Egyedi kapszula formátum, amely a bőrrel érintkezve azonnal elolvad, friss hatóanyagokat biztosítva.</li>
                     <li><strong>Előnyök:</strong> "Azonnali ragyogás" hatás, ideális a fakó vagy fáradt bőr revitalizálására, különösen télen.</li>
                 </ul>
+            `,
+            [Language.ET]: `
+                <h4 class="font-bold mb-2">Vita C Kapslid: Klaasnaha Sära</h4>
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Turupositsioon:</strong> Tõhus helestav lahendus koheseks särana, seotud "Glass Skin" trendiga.</li>
+                    <li><strong>Koostis:</strong> 99% puhas C-vitamiin ja 66% vitamiinipuu vesi.</li>
+                    <li><strong>Tekstuur:</strong> Unikaalsed kapslid sulavad kokkupuutel nahaga, vabastades värsked toimeained.</li>
+                    <li><strong>Kasu:</strong> "Kohene sära" efekt, elustab tuhmi nahka, eriti tõhus talvel.</li>
+                </ul>
             `
         },
         translations: {
@@ -1392,7 +1498,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'كريم كبسولات فيتا', description: 'كريم جل غني بكبسولات فيتامين سي لاستعادة حيوية البشرة.' },
             [Language.FR]: { name: 'VITA CAPSULE CRÈME', description: "Crème gel aux capsules de vitamines pour restaurer l'éclat." },
             [Language.DE]: { name: 'VITA KAPSEL CREME', description: 'Gel-Creme mit verkapseltem Vitamin C für neue Vitalität und Ausstrahlung.' },
-            [Language.HU]: { name: 'VITA CAPSULE CREAM', description: 'Kapszulázott C-vitamin gél krém, amely helyreállítja a ragyogást és a vitalitást.' }
+            [Language.HU]: { name: 'VITA CAPSULE CREAM', description: 'Kapszulázott C-vitamin gél krém, amely helyreállítja a ragyogást és a vitalitást.' },
+            [Language.ET]: { name: 'VITA CAPSULE CREAM', description: 'Kapseldatud C-vitamiini geelkreem, mis taastab sära ja elujõu.' }
         }
     },
     {
@@ -1409,7 +1516,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'أمبولة فيتا سي', description: 'أمبولة فيتامين سي عالية الفعالية لتفتيح البشرة المكثف.' },
             [Language.FR]: { name: 'AMPOULE VITA C', description: 'Soin concentré à la vitamine C pour un éclat intense.' },
             [Language.DE]: { name: 'VITA C AMPOULE', description: 'Hochkonzentrierte Vitamin-C-Ampulle zur intensiven Aufhellung von Pigmentflecken.' },
-            [Language.HU]: { name: 'VITA C AMPOULE', description: 'Nagy hatékonyságú C-vitamin ampulla az intenzív világosításért és a sötét foltok kezelésére.' }
+            [Language.HU]: { name: 'VITA C AMPOULE', description: 'Nagy hatékonyságú C-vitamin ampulla az intenzív világosításért és a sötét foltok kezelésére.' },
+            [Language.ET]: { name: 'VITA C AMPOULE', description: 'Tugevatoimeline C-vitamiini ampull intensiivseks helestamiseks ja tumedate laikude raviks.' }
         }
     }
 ];
@@ -1417,6 +1525,11 @@ export const PRODUCTS: Product[] = [
 export const BRAND_INTRODUCE_URL = 'https://drive.google.com/drive/folders/1aj_ywbMoTFFoquVHwGn8Y41ldE0jEPfF?usp=drive_link';
 
 export const getBuyingLink = (language: Language, product: Product | undefined): string => {
+    // 0. Estonia -> Geeliekspert
+    if (language === Language.ET) {
+        return 'https://www.geeliekspert.ee/?s=coscell&post_type=product';
+    }
+
     // 1. France -> Paris K Beauty
     if (language === Language.FR) {
         return 'https://pariskbeauty.com/collections/all';
