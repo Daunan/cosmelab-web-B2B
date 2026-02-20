@@ -19,10 +19,10 @@ export enum Language {
     JP = 'ja', // Japan
     FR = 'fr', // France
     DE = 'de', // Germany
-    EL = 'el', // Greece (Added)
-    RU = 'ru', // Russia (Added)
     KR = 'ko', // Korea
     CN = 'zh', // China
+    RU = 'ru', // Russia
+    EL = 'el', // Greece
     HU = 'hu'  // Hungary (Added)
 }
 
