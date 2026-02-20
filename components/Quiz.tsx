@@ -313,16 +313,29 @@ export default function Quiz({ locale }: QuizProps) {
                                         )}
 
                                         <div className="flex flex-wrap gap-4 w-full">
-                                            <a
-                                                href={getBuyingLink(currentLang, product)}
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="flex-1 min-w-[160px] inline-flex items-center justify-center px-6 py-4 bg-black text-white font-medium rounded-xl hover:bg-gray-800 transition-colors"
-                                            >
-                                                <ShoppingBag className="w-5 h-5 mr-2" />
-                                                {t.buyingLink}
-                                            </a>
-
+                                            {/* Buying & Brand Buttons - Hidden for Hungarian (B2B) */}
+                                            {currentLang !== Language.HU && (
+                                                <>
+                                                    <a
+                                                        href={getBuyingLink(currentLang, product)}
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                        className="flex-1 min-w-[160px] inline-flex items-center justify-center px-6 py-4 bg-black text-white font-medium rounded-xl hover:bg-gray-800 transition-colors"
+                                                    >
+                                                        <ShoppingBag className="w-5 h-5 mr-2" />
+                                                        {t.buyingLink}
+                                                    </a>
+                                                    <a
+                                                        href={BRAND_INTRODUCE_URL}
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                        className="flex-1 min-w-[160px] inline-flex items-center justify-center px-6 py-4 bg-white text-black border-2 border-black font-medium rounded-xl hover:bg-gray-50 transition-colors"
+                                                    >
+                                                        <span className="mr-2">📄</span>
+                                                        {t.brandFile}
+                                                    </a>
+                                                </>
+                                            )}
                                         </div>
                                     </div>
                                 </div>

@@ -238,7 +238,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.FR]: { title: 'Maquillage Tattoo', subtitle: 'Berrisom : Haute tenue professionnelle' },
             [Language.DE]: { title: 'Make-up-Tattoo', subtitle: 'Berrisom: Professionelle Langzeit-Lösungen' },
             [Language.KR]: { title: '메이크업 타투', subtitle: 'Berrisom: 지속력 끝판왕, 프로페셔널 솔루션' },
-            [Language.CN]: { title: '纹身彩妆', subtitle: 'Berrisom: 持久专业的彩妆方案' }
+            [Language.CN]: { title: '纹身彩妆', subtitle: 'Berrisom: 持久专业的彩妆方案' },
+            [Language.HU]: { title: 'Smink Tetoválás', subtitle: 'Berrisom: Professzionális Tartós Megoldások' }
         },
         options: [
             {
@@ -250,7 +251,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Soin des Lèvres', sub: 'Encres à lèvres tattoo longue durée' },
                     [Language.DE]: { label: 'Lippenpflege', sub: 'Langanhaltende Lippen-Tattoos' },
                     [Language.KR]: { label: '립 케어', sub: '하루 종일 생생한 롱래스팅 틴트' },
-                    [Language.CN]: { label: '唇部护理', sub: '超长持久纹身唇彩' }
+                    [Language.CN]: { label: '唇部护理', sub: '超长持久纹身唇彩' },
+                    [Language.HU]: { label: 'Ajakápolás', sub: 'Hosszan tartó tetoválás ajaktinták' }
                 }
             },
             {
@@ -262,7 +264,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Sourcils', sub: 'Définition naturelle tenue 8 jours' },
                     [Language.DE]: { label: 'Brauenpflege', sub: '8 Tage langanhaltende Definition' },
                     [Language.KR]: { label: '아이브로우', sub: '최대 8일 지속, 자연스러운 눈썹 타투' },
-                    [Language.CN]: { label: '眉部护理', sub: '8天持久自然眉妆' }
+                    [Language.CN]: { label: '眉部护理', sub: '8天持久自然眉妆' },
+                    [Language.HU]: { label: 'Szemöldök Ápolás', sub: '8 napig tartó természetes definiálás' }
                 }
             },
             {
@@ -274,7 +277,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Contouring 3D', sub: 'Sculptage du visage tenue 7 jours' },
                     [Language.DE]: { label: 'Konturierung', sub: '7 Tage anhaltendes 3D-Shading' },
                     [Language.KR]: { label: '쉐딩 타투', sub: '7일 지속 3D 윤곽 메이크업' },
-                    [Language.CN]: { label: '修容纹身', sub: '7天持久立体修容' }
+                    [Language.CN]: { label: '修容纹身', sub: '7天持久立体修容' },
+                    [Language.HU]: { label: 'Árnyékoló Tetoválás', sub: '7 napig tartó 3D kontúrozás' }
                 }
             }
         ]
@@ -292,7 +296,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.FR]: { title: 'Soins Visage', subtitle: 'G9SKIN : Hydratation signature au lait' },
             [Language.DE]: { title: 'Hautpflege', subtitle: 'G9SKIN: Feuchtigkeit mit Milchproteinen' },
             [Language.KR]: { title: '스킨케어', subtitle: 'G9SKIN: 우유 단백질로 완성하는 촉촉한 피부' },
-            [Language.CN]: { title: '护肤', subtitle: 'G9SKIN: 牛奶蛋白保湿护理' }
+            [Language.CN]: { title: '护肤', subtitle: 'G9SKIN: 牛奶蛋白保湿护理' },
+            [Language.HU]: { title: 'Bőrápolás', subtitle: 'G9SKIN: Jellegzetes Tej és Hidratálás' }
         },
         options: [
             {
@@ -304,7 +309,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Éclat du Teint', sub: 'Crème illuminatrice instantanée' },
                     [Language.DE]: { label: 'Tone-up Pflege', sub: 'Sofortige Leuchtkraft-Creme' },
                     [Language.KR]: { label: '톤업 케어', sub: '즉각적인 화이트닝 & 톤업 효과' },
-                    [Language.CN]: { label: '提亮护理', sub: '瞬间提亮美白霜' }
+                    [Language.CN]: { label: '提亮护理', sub: '瞬间提亮美白霜' },
+                    [Language.HU]: { label: 'Tónusjavítás', sub: 'Azonnali ragyogást adó krém' }
                 }
             },
             {
@@ -316,7 +322,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Hydratation', sub: 'Soin hydratant intense' },
                     [Language.DE]: { label: 'Feuchtigkeitskur', sub: 'Tiefenwirksame Feuchtigkeitspflege' },
                     [Language.KR]: { label: '수분 케어', sub: '피부 깊숙이 채워지는 강력한 보습' },
-                    [Language.CN]: { label: '保湿护理', sub: '深层补水保湿' }
+                    [Language.CN]: { label: '保湿护理', sub: '深层补水保湿' },
+                    [Language.HU]: { label: 'Hidratálás', sub: 'Mélyhidratáló ápolás' }
                 }
             },
             {
@@ -328,7 +335,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Masques Soins', sub: 'Soins esthétiques professionnels' },
                     [Language.DE]: { label: 'Maskenpflege', sub: 'Professionelle Wirkstoffmasken' },
                     [Language.KR]: { label: '마스크 케어', sub: '집에서 즐기는 에스테틱 홈케어' },
-                    [Language.CN]: { label: '面膜护理', sub: '专业美容院级面膜' }
+                    [Language.CN]: { label: '面膜护理', sub: '专业美容院级面膜' },
+                    [Language.HU]: { label: 'Maszk Ápolás', sub: 'Professzionális esztétikai maszkok' }
                 }
             }
         ]
@@ -346,7 +354,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.FR]: { title: 'Nettoyage Profond', subtitle: 'AMILL : Purification aux super-grains' },
             [Language.DE]: { title: 'Tiefenreinigung', subtitle: 'AMILL: Reinigung mit Getreideextrakten' },
             [Language.KR]: { title: '딥 클렌징', subtitle: 'AMILL: 곡물 에너지로 맑고 깨끗하게' },
-            [Language.CN]: { title: '深层清洁', subtitle: 'AMILL: 超级谷物净化' }
+            [Language.CN]: { title: '深层清洁', subtitle: 'AMILL: 超级谷物净化' },
+            [Language.HU]: { title: 'Mélytisztítás', subtitle: 'AMILL: Szuper Gabona Tisztítás' }
         },
         options: [
             {
@@ -358,7 +367,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Mousse Nettoyante', sub: 'Mousse onctueuse aux céréales' },
                     [Language.DE]: { label: 'Reinigungsschaum', sub: 'Cremiger Schaum mit Getreide' },
                     [Language.KR]: { label: '폼 클렌징', sub: '부드러운 곡물 거품 세안' },
-                    [Language.CN]: { label: '泡沫洁面', sub: '柔滑谷物洁面泡沫' }
+                    [Language.CN]: { label: '泡沫洁面', sub: '柔滑谷物洁面泡沫' },
+                    [Language.HU]: { label: 'Hab Típus', sub: 'Krémes gabona tisztító hab' }
                 }
             },
             {
@@ -370,7 +380,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Huile Nettoyante', sub: 'Démaquillant doux à l\'huile de riz' },
                     [Language.DE]: { label: 'Reinigungsöl', sub: 'Mildes Öl mit Reisextrakten' },
                     [Language.KR]: { label: '오일 클렌징', sub: '순한 쌀겨 오일 클렌징' },
-                    [Language.CN]: { label: '卸妆油', sub: '温和米糠卸妆油' }
+                    [Language.CN]: { label: '卸妆油', sub: '温和米糠卸妆油' },
+                    [Language.HU]: { label: 'Olaj Termék', sub: 'Kíméletes rizs tisztító olaj' }
                 }
             }
         ]
@@ -388,7 +399,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.FR]: { title: 'Anti-Âge', subtitle: 'COSCELL : Réparation clinique avancée' },
             [Language.DE]: { title: 'Anti-Aging', subtitle: 'COSCELL: Klinische Zellreparatur' },
             [Language.KR]: { title: '안티에이징', subtitle: 'COSCELL: 전문가급 리페어 솔루션' },
-            [Language.CN]: { title: '抗衰老', subtitle: 'COSCELL: 临床级修复护理' }
+            [Language.CN]: { title: '抗衰老', subtitle: 'COSCELL: 临床级修复护理' },
+            [Language.HU]: { title: 'Öregedésgátlás', subtitle: 'COSCELL: Klinikai Szintű Helyreállítás' }
         },
         options: [
             {
@@ -400,7 +412,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Contour des Yeux', sub: 'Soin ciblé au rétinol' },
                     [Language.DE]: { label: 'Augenpflege', sub: 'Retinol-Intensivkur' },
                     [Language.KR]: { label: '아이백 케어', sub: '레티놀 집중 아이 트리트먼트' },
-                    [Language.CN]: { label: '眼袋护理', sub: '视黄醇眼部护理' }
+                    [Language.CN]: { label: '眼袋护理', sub: '视黄醇眼部护理' },
+                    [Language.HU]: { label: 'Szemtáska Ápolás', sub: 'Retinolos szemkezelés' }
                 }
             },
             {
@@ -412,19 +425,21 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Soin du Cou', sub: 'Restaure la fermeté en 1 min' },
                     [Language.DE]: { label: 'Halspflege', sub: 'Straffung in nur 1 Minute' },
                     [Language.KR]: { label: '넥 케어', sub: '1분 만에 되찾는 목주름 탄력' },
-                    [Language.CN]: { label: '颈部护理', sub: '1分钟紧致修复' }
+                    [Language.CN]: { label: '颈部护理', sub: '1分钟紧致修复' },
+                    [Language.HU]: { label: 'Nyak Ápolás', sub: 'Feszesség helyreállítása 1 perc alatt' }
                 }
             },
             {
                 id: 'serum_care', label: 'Serum Care', sub: 'Galvanic & Retinol treatment',
                 translations: {
                     [Language.ES]: { label: 'Sérum Especializado', sub: 'Tratamiento galvánico con retinol' },
-                    [Language.JP]: { label: '美容液セラム', sub: '最先端レチノール成分で集中補修' },
+                    [Language.JP]: { label: '美容液セラム', sub: '最先端レチノール成分で集中修復' },
                     [Language.ME]: { label: 'سيروم علاجي', sub: 'علاج الجلفانيك والريتينول' },
                     [Language.FR]: { label: 'Sérum Expert', sub: 'Traitement galvanique au rétinol' },
                     [Language.DE]: { label: 'Serumpflege', sub: 'Galvanik- & Retinol-Kur' },
                     [Language.KR]: { label: '세럼 케어', sub: '갈바닉 & 레티놀 더블 케어' },
-                    [Language.CN]: { label: '精华护理', sub: '电离子视黄醇护理' }
+                    [Language.CN]: { label: '精华护理', sub: '电离子视黄醇护理' },
+                    [Language.HU]: { label: 'Szérum Ápolás', sub: 'Galván és Retinol kezelés' }
                 }
             },
             {
@@ -436,7 +451,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Gamme Papaye Verte', sub: 'Soin des pores au PDRN' },
                     [Language.DE]: { label: 'Grüne Papaya-Linie', sub: 'Poren-Care mit PDRN' },
                     [Language.KR]: { label: '그린 파파야 라인', sub: 'PDRN 모공 집중 케어' },
-                    [Language.CN]: { label: '青木瓜系列', sub: 'PDRN毛孔护理系列' }
+                    [Language.CN]: { label: '青木瓜系列', sub: 'PDRN毛孔护理系列' },
+                    [Language.HU]: { label: 'Zöld Papaya Család', sub: 'PDRN pórusápoló család' }
                 }
             },
             {
@@ -448,7 +464,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.FR]: { label: 'Ligne VITA', sub: 'Vitamine C pure à 99% en capsules' },
                     [Language.DE]: { label: 'VITA-LINIE', sub: '99% reine Vitamin-C-Kapseln' },
                     [Language.KR]: { label: '비타 라인', sub: '순수 비타민 C 99% 캡슐 라인' },
-                    [Language.CN]: { label: '维他命系列', sub: '99%纯维生素C胶囊系列' }
+                    [Language.CN]: { label: '维他命系列', sub: '99%纯维生素C胶囊系列' },
+                    [Language.HU]: { label: 'VITA CSALÁD', sub: 'C-vitamin 99% kapszula család' }
                 }
             }
         ]
@@ -544,6 +561,14 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Χωρίς Μεταφορά:</strong> Δεν λερώνει ποτήρια ή μάσκες.</li>
                     <li><strong>Μεγάλη Διάρκεια:</strong> Κρατάει όλη μέρα. Ιδανικό για gradient με ανάμειξη χρωμάτων.</li>
                 </ul>
+            `,
+            [Language.HU]: `
+                <h4 class="font-bold mb-2">Lip Tattoo Tint Pack: Élénk Színezés 5 Perces Alkalmazással</h4>
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Kényelmes Alkalmazás és Azonnali Pigmentáció:</strong> Vigyen fel vastag réteget, hagyja száradni 5 percig, majd húzza le az azonnali, élénk színért. A beépített szilikon fej precíz felvitelt biztosít.</li>
+                    <li><strong>Elkenődésmentes Tapadás:</strong> A lehúzás után tökéletes tömítést képez, amely nem kenődik bögrékre, maszkokra vagy kézre.</li>
+                    <li><strong>Kiváló Tartósság:</strong> Egyetlen alkalmazás egész napos színt biztosít. Használható színátmenetes vagy fényes hatás elérésére is.</li>
+                </ul>
             `
         },
         translations: {
@@ -552,7 +577,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'تاتو الشفاه الأصلي', description: 'أول صبغة شفاه قابلة للتقشير. تضمن لونًا حيويًا لمدة 32 ساعة دون تلطيخ.' },
             [Language.FR]: { name: 'LIP TATTOO TINT PACK', description: "L'emblématique tattoo à lèvres pelable. Couleur vibrante 32h sans transfert." },
             [Language.DE]: { name: 'LIP TATTOO TINT PACK', description: 'Die weltweit erste abziehbare Lippentönung. Hält 32 Stunden ohne abzufärben.' },
-            [Language.KR]: { name: '립 타투 틴트 팩', description: '원조 뜯는 틴트. 묻어남 없이 32시간 지속되는 선명한 발색을 경험하세요.' }
+            [Language.KR]: { name: '립 타투 틴트 팩', description: '원조 뜯는 틴트. 묻어남 없이 32시간 지속되는 선명한 발색을 경험하세요.' },
+            [Language.HU]: { name: 'LIP TATTOO TINT PACK', description: "Az ikonikus lehúzható tinta. Élénk színt biztosít 32 órán át, elkenődés nélkül." }
         }
     },
     {
@@ -569,7 +595,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'جيلي تاتو تينت', description: 'صبغة شفاه جيلي قابلة للتقشير بلون غني وملمس مريح.' },
             [Language.FR]: { name: 'JELLY TATTOO TINT', description: 'Tattoo à lèvres pelable au fini gelée pour une couleur éclatante.' },
             [Language.DE]: { name: 'JELLY TATTOO TINT', description: 'Ein abziehbares Lippen-Tattoo mit lebendigen Farben und geschmeidigem Jelly-Finish.' },
-            [Language.KR]: { name: '젤리 타투 틴트', description: '촉촉한 젤리 텍스처로 완성하는 생생한 컬러와 편안한 사용감.' }
+            [Language.KR]: { name: '젤리 타투 틴트', description: '촉촉한 젤리 텍스처로 완성하는 생생한 컬러와 편안한 사용감.' },
+            [Language.HU]: { name: 'JELLY TATTOO TINT', description: 'Fényes lehúzható tinta csomag, amely élénk színt ad kényelmes zselés felülettel.' }
         }
     },
     {
@@ -650,6 +677,13 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Μεγάλη Διάρκεια:</strong> Το χρώμα διαρκεί 5-7 ημέρες. Ξεχάστε το καθημερινό μακιγιάζ φρυδιών.</li>
                     <li><strong>Φυσικό Αποτέλεσμα:</strong> Δεν φαίνεται τεχνητό. Εύκολη εφαρμογή ακόμα και για αρχάριους.</li>
                 </ul>
+            `,
+            [Language.HU]: `
+                <h4 class="font-bold mb-2">Szemöldök Tetoválás Csomag: Kivételes Tartósság és Természetes Felület</h4>
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Páratlan, Hosszan Tartó Teljesítmény:</strong> A termék 5-7 napig tartó pigmentációt biztosít egyetlen használattal. Ez jelentősen csökkenti a reggeli sminkelési rutint.</li>
+                    <li><strong>Természetes Esztétika:</strong> Természetes megjelenést eredményez, nem mesterséges hatást. A körömlakk ecsethez hasonló applikátor könnyű irányítást tesz lehetővé, kezdőknek is.</li>
+                </ul>
             `
         },
         translations: {
@@ -658,7 +692,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'تاتو الحواجب أوبس', description: 'حل احترافي للحواجب يدوم حتى 8 أيام بمظهر طبيعي للغاية.' },
             [Language.FR]: { name: 'OOPS MY BROW TATTOO', description: 'Teinture sourcils professionnelle tenue 8 jours, fini naturel.' },
             [Language.DE]: { name: 'OOPS MY BROW TATTOO', description: 'Professionelles Augenbrauen-Tattoo für ein natürliches Aussehen, hält bis zu 8 Tage.' },
-            [Language.KR]: { name: '웁스 마이 아이브로우 타투', description: '최대 8일 지속. 매일 그릴 필요 없는 자연스러운 눈썹 문신 효과.' }
+            [Language.KR]: { name: '웁스 마이 아이브로우 타투', description: '최대 8일 지속. 매일 그릴 필요 없는 자연스러운 눈썹 문신 효과.' },
+            [Language.HU]: { name: 'OOPS MY BROW TATTOO', description: 'Professzionális szemöldök megoldás, amely akár 8 napig is tart természetes megjelenéssel.' }
         }
     },
     {
@@ -719,6 +754,13 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Full Make-up Effekt:</strong> Ideal für Reisen oder Sport, hält verschiedenen Bedingungen stand.</li>
                 </ul>
             `,
+            [Language.HU]: `
+                <h4 class="font-bold mb-2">Többzónás Alkalmazás</h4>
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li>Az ajkakon és szemöldökön túl az orr, a hajvonal és a szem alatti területek kontúrozására is alkalmas. Definiált arcvonásokat hoz létre, önbizalmat adva smink nélkül is.</li>
+                    <li><strong>Teljes Smink Hatás:</strong> "Teljes smink" vizuális hatást nyújt, amely alkalmas aktív tevékenységekhez, például utazáshoz vagy vízi sportokhoz.</li>
+                </ul>
+            `,
             [Language.ME]: `
                 <h4 class="font-bold mb-2">تطبيق متعدد المناطق</h4>
                 <ul class="list-disc pl-5 space-y-1 text-sm">
@@ -747,7 +789,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'تاتو التظليل', description: 'حدد ونحت ملامح الوجه بلمسة ثلاثية الأبعاد تدوم طويلاً.' },
             [Language.FR]: { name: 'SHADING TATTOO', description: 'Définissez et sculptez vos contours pour un fini 3D durable.' },
             [Language.DE]: { name: 'SHADING TATTOO', description: 'Definieren und modellieren Sie Ihre Gesichtskonturen mit langanhaltendem 3D-Finish.' },
-            [Language.KR]: { name: '쉐딩 타투', description: '7일 동안 지속되는 입체 윤곽. 땀과 물에도 지워지지 않는 강력한 3D 페이스 라인.' }
+            [Language.KR]: { name: '쉐딩 타투', description: '7일 동안 지속되는 입체 윤곽. 땀과 물에도 지워지지 않는 강력한 3D 페이스 라인.' },
+            [Language.HU]: { name: 'SHADING TATTOO', description: 'Definiálja és formálja arcvonásait precíz, hosszan tartó 3D felülettel.' }
         }
     },
     {
@@ -829,6 +872,13 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Υφή:</strong> Σαν "φρέσκια σαντιγί" που λιώνει στο δέρμα.</li>
                     <li><strong>Απόδοση:</strong> Άμεσο αποτέλεσμα λάμψης για "No-Makeup" look. Καλύπτει ατέλειες.</li>
                 </ul>
+            `,
+            [Language.HU]: `
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Virális Tényezők:</strong> "Tejesdoboz Bőrápolás" néven ismert, instagram-kompatibilis csomagolása és egyedi textúrája miatt népszerű.</li>
+                    <li><strong>Textúra:</strong> "Friss tejszínhab" állagú, amely azonnal a bőrbe olvad.</li>
+                    <li><strong>Teljesítmény:</strong> "Játékváltó" a fakó bőr számára, azonnali tónusjavító hatást kínál a "smink nélküli" megjelenéshez. Hatékonyan fedi el a bőrhibákat.</li>
+                </ul>
             `
         },
         translations: {
@@ -837,7 +887,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'كريم ويبينج للتفتيح', description: 'كريم تفتيح فوري مع بروتين الحليب لإشراقة طبيعية.' },
             [Language.FR]: { name: 'WHITE IN WHIPPING CREAM', description: 'Crème éclat instantanée aux protéines de lait pour un teint radieux.' },
             [Language.DE]: { name: 'WHITE WHIPPING CREAM', description: 'Sofort-Aufhellungscreme mit Milchproteinen für einen strahlenden Glow.' },
-            [Language.KR]: { name: '화이트 인 생크림', description: '우유 단백질 추출물 함유. 바르는 즉시 화사해지는 톤업 매직.' }
+            [Language.KR]: { name: '화이트 인 생크림', description: '우유 단백질 추출물 함유. 바르는 즉시 화사해지는 톤업 매직.' },
+            [Language.HU]: { name: 'WHITE IN WHIPPING CREAM', description: 'Azonnali tónusjavító krém tejfehérjével a ragyogó bőrért.' }
         }
     },
     {
@@ -854,7 +905,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'كريم الترطيب وايت', description: 'كريم ترطيب عميق يغذي البشرة ويفتحها من الداخل.' },
             [Language.FR]: { name: 'WHITE IN MOISTURE CREAM', description: 'Crème hydratante profonde pour une peau nourrie et lumineuse.' },
             [Language.DE]: { name: 'WHITE MOISTURE CREAM', description: 'Intensive Feuchtigkeitspflege, die die Haut nährt und zum Strahlen bringt.' },
-            [Language.KR]: { name: '화이트 인 수분 크림', description: '피부 속부터 차오르는 수분광. 미백과 보습을 한번에 해결하는 데일리 크림.' }
+            [Language.KR]: { name: '화이트 인 수분 크림', description: '피부 속부터 차오르는 수분광. 미백과 보습을 한번에 해결하는 데일리 크림.' },
+            [Language.HU]: { name: 'WHITE IN MOISTURE CREAM', description: 'Mélyhidratáló krém, amely belülről táplálja és ragyogóvá teszi a bőrt.' }
         }
     },
     {
@@ -945,6 +997,14 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Αποτελεσματικότητα:</strong> Λάμψη και σύσφιξη με πρωτεΐνη γάλακτος. Καταπραΰνει το ξηρό δέρμα.</li>
                     <li><strong>Αξία:</strong> 300ml και διπλή λειτουργία (λεύκανση/αντιγήρανση).</li>
                 </ul>
+            `,
+            [Language.HU]: `
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Piaci Megítélés:</strong> "Gyengéd, nagy kiszerelésű hidratáló toner" néven elismert.</li>
+                    <li><strong>Felhasználói Élmény:</strong> Egyedi "hígított tej" textúra – krémes, mégis könnyű, gyors felszívódással, ragacsos érzet nélkül.</li>
+                    <li><strong>Hatékonyság:</strong> Tejfehérjével dúsítva, világosító és feszesítő tulajdonságokkal rendelkezik, durva savak használata nélkül. Téli bőrápolásra ajánlott.</li>
+                    <li><strong>Értékajánlat:</strong> A jelentős 300 ml-es térfogat és a kettős funkció (fehérítés/ránctalanítás) a kulcs.</li>
+                </ul>
             `
         },
         translations: {
@@ -953,7 +1013,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'تونر الحليب المبيض', description: 'تونر مرطب لطيف بحجم كبير (300 مل) مع بروتين الحليب.' },
             [Language.FR]: { name: 'WHITE IN MILK TONER', description: 'Tonique hydratant doux grand format (300ml) aux protéines de lait.' },
             [Language.DE]: { name: 'WHITE IN MILK TONER', description: 'Sanfter, feuchtigkeitsspendender Toner (300ml) mit Milchproteinen.' },
-            [Language.KR]: { name: '화이트 인 밀크 토너', description: '300ml 대용량 순한 보습 토너. 우유 단백질 성분이 피부를 맑고 촉촉하게 가꿔줍니다.' }
+            [Language.KR]: { name: '화이트 인 밀크 토너', description: '300ml 대용량 순한 보습 토너. 우유 단백질 성분이 피부를 맑고 촉촉하게 가꿔줍니다.' },
+            [Language.HU]: { name: 'WHITE IN MILK TONER', description: 'Gyengéd, nagy kiszerelésű (300ml) hidratáló toner. Tejfehérjével dúsítva a világosításért és hidratálásért.' }
         }
     },
     {
@@ -994,6 +1055,9 @@ export const PRODUCTS: Product[] = [
             `,
             [Language.EL]: `
                 <p>Κερδίζει έδαφος στην Ευρώπη και παγκοσμίως ως μοναδικό δώρο "self-care" χάρη στη συσκευασία στυλ περιοδικού.</p>
+            `,
+            [Language.HU]: `
+                <p>Európában (pl. MiiN Cosmetics) és világszerte népszerű, mint egyedi "öngondoskodás" ajándék, köszönhetően különleges, magazin stílusú csomagolásának.</p>
             `
         },
         translations: {
@@ -1002,7 +1066,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'أقنعة سيلف إستيتيك', description: 'أقنعة جمالية متخصصة للعناية بكل جزء من الجسم.' },
             [Language.FR]: { name: 'SELF AESTHETIC MASQUE', description: 'Masques esthétiques experts pour chaque zone du corps.' },
             [Language.DE]: { name: 'SELF AESTHETIC MASKE', description: 'Spezialisierte Wirkstoffmasken für die gezielte Pflege jeder Körperpartie.' },
-            [Language.KR]: { name: '셀프 에스테틱 마스크', description: '머리부터 발끝까지, 집에서 즐기는 부위별 맞춤 에스테틱 홈케어.' }
+            [Language.KR]: { name: '셀프 에스테틱 마스크', description: '머리부터 발끝까지, 집에서 즐기는 부위별 맞춤 에스테틱 홈케어.' },
+            [Language.HU]: { name: 'SELF AESTHETIC MASK', description: 'Speciális esztétikai maszkok minden testrész célzott ápolására.' }
         }
     },
     {
@@ -1019,7 +1084,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'زيت تنظيف أميل', description: 'زيت تنظيف الأرز الكوري اللطيف لإزالة المكياج والشوائب.' },
             [Language.FR]: { name: 'HUILE NETTOYANTE AMILL', description: "Huile démaquillante au riz coréen pour un nettoyage en douceur." },
             [Language.DE]: { name: 'AMILL REINIGUNGSÖL', description: 'Mildes Reinigungsöl mit koreanischem Reis zur sanften Entfernung von Unreinheiten.' },
-            [Language.KR]: { name: '에이밀 클렌징 오일', description: '순한 쌀겨 성분이 메이크업을 부드럽게 녹여주는 저자극 클렌징 오일.' }
+            [Language.KR]: { name: '에이밀 클렌징 오일', description: '순한 쌀겨 성분이 메이크업을 부드럽게 녹여주는 저자극 클렌징 오일.' },
+            [Language.HU]: { name: 'AMILL CLEANSING OIL', description: 'Gyengéd tisztító olaj koreai rizzsel a smink és szennyeződések kíméletes eltávolítására.' }
         }
     },
     {
@@ -1036,7 +1102,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'رغوة تنظيف أميل', description: 'رغوة كريمية منظفة تنقي المسام وتحافظ على رطوبة البشرة.' },
             [Language.FR]: { name: 'MOUSSE NETTOYANTE AMILL', description: 'Nettoyant onctueux aux grains pour purifier sans dessécher.' },
             [Language.DE]: { name: 'AMILL REINIGUNGSSCHAUM', description: 'Cremiger Reinigungsschaum auf Getreidebasis für porentiefe Reinheit.' },
-            [Language.KR]: { name: '에이밀 클렌징 폼', description: '곡물 에너지로 모공 속 노폐물까지 말끔하게 씻어내는 크리미한 폼.' }
+            [Language.KR]: { name: '에이밀 클렌징 폼', description: '곡물 에너지로 모공 속 노폐물까지 말끔하게 씻어내는 크리미한 폼.' },
+            [Language.HU]: { name: 'AMILL CLEANSING FOAM', description: 'Krémes, gabona alapú hab, amely tisztítja a pórusokat anélkül, hogy szárítana.' }
         }
     },
     {
@@ -1053,7 +1120,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'رغوة فقاعية منظفة', description: 'منظف فقاعي فوري لتنقية البشرة بالحبوب بعمق.' },
             [Language.FR]: { name: 'AMILL BUBBLE FOAM', description: 'Micro-bulles instantanées pour une purification aux céréales.' },
             [Language.DE]: { name: 'AMILL BUBBLE FOAM', description: 'Mikroblasen-Reiniger für eine sanfte und gründliche Reinigung.' },
-            [Language.KR]: { name: '에이밀 버블 폼', description: '풍성한 마이크로 버블이 자극 없이 딥 클렌징을 도와주는 곡물 버블 폼.' }
+            [Language.KR]: { name: '에이밀 버블 폼', description: '풍성한 마이크로 버블이 자극 없이 딥 클렌징을 도와주는 곡물 버블 폼.' },
+            [Language.HU]: { name: 'AMILL BUBBLE FOAM', description: 'Azonnali mikro-buborékos tisztító az alapos, gabona alapú tisztításért.' }
         }
     },
     {
@@ -1078,7 +1146,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'كريم الريتينول للعين', description: 'تقليل فوري للتجاعيد وتأثير شد لمنطقة تحت العين في دقيقة واحدة.' },
             [Language.FR]: { name: 'CRÈME YEUX RÉTINOL', description: 'Réduction instantanée des rides et effet lifting en 1 minute.' },
             [Language.DE]: { name: 'RETINOL AUGENCREME', description: 'Sofortige Faltenreduzierung und Lifting-Effekt für die Augenpartie.' },
-            [Language.KR]: { name: '레티놀 볼륨 아이백 크림', description: '단 1분 만에 경험하는 기적. 눈밑 지방과 주름을 즉각적으로 개선하는 리프팅 크림.' }
+            [Language.KR]: { name: '레티놀 볼륨 아이백 크림', description: '단 1분 만에 경험하는 기적. 눈밑 지방과 주름을 즉각적으로 개선하는 리프팅 크림.' },
+            [Language.HU]: { name: 'RETINOL EYEBAG CREAM', description: 'Azonnali ránc- és táskacsökkentő hatás a szem alatt 1 perc alatt.' }
         }
     },
     {
@@ -1095,7 +1164,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'كريم الرقبة', description: 'كريم متطور للرقبة مصمم لتنعيم التجاعيد واستعادة المرونة.' },
             [Language.FR]: { name: 'CRÈME COU', description: 'Crème avancée pour lisser les rides et raffermir le cou.' },
             [Language.DE]: { name: 'HALS CREME', description: 'Fortschrittliche Halscreme zur Glättung von Falten und Straffung.' },
-            [Language.KR]: { name: '넥 크림', description: '목 주름을 집중 케어하여 매끈하고 탄력 있는 목 라인을 완성합니다.' }
+            [Language.KR]: { name: '넥 크림', description: '목 주름을 집중 케어하여 매끈하고 탄력 있는 목 라인을 완성합니다.' },
+            [Language.HU]: { name: 'NECK CREAM', description: 'Fejlett nyakkrém a ráncok kisimítására és a feszesség helyreállítására.' }
         }
     },
     {
@@ -1156,6 +1226,11 @@ export const PRODUCTS: Product[] = [
                 <ul class="list-disc pl-5 space-y-1 text-sm">
                     <li><strong>Καινοτόμος Τεχνολογία (Galvanic):</strong> Ενσωματώνει μικρορεύματα για βαθύτερη διείσδυση της ρετινόλης χωρίς ερεθισμούς. Ιδανικό για την ευαίσθητη περιοχή των ματιών.</li>
                 </ul>
+            `,
+            [Language.HU]: `
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Innovatív Technológia (Galván):</strong> Mikroáramú (Galván) technológiát tartalmaz. Ez lehetővé teszi a retinol mélyebb behatolását irritáció nélkül, így alkalmas az érzékeny szemkörnyékre is.</li>
+                </ul>
             `
         },
         translations: {
@@ -1164,7 +1239,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'سيروم جلفاني', description: 'سيروم مستوحى من التيارات الدقيقة يعزز امتصاص الريتينول.' },
             [Language.FR]: { name: 'SÉRUM GALVANIQUE', description: 'Sérum inspiré des micro-courants pour une absorption maximale du rétinol.' },
             [Language.DE]: { name: 'GALVANIC SERUM', description: 'Von Mikrostrom inspiriertes Serum, das die Retinolaufnahme verstärkt.' },
-            [Language.KR]: { name: '레티노 갈바닉 세럼 100', description: '갈바닉 미세전류 기술로 레티놀 흡수율을 극대화한 고기능성 세럼.' }
+            [Language.KR]: { name: '레티노 갈바닉 세럼 100', description: '갈바닉 미세전류 기술로 레티놀 흡수율을 극대화한 고기능성 세럼.' },
+            [Language.HU]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikroáram ihlette szérum, amely fokozza a retinol felszívódását a maximális hatékonyságért.' }
         }
     },
     {
@@ -1179,7 +1255,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'أمبولة البابايا PDRN', description: 'أمبولة مركزة لتصغير المسام وتحسين ملمس البشرة بتقنية PDRN.' },
             [Language.FR]: { name: 'AMPOULE PAPAYE PDRN', description: 'Ampoule concentrée pour affiner les pores et lisser le grain de peau.' },
             [Language.DE]: { name: 'GRÜNE PAPAYA AMPOULE', description: 'Konzentrat zur Porenverfeinerung und Hautglättung auf PDRN-Basis.' },
-            [Language.KR]: { name: '그린 파파야 PDRN 앰플', description: 'PDRN 성분이 모공을 촘촘하게 케어하고 피부결을 매끈하게 정돈해주는 고농축 앰플.' }
+            [Language.KR]: { name: '그린 파파야 PDRN 앰플', description: 'PDRN 성분이 모공을 촘촘하게 케어하고 피부결을 매끈하게 정돈해주는 고농축 앰플.' },
+            [Language.HU]: { name: 'GREEN PAPAYA PDRN AMPOULE', description: 'Koncentrált ampulla, amely finomítja a pórusokat és simítja a textúrát PDRN segítségével.' }
         }
     },
     {
@@ -1196,7 +1273,8 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'رغوة البابايا المقشرة', description: 'رغوة منظفة مقشرة تزيل الشوائب وتنقي سطح البشرة.' },
             [Language.FR]: { name: 'MOUSSE GOMMAGE PAPAYE', description: 'Mousse exfoliante douce pour un teint lisse et clarifié.' },
             [Language.DE]: { name: 'GREEN PAPAYA PEELINGSCHAUM', description: 'Verfeinernder Peelingschaum für ein seidig glattes Hautgefühl.' },
-            [Language.KR]: { name: '그린 파파야 고마쥬 폼', description: '묵은 각질과 노폐물을 부드럽게 제거하여 맑고 깨끗한 피부로 가꿔주는 고마쥬 폼.' }
+            [Language.KR]: { name: '그린 파파야 고마쥬 폼', description: '묵은 각질과 노폐물을 부드럽게 제거하여 맑고 깨끗한 피부로 가꿔주는 고마쥬 폼.' },
+            [Language.HU]: { name: 'GREEN PAPAYA GOMAGE FOAM', description: 'Hámlasztó hab, amely eltávolítja a szennyeződéseket, miközben finomítja a bőr textúráját.' }
         }
     },
     {
@@ -1297,6 +1375,15 @@ export const PRODUCTS: Product[] = [
                     <li><strong>Υφή:</strong> Μοναδικές κάψουλες που λιώνουν στην επαφή.</li>
                     <li><strong>Οφέλη:</strong> Άμεσο "glow-up", αναζωογονεί το θαμπό δέρμα, ιδανικό για τον χειμώνα.</li>
                 </ul>
+            `,
+            [Language.HU]: `
+                <h4 class="font-bold mb-2">Vita C Kapszulák: Üvegbőr Ragyogás</h4>
+                <ul class="list-disc pl-5 space-y-1 text-sm">
+                    <li><strong>Termékpozícionálás:</strong> Nagy hatékonyságú világosító megoldás az azonnali ragyogásért, gyakran társítva a "Glass Skin" trenddel.</li>
+                    <li><strong>Fő Összetevők:</strong> 99% tiszta C-vitamint és 66% vitaminfa vizet tartalmazó, magasan koncentrált formula.</li>
+                    <li><strong>Alkalmazás és Textúra:</strong> Egyedi kapszula formátum, amely a bőrrel érintkezve azonnal elolvad, friss hatóanyagokat biztosítva.</li>
+                    <li><strong>Előnyök:</strong> "Azonnali ragyogás" hatás, ideális a fakó vagy fáradt bőr revitalizálására, különösen télen.</li>
+                </ul>
             `
         },
         translations: {
@@ -1304,7 +1391,8 @@ export const PRODUCTS: Product[] = [
             [Language.JP]: { name: 'ビタCカプセルクリーム', description: '高濃度ビタミンCを凝縮。シミやくすみをケアするスペシャルケアアイテム。' },
             [Language.ME]: { name: 'كريم كبسولات فيتا', description: 'كريم جل غني بكبسولات فيتامين سي لاستعادة حيوية البشرة.' },
             [Language.FR]: { name: 'VITA CAPSULE CRÈME', description: "Crème gel aux capsules de vitamines pour restaurer l'éclat." },
-            [Language.DE]: { name: 'VITA KAPSEL CREME', description: 'Gel-Creme mit verkapseltem Vitamin C für neue Vitalität und Ausstrahlung.' }
+            [Language.DE]: { name: 'VITA KAPSEL CREME', description: 'Gel-Creme mit verkapseltem Vitamin C für neue Vitalität und Ausstrahlung.' },
+            [Language.HU]: { name: 'VITA CAPSULE CREAM', description: 'Kapszulázott C-vitamin gél krém, amely helyreállítja a ragyogást és a vitalitást.' }
         }
     },
     {
@@ -1320,7 +1408,8 @@ export const PRODUCTS: Product[] = [
             [Language.JP]: { name: 'ビタCアンプル', description: '高濃度ビタミンCを凝縮。シミやくすみをケアする スペシャルケアアイテム。' },
             [Language.ME]: { name: 'أمبولة فيتا سي', description: 'أمبولة فيتامين سي عالية الفعالية لتفتيح البشرة المكثف.' },
             [Language.FR]: { name: 'AMPOULE VITA C', description: 'Soin concentré à la vitamine C pour un éclat intense.' },
-            [Language.DE]: { name: 'VITA C AMPOULE', description: 'Hochkonzentrierte Vitamin-C-Ampulle zur intensiven Aufhellung von Pigmentflecken.' }
+            [Language.DE]: { name: 'VITA C AMPOULE', description: 'Hochkonzentrierte Vitamin-C-Ampulle zur intensiven Aufhellung von Pigmentflecken.' },
+            [Language.HU]: { name: 'VITA C AMPOULE', description: 'Nagy hatékonyságú C-vitamin ampulla az intenzív világosításért és a sötét foltok kezelésére.' }
         }
     }
 ];
