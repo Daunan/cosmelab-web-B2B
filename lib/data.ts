@@ -1525,9 +1525,9 @@ export const PRODUCTS: Product[] = [
 export const BRAND_INTRODUCE_URL = 'https://drive.google.com/drive/folders/1aj_ywbMoTFFoquVHwGn8Y41ldE0jEPfF?usp=drive_link';
 
 export const getBuyingLink = (language: Language, product: Product | undefined): string => {
-    // 0. Estonia -> Geeliekspert
+    // 0. Estonia -> Hoolbeauty (B2B Specific)
     if (language === Language.ET) {
-        return 'https://www.geeliekspert.ee/?s=coscell&post_type=product';
+        return 'https://hoolbeauty.ee/password';
     }
 
     // 1. France -> Paris K Beauty
