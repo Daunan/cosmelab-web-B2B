@@ -652,6 +652,10 @@ export const PRODUCTS: Product[] = [
             `
         },
         translations: {
+            
+            [Language.RU]: { name: 'ЛЮКСОВЫЙ ТИНТ-ТАТУ ДЛЯ ГУБ', description: 'Культовый отшелушивающий тинт. Обеспечивает яркий цвет на 32 часа без отпечатков.' },
+            [Language.EL]: { name: 'TINT ΤΑΤΟΥΑΖ ΧΕΙΛΙΩΝ', description: 'Το εμβληματικό peel-off tint. Εξασφαλίζει ζωντανό χρώμα για 32 ώρες χωρίς να λερώνει.' },
+            [Language.CN]: { name: '唇纹身染唇液', description: '标志性撕拉式染唇液。32小时锁色不沾杯。' },
             [Language.ES]: { name: 'LIP TATTOO TINT PACK', description: 'El tinte labial peel-off original. Color vibrante durante 32 horas sin manchas.' },
             [Language.JP]: { name: 'リップタトゥーパック', description: '世界中で愛される元祖「剥がすリップ」。32時間塗りたての色をキープ。' },
             [Language.ME]: { name: 'تاتو الشفاه الأصلي', description: 'أول صبغة شفاه قابلة للتقشير. تضمن لونًا حيويًا لمدة 32 ساعة دون تلطيخ.' },
@@ -671,6 +675,10 @@ export const PRODUCTS: Product[] = [
         subNeed: ['lip'],
         tags: ['Glossy', 'Comfort'],
         translations: {
+            
+            [Language.RU]: { name: 'ГЕЛЕВЫЙ ТИНТ-ТАТУ', description: 'Глянцевый отшелушивающий тинт-маска, обеспечивающий яркий цвет и комфортный гелевый финиш.' },
+            [Language.EL]: { name: 'JELLY ΤΑΤΟΥΑΖ TINT', description: 'Ένα γυαλιστερό peel-off tint pack που προσφέρει ζωντανό χρώμα με άνετο φινίρισμα ζελέ.' },
+            [Language.CN]: { name: '果冻纹身染唇液', description: '光泽感撕拉唇膜，色彩鲜艳，佩戴舒适如啫喱。' },
             [Language.ES]: { name: 'JELLY TATTOO TINT', description: 'Tinte peel-off con textura gelatina para un color intenso y labios hidratados.' },
             [Language.JP]: { name: 'ジェリータトゥーティント', description: 'ぷるんとしたジェリーのような質感。鮮やかな発色と潤いが持続します。' },
             [Language.ME]: { name: 'جيلي تاتو تينت', description: 'صبغة شفاه جيلي قابلة للتقشير بلون غني وملمس مريح.' },
@@ -776,6 +784,10 @@ export const PRODUCTS: Product[] = [
             `
         },
         translations: {
+            
+            [Language.RU]: { name: 'ТИНТ ДЛЯ БРОВЕЙ', description: 'Профессиональное решение для бровей, стойкость до 8 дней и естественный вид.' },
+            [Language.EL]: { name: 'ΤΑΤΟΥΑΖ ΦΡΥΔΙΩΝ', description: 'Επαγγελματική λύση για τα φρύδια που διαρκεί έως και 8 ημέρες με φυσικό αποτέλεσμα.' },
+            [Language.CN]: { name: '持久纹身染眉膏', description: '长效8天自然野生眉，专业级持妆。' },
             [Language.ES]: { name: 'OOPS MY BROW TATTOO', description: 'Cejas perfectas hasta por 8 días. Definición natural de nivel profesional.' },
             [Language.JP]: { name: 'アイブロウタトゥー', description: '最長8日間持続。毎朝のメイクを楽にする、自然な仕上がりの眉タトゥー。' },
             [Language.ME]: { name: 'تاتو الحواجب أوبس', description: 'حل احترافي للحواجب يدوم حتى 8 أيام بمظهر طبيعي للغاية.' },
@@ -881,6 +893,10 @@ export const PRODUCTS: Product[] = [
             `
         },
         translations: {
+            
+            [Language.RU]: { name: 'ТИНТ ДЛЯ КОНТУРИНГА', description: 'Подчеркните контуры вашего лица с помощью точного и стойкого 3D-финиша.' },
+            [Language.EL]: { name: 'ΤΑΤΟΥΑΖ ΣΚΙΑΣΗΣ', description: 'Σμιλέψτε τα περιγράμματα του προσώπου σας με ακριβές, τρισδιάστατο φινίρισμα μεγάλης διάρκειας.' },
+            [Language.CN]: { name: '3D立体修容膏', description: '精准勾勒脸部轮廓，持久打造3D立体感无暇阴影。' },
             [Language.ES]: { name: 'SHADING TATTOO', description: 'Define y esculpe el rostro con un acabado 3D impecable y duradero.' },
             [Language.JP]: { name: 'シェーディングタトゥー', description: '理想の陰影メイクをデザイン。7日間持続する３D立体メイク。' },
             [Language.ME]: { name: 'تاتو التظليل', description: 'حدد ونحت ملامح الوجه بلمسة ثلاثية الأبعاد تدوم طويلاً.' },
@@ -987,6 +1003,10 @@ export const PRODUCTS: Product[] = [
             `
         },
         translations: {
+            
+            [Language.RU]: { name: 'ОТБЕЛИВАЮЩИЙ КРЕМ', description: 'Крем для мгновенного осветления, обогащенный молочным протеином для сияния кожи.' },
+            [Language.EL]: { name: 'ΚΡΕΜΑ ΛΑΜΨΗΣ', description: 'Κρέμα άμεσης λάμψης εμπλουτισμένη με πρωτεΐνη γάλακτος.' },
+            [Language.CN]: { name: '牛奶提亮面霜', description: '蕴含牛奶蛋白的瞬间提亮面霜，散发肌肤自然光泽。' },
             [Language.ES]: { name: 'WHITE IN WHIPPING CREAM', description: 'Crema iluminadora con proteínas de leche para una piel radiante al instante.' },
             [Language.JP]: { name: 'ホワイトホイップクリーム', description: '牛乳タンパク質配合。一塗りでワントーン明るい透明肌を演出します。' },
             [Language.ME]: { name: 'كريم ويبينج للتفتيح', description: 'كريم تفتيح فوري مع بروتين الحليب لإشراقة طبيعية.' },
@@ -1006,6 +1026,10 @@ export const PRODUCTS: Product[] = [
         subNeed: ['moisture'],
         tags: ['Hydrate', 'Radiant'],
         translations: {
+            
+            [Language.RU]: { name: 'УВЛАЖНЯЮЩИЙ КРЕМ С МОЛОКОМ', description: 'Крем для глубокого увлажнения, питает и осветляет кожу изнутри.' },
+            [Language.EL]: { name: 'ΕΝΥΔΑΤΙΚΗ ΚΡΕΜΑ ΜΕ ΓΑΛΑ', description: 'Κρέμα βαθιάς ενυδάτωσης που θρέφει και φωτίζει το δέρμα εκ των έσω.' },
+            [Language.CN]: { name: '牛奶深层保湿霜', description: '深层补水面霜，从内而外滋养并提亮肌肤。' },
             [Language.ES]: { name: 'WHITE IN MOISTURE CREAM', description: 'Crema hidratante profunda que nutre e ilumina desde el interior.' },
             [Language.JP]: { name: 'モイスチャークリーム', description: '深い潤いを与え、内側から輝くようなツヤ肌へ導く高保湿クリーム。' },
             [Language.ME]: { name: 'كريم الترطيب وايت', description: 'كريم ترطيب عميق يغذي البشرة ويفتحها من الداخل.' },
@@ -1123,6 +1147,10 @@ export const PRODUCTS: Product[] = [
             `
         },
         translations: {
+            
+            [Language.RU]: { name: 'МОЛОЧНЫЙ ТОНЕР', description: 'Нежный, увлажняющий тонер большого объема (300 мл). Обогащен молочным протеином.' },
+            [Language.EL]: { name: 'ΤΟΝΕΡ ΓΑΛΑΚΤΟΣ', description: 'Απαλό ενυδατικό τόνερ (300ml) εμπλουτισμένο με πρωτεΐνη γάλακτος.' },
+            [Language.CN]: { name: '牛奶保湿爽肤水', description: '温和大容量(300ml)爽肤水，富含牛奶蛋白，保湿提亮。' },
             [Language.ES]: { name: 'WHITE IN MILK TONER', description: 'Tónico hidratante suave de gran formato (300ml) con proteína de leche.' },
             [Language.JP]: { name: 'ホワイトインミルクトナー', description: '300ml大容量。牛乳タンパク質配合で、しっとり明るい肌へ導く低刺激トナー。' },
             [Language.ME]: { name: 'تونر الحليب المبيض', description: 'تونر مرطب لطيف بحجم كبير (300 مل) مع بروتين الحليب.' },
@@ -1180,6 +1208,10 @@ export const PRODUCTS: Product[] = [
             `
         },
         translations: {
+            
+            [Language.RU]: { name: 'ЭСТЕТИЧЕСКИЕ МАСКИ', description: 'Специализированные эстетические маски для направленного ухода за каждой частью тела.' },
+            [Language.EL]: { name: 'ΜΑΣΚΕΣ ΠΕΡΙΠΟΙΗΣΗΣ', description: 'Εξειδικευμένες μάσκες για στοχευμένη φροντίδα κάθε μέρους του σώματος.' },
+            [Language.CN]: { name: '专业身体护肤面膜', description: '针对身体各部位的专业靶向护理面膜套组。' },
             [Language.ES]: { name: 'SELF AESTHETIC MASK', description: 'Mascarillas especializadas para el cuidado integral de cada parte del cuerpo.' },
             [Language.JP]: { name: 'セルフエステマスク', description: '全身を磨き上げる部位別専門マスク。おうちで本格エステ。' },
             [Language.ME]: { name: 'أقنعة سيلف إستيتيك', description: 'أقنعة جمالية متخصصة للعناية بكل جزء من الجسم.' },
@@ -1199,6 +1231,10 @@ export const PRODUCTS: Product[] = [
         subNeed: ['oil'],
         tags: ['Rice', 'Clean'],
         translations: {
+            
+            [Language.RU]: { name: 'ОЧИЩАЮЩЕЕ МАСЛО AMILL', description: 'Мягкое очищающее масло с корейским рисом для бережного снятия макияжа.' },
+            [Language.EL]: { name: 'ΛΑΔΙ ΚΑΘΑΡΙΣΜΟΥ AMILL', description: 'Ήπιο λάδι καθαρισμού με κορεάτικο ρύζι για απαλή αφαίρεση του μακιγιάζ.' },
+            [Language.CN]: { name: 'AMILL温和卸妆油', description: '蕴含韩国大米的温和卸妆油，轻松卸除彩妆和污垢。' },
             [Language.ES]: { name: 'AMILL CLEANSING OIL', description: 'Aceite de arroz coreano que elimina el maquillaje con máxima suavidad.' },
             [Language.JP]: { name: 'クレンジングオイル', description: '韓国産の米エキス配合。肌への負担を抑えながらメイクを完璧にオフ。' },
             [Language.ME]: { name: 'زيت تنظيف أميل', description: 'زيت تنظيف الأرز الكوري اللطيف لإزالة المكياج والشوائب.' },
@@ -1218,6 +1254,10 @@ export const PRODUCTS: Product[] = [
         subNeed: ['bubble'],
         tags: ['Purify', 'Creamy'],
         translations: {
+            
+            [Language.RU]: { name: 'ПЕНКА ДЛЯ УМЫВАНИЯ АMILL', description: 'Кремовая пенка на основе злаков, очищает поры, не пересушивая кожу.' },
+            [Language.EL]: { name: 'ΑΦΡΟΣ ΚΑΘΑΡΙΣΜΟΥ AMILL', description: 'Κρεμώδης αφρός με βάση τα δημητριακά που καθαρίζει τους πόρους χωρίς να τους ξηραίνει.' },
+            [Language.CN]: { name: 'AMILL谷物洁面乳', description: '谷物基底的柔滑洁面乳，深层清洁毛孔同时锁住水分。' },
             [Language.ES]: { name: 'AMILL CLEANSING FOAM', description: 'Limpiador cremoso que purifica los poros respetando la hidratación natural.' },
             [Language.JP]: { name: 'クレンジングフォーム', description: '韓国産の米エキス配合。肌への負担を抑えながらメイクを完璧にオフ。' },
             [Language.ME]: { name: 'رغوة تنظيف أميل', description: 'رغوة كريمية منظفة تنقي المسام وتحافظ على رطوبة البشرة.' },
@@ -1237,6 +1277,10 @@ export const PRODUCTS: Product[] = [
         subNeed: ['bubble'],
         tags: ['MicroBubble', 'Grain'],
         translations: {
+            
+            [Language.RU]: { name: 'ПУЗЫРЬКОВАЯ ПЕНКА AMILL', description: 'Средство с микропузырьками для глубокого злакового очищения.' },
+            [Language.EL]: { name: 'ΑΦΡΟΣ ΜΙΚΡΟΦΥΣΑΛΙΔΩΝ AMILL', description: 'Καθαριστικό με μικροφυσαλίδες για βαθύ καθαρισμό.' },
+            [Language.CN]: { name: 'AMILL微泡洁面慕斯', description: '瞬间微泡洁面，利用谷物成分进行彻底清洁。' },
             [Language.ES]: { name: 'AMILL BUBBLE FOAM', description: 'Microburbujas instantáneas para una limpieza profunda y calmante.' },
             [Language.JP]: { name: 'バブルフォーム', description: 'ワンプッシュで極細泡。穀物の力で毛穴の奥までクレンジング。' },
             [Language.ME]: { name: 'رغوة فقاعية منظفة', description: 'منظف فقاعي فوري لتنقية البشرة بالحبوب بعمق.' },
@@ -1264,6 +1308,10 @@ export const PRODUCTS: Product[] = [
             `
         },
         translations: {
+            
+            [Language.RU]: { name: 'РЕТИНОЛОВЫЙ КРЕМ ДЛЯ ГЛАЗ', description: 'Мгновенное уменьшение морщин и лифтинг-эффект для зоны вокруг глаз за 1 мин.' },
+            [Language.EL]: { name: 'ΚΡΕΜΑ ΜΑΤΙΩΝ ΜΕ ΡΕΤΙΝΟΛΗ', description: 'Άμεση μείωση ρυτίδων και εφέ λίφτινγκ κάτω από τα μάτια σε 1 λεπτό.' },
+            [Language.CN]: { name: '视黄醇眼袋霜', description: '1分钟内迅速减少眼部皱纹，实现提拉紧致效果。' },
             [Language.ES]: { name: 'CREMA RETINOL OJOS', description: 'Efecto lifting inmediato. Reduce arrugas y bolsas en solo 1 minuto.' },
             [Language.JP]: { name: 'レチノールボリュームアイバッククリーム', description: '1分で目元の印象を変化させる。シワを目立ちにくくし、ハリを与えるアイバッグクリーム。' },
             [Language.ME]: { name: 'كريم الريتينول للعين', description: 'تقليل فوري للتجاعيد وتأثير شد لمنطقة تحت العين في دقيقة واحدة.' },
@@ -1283,6 +1331,10 @@ export const PRODUCTS: Product[] = [
         subNeed: ['wrinkle_neck'],
         tags: ['Firming', 'Smooth'],
         translations: {
+            
+            [Language.RU]: { name: 'КРЕМ ДЛЯ ШЕИ', description: 'Передовой крем для шеи, разглаживающий морщины и восстанавливающий упругость.' },
+            [Language.EL]: { name: 'ΚΡΕΜΑ ΛΑΙΜΟΥ', description: 'Προηγμένη κρέμα λαιμού ειδικά σχεδιασμένη για λείανση ρυτίδων και σύσφιξη.' },
+            [Language.CN]: { name: '抗皱抚纹颈霜', description: '专为颈部研发，强效抚平皱纹，恢复肌肤弹性和紧致度。' },
             [Language.ES]: { name: 'CREMA CUELLO', description: 'Crema avanzada para alisar arrugas y restaurar la firmeza del cuello.' },
             [Language.JP]: { name: 'ネッククリーム', description: '首元のシワをケアし、ハリを取り戻す専用クリーム。' },
             [Language.ME]: { name: 'كريم الرقبة', description: 'كريم متطور للرقبة مصمم لتنعيم التجاعيد واستعادة المرونة.' },
@@ -1364,6 +1416,10 @@ export const PRODUCTS: Product[] = [
             `
         },
         translations: {
+            
+            [Language.RU]: { name: 'СЫВОРОТКА RETINO GALVANIC', description: 'Сыворотка стимулирует впитывание ретинола для максимальной эффективности.' },
+            [Language.EL]: { name: 'ΟΡΟΣ 100 RETINO GALVANIC', description: 'Ορός εμπνευσμένος από μικρορεύματα που ενισχύει την απορρόφηση της ρετινόλης.' },
+            [Language.CN]: { name: '视黄醇电离子精华', description: '受微电流启发的视黄醇精华，大幅度提升抗老吸收效率。' },
             [Language.ES]: { name: 'SÉRUM GALVÁNICO', description: 'Sérum inspirado en microcorrientes que potencia la absorción del retinol.' },
             [Language.JP]: { name: 'レチノガルバニックセラム100', description: '美顔器の原理を応用。レチノールの吸収を極大化し、肌の奥まで届けます。' },
             [Language.ME]: { name: 'سيروم جلفاني', description: 'سيروم مستوحى من التيارات الدقيقة يعزز امتصاص الريتينول.' },
@@ -1383,6 +1439,10 @@ export const PRODUCTS: Product[] = [
         subNeed: ['green_papaya'],
         tags: ['PDRN', 'PoreCare'],
         translations: {
+            
+            [Language.RU]: { name: 'АМПУЛА С PDRN', description: 'Концентрированная ампула, сужающая поры и выравнивающая текстуру с помощью PDRN.' },
+            [Language.EL]: { name: 'ΑΜΠΟΥΛΑ ΠΑΠΑΓΙΑ ΜΕ PDRN', description: 'Μια συμπυκνωμένη αμπούλα που λειαίνει τους πόρους και εξομαλύνει την υφή.' },
+            [Language.CN]: { name: '青木瓜PDRN安瓶精华', description: '高浓缩安瓶，利用PDRN技术收缩毛孔，平滑肤质。' },
             [Language.ME]: { name: 'أمبولة البابايا PDRN', description: 'أمبولة مركزة لتصغير المسام وتحسين ملمس البشرة بتقنية PDRN.' },
             [Language.FR]: { name: 'AMPOULE PAPAYE PDRN', description: 'Ampoule concentrée pour affiner les pores et lisser le grain de peau.' },
             [Language.DE]: { name: 'GRÜNE PAPAYA AMPOULE', description: 'Konzentrat zur Porenverfeinerung und Hautglättung auf PDRN-Basis.' },
@@ -1400,6 +1460,10 @@ export const PRODUCTS: Product[] = [
         subNeed: ['green_papaya'],
         tags: ['Gomage', 'Smooth'],
         translations: {
+            
+            [Language.RU]: { name: 'ПЕНКА ДЛЯ УМЫВАНИЯ С ПАПАЙЕЙ', description: 'Отшелушивающая пенка, удаляющая загрязнения и обновляющая текстуру кожи.' },
+            [Language.EL]: { name: 'ΑΦΡΟΣ ΠΑΠΑΓΙΑ GOMAGE', description: 'Απολεπιστικός αφρός που αφαιρεί τους ρύπους ενώ λειαίνει την υφή του δέρματος.' },
+            [Language.CN]: { name: '青木瓜去角质洁面乳', description: '温和去角质洁面，去除污垢，细腻皮肤纹理。' },
             [Language.ES]: { name: 'GREEN PAPAYA GOMAGE FOAM', description: 'Exfoliación suave que elimina impurezas y deja la piel aterciopelada.' },
             [Language.JP]: { name: 'グリーンパパイヤPDRNゴマージュフォーム', description: '古い角質を優しくオフ。洗うたびに透明感あふれる素肌へ。' },
             [Language.ME]: { name: 'رغوة البابايا المقشرة', description: 'رغوة منظفة مقشرة تزيل الشوائب وتنقي سطح البشرة.' },
@@ -1529,6 +1593,10 @@ export const PRODUCTS: Product[] = [
             `
         },
         translations: {
+            
+            [Language.RU]: { name: 'КАПСУЛЬНЫЙ КРЕМ VITA', description: 'Гель-крем с капсулированным витамином С для восстановления сияния и жизненной силы.' },
+            [Language.EL]: { name: 'ΚΡΕΜΑ VITA', description: 'Κρέμα-τζελ με εγκλωβισμένη βιταμίνη C που επαναφέρει τη λάμψη και τη ζωτικότητα.' },
+            [Language.CN]: { name: '维他命C胶囊面霜', description: '包裹式纯维生素C凝胶面霜，恢复光彩与活力。' },
             [Language.ES]: { name: 'VITA CAPSULE CREAM', description: 'Crema en gel con cápsulas de Vitamina C pura para una piel luminosa.' },
             [Language.JP]: { name: 'ビタCカプセルクリーム', description: '高濃度ビタミンCを凝縮。シミやくすみをケアするスペシャルケアアイテム。' },
             [Language.ME]: { name: 'كريم كبسولات فيتا', description: 'كريم جل غني بكبسولات فيتامين سي لاستعادة حيوية البشرة.' },
@@ -1548,6 +1616,10 @@ export const PRODUCTS: Product[] = [
         subNeed: ['vita_line'],
         tags: ['Intensive', 'Glow'],
         translations: {
+            
+            [Language.RU]: { name: 'АМПУЛА VITA C', description: 'Высокоактивная ампула с витамином С для интенсивного осветления и ухода за пигментацией.' },
+            [Language.EL]: { name: 'ΑΜΠΟΥΛΑ VITA C', description: 'Ισχυρή αμπούλα βιταμίνης C για εντατική λεύκανση.' },
+            [Language.CN]: { name: '高浓缩维他命C安瓶', description: '高能维C精华安瓶，密集美白提亮并淡化黑斑。' },
             [Language.ES]: { name: 'VITA C AMPOULE', description: 'Ampolla de Vitamina C de alta potencia para un brillo y claridad intensos.' },
             [Language.JP]: { name: 'ビタCアンプル', description: '高濃度ビタミンCを凝縮。シミやくすみをケアする スペシャルケアアイテム。' },
             [Language.ME]: { name: 'أمبولة فيتا سي', description: 'أمبولة فيتامين سي عالية الفعالية لتفتيح البشرة المكثف.' },
