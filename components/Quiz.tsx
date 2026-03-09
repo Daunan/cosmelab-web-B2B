@@ -51,7 +51,37 @@ export default function Quiz({ locale }: QuizProps) {
     };
 
     return (
-        <div className="w-full max-w-6xl mx-auto px-4 py-12 min-h-[80vh] flex flex-col items-center justify-center font-sans relative">
+        <div className="w-full font-sans relative">
+            {/* Language Switcher (Normal Flow to completely prevent overlap) */}
+            <div className="w-full max-w-6xl mx-auto px-4 pt-6 flex flex-wrap justify-end gap-2 sm:gap-3 z-50">
+                {[
+                    { code: Language.US, flag: '🇺🇸', label: 'English' },
+                    { code: Language.JP, flag: '🇯🇵', label: '日本語' },
+                    { code: Language.ME, flag: '🇸🇦', label: 'العربية' },
+                    { code: Language.FR, flag: '🇫🇷', label: 'Français' },
+                    { code: Language.ES, flag: '🇪🇸', label: 'Español' },
+                    { code: Language.DE, flag: '🇩🇪', label: 'Deutsch' },
+                    { code: Language.EL, flag: '🇬🇷', label: 'Ελληνικά' },
+                    { code: Language.RU, flag: '🇷🇺', label: 'Русский' },
+                    { code: Language.KR, flag: '🇰🇷', label: '한국어' },
+                    { code: Language.HU, flag: '🇭🇺', label: 'Magyar' },
+                    { code: Language.ET, flag: '🇪🇪', label: 'Eesti' },
+                ].map((lang) => (
+                    <button
+                        key={lang.code}
+                        onClick={() => window.location.href = `/${lang.code}`}
+                        className={cn(
+                            "text-2xl hover:scale-110 transition-transform p-1 rounded-md",
+                            currentLang === lang.code ? "bg-gray-100 ring-2 ring-blue-500" : "opacity-70 hover:opacity-100"
+                        )}
+                        title={lang.label}
+                    >
+                        {lang.flag}
+                    </button>
+                ))}
+            </div>
+
+            <div className="w-full max-w-6xl mx-auto px-4 pb-12 pt-4 min-h-[75vh] flex flex-col items-center justify-center relative">
 
             {/* SNS Feedback Modal */}
             <AnimatePresence>
@@ -88,34 +118,7 @@ export default function Quiz({ locale }: QuizProps) {
                 )}
             </AnimatePresence>
 
-            {/* Language Switcher */}
-            <div className="absolute top-2 sm:top-4 left-1/2 -translate-x-1/2 flex flex-wrap justify-center gap-1.5 sm:gap-2 z-50 bg-white/70 backdrop-blur-md px-4 py-2 rounded-2xl md:rounded-full shadow-md border border-white/60 w-fit max-w-[95vw]">
-                {[
-                    { code: Language.US, flag: '🇺🇸', label: 'English' },
-                    { code: Language.JP, flag: '🇯🇵', label: '日本語' },
-                    { code: Language.ME, flag: '🇸🇦', label: 'العربية' },
-                    { code: Language.FR, flag: '🇫🇷', label: 'Français' },
-                    { code: Language.ES, flag: '🇪🇸', label: 'Español' },
-                    { code: Language.DE, flag: '🇩🇪', label: 'Deutsch' },
-                    { code: Language.EL, flag: '🇬🇷', label: 'Ελληνικά' },
-                    { code: Language.RU, flag: '🇷🇺', label: 'Русский' },
-                    { code: Language.KR, flag: '🇰🇷', label: '한국어' },
-                    { code: Language.HU, flag: '🇭🇺', label: 'Magyar' },
-                    { code: Language.ET, flag: '🇪🇪', label: 'Eesti' },
-                ].map((lang) => (
-                    <button
-                        key={lang.code}
-                        onClick={() => window.location.href = `/${lang.code}`}
-                        className={cn(
-                            "text-xl sm:text-2xl hover:scale-110 transition-transform p-1 rounded-full flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10",
-                            currentLang === lang.code ? "bg-white shadow-sm ring-2 ring-blue-500/50" : "opacity-70 hover:opacity-100 hover:bg-white/50"
-                        )}
-                        title={lang.label}
-                    >
-                        {lang.flag}
-                    </button>
-                ))}
-            </div>
+
 
             {/* Header / Progress */}
             {step !== QuizStepId.START && (
@@ -413,8 +416,7 @@ export default function Quiz({ locale }: QuizProps) {
                 )}
 
             </AnimatePresence>
-
-
+            </div>
         </div>
     );
 }
