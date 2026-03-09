@@ -313,7 +313,7 @@ export default function Quiz({ locale }: QuizProps) {
                                             </button>
                                         )}
 
-                                        <div className="flex flex-wrap gap-4 w-full">
+                                        <div className="flex flex-wrap gap-4 w-full mt-2">
                                             {/* Buying & Brand Buttons - Hidden for Hungarian (B2B) */}
                                             {currentLang !== Language.HU && (
                                                 <>
@@ -321,19 +321,19 @@ export default function Quiz({ locale }: QuizProps) {
                                                         href={getBuyingLink(currentLang, product)}
                                                         target="_blank"
                                                         rel="noreferrer"
-                                                        className="flex-1 min-w-[160px] inline-flex items-center justify-center px-6 py-4 bg-black text-white font-medium rounded-xl hover:bg-gray-800 transition-colors"
+                                                        className="flex-1 min-w-[160px] inline-flex items-center justify-center px-6 py-4 bg-gradient-to-b from-blue-500 to-blue-700 text-white font-bold rounded-2xl shadow-[0_4px_0_theme(colors.blue.900),0_10px_20px_rgba(37,99,235,0.4)] hover:shadow-[0_2px_0_theme(colors.blue.900),0_5px_10px_rgba(37,99,235,0.4)] hover:translate-y-[2px] active:shadow-[0_0px_0_theme(colors.blue.900),0_0px_0px_rgba(37,99,235,0)] active:translate-y-[4px] transition-all"
                                                     >
-                                                        <ShoppingBag className="w-5 h-5 mr-2" />
+                                                        <span className="mr-2 text-2xl drop-shadow-md">🛒</span>
                                                         {t.buyingLink}
                                                     </a>
                                                     <a
                                                         href={BRAND_INTRODUCE_URL}
                                                         target="_blank"
                                                         rel="noreferrer"
-                                                        className="flex-1 min-w-[160px] inline-flex items-center justify-center px-6 py-4 bg-white text-black border-2 border-black font-medium rounded-xl hover:bg-gray-50 transition-colors"
+                                                        className="flex-1 min-w-[160px] inline-flex items-center justify-center px-6 py-4 bg-gradient-to-b from-gray-50 to-gray-200 text-gray-800 font-bold rounded-2xl shadow-[0_4px_0_theme(colors.gray.400),0_10px_20px_rgba(0,0,0,0.1)] hover:shadow-[0_2px_0_theme(colors.gray.400),0_5px_10px_rgba(0,0,0,0.1)] hover:translate-y-[2px] active:shadow-[0_0px_0_theme(colors.gray.400),0_0px_0px_rgba(0,0,0,0)] active:translate-y-[4px] border border-gray-100 transition-all"
                                                     >
-                                                        <span className="mr-2">📄</span>
-                                                        {t.brandFile}
+                                                        <span className="mr-2 text-2xl drop-shadow-md">📖</span>
+                                                        {t.catalog || "CATALOG"}
                                                     </a>
                                                 </>
                                             )}
