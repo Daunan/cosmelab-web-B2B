@@ -89,7 +89,7 @@ export default function Quiz({ locale }: QuizProps) {
             </AnimatePresence>
 
             {/* Language Switcher */}
-            <div className="fixed top-1/2 left-4 -translate-y-1/2 flex flex-col gap-2 z-50 bg-white/50 backdrop-blur-md p-2 rounded-2xl shadow-lg border border-white/60 max-h-[80vh] overflow-y-auto scrollbar-hide">
+            <div className="absolute top-2 sm:top-4 left-1/2 -translate-x-1/2 flex flex-wrap justify-center gap-1.5 sm:gap-2 z-50 bg-white/70 backdrop-blur-md px-4 py-2 rounded-2xl md:rounded-full shadow-md border border-white/60 w-fit max-w-[95vw]">
                 {[
                     { code: Language.US, flag: '🇺🇸', label: 'English' },
                     { code: Language.JP, flag: '🇯🇵', label: '日本語' },
@@ -107,8 +107,8 @@ export default function Quiz({ locale }: QuizProps) {
                         key={lang.code}
                         onClick={() => window.location.href = `/${lang.code}`}
                         className={cn(
-                            "text-2xl hover:scale-110 transition-transform p-1 rounded-full flex items-center justify-center w-10 h-10",
-                            currentLang === lang.code ? "bg-white shadow-md ring-2 ring-blue-500/50" : "opacity-70 hover:opacity-100 hover:bg-white/50"
+                            "text-xl sm:text-2xl hover:scale-110 transition-transform p-1 rounded-full flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10",
+                            currentLang === lang.code ? "bg-white shadow-sm ring-2 ring-blue-500/50" : "opacity-70 hover:opacity-100 hover:bg-white/50"
                         )}
                         title={lang.label}
                     >
