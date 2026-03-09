@@ -1,4 +1,6 @@
 import { Category, Product, Language, CategoryData } from './types';
+export { Language };
+export type { Product };
 
 export const getDriveUrl = (id: string) => `https://lh3.googleusercontent.com/d/${id}`;
 
@@ -258,6 +260,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.DE]: { title: 'Make-up-Tattoo', subtitle: 'Berrisom: Professionelle Langzeit-Lösungen' },
             [Language.KR]: { title: '메이크업 타투', subtitle: 'Berrisom: 지속력 끝판왕, 프로페셔널 솔루션' },
             [Language.CN]: { title: '纹身彩妆', subtitle: 'Berrisom: 持久专业的彩妆方案' },
+            [Language.RU]: { title: 'Тату-макияж', subtitle: 'Berrisom: Профессиональная стойкость' },
+            [Language.EL]: { title: 'Μακιγιάζ Τατουάζ', subtitle: 'Berrisom: Επαγγελματική Διάρκεια' },
             [Language.HU]: { title: 'Smink Tetoválás', subtitle: 'Berrisom: Professzionális Tartós Megoldások' },
             [Language.ET]: { title: 'Meik ja Tätoveering', subtitle: 'Berrisom: Professionaalsed kauakestvad lahendused' }
         },
@@ -272,6 +276,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Lippenpflege', sub: 'Langanhaltende Lippen-Tattoos' },
                     [Language.KR]: { label: '립 케어', sub: '하루 종일 생생한 롱래스팅 틴트' },
                     [Language.CN]: { label: '唇部护理', sub: '超长持久纹身唇彩' },
+                    [Language.RU]: { label: 'Уход за губами', sub: 'Стойкие тинты-тату' },
+                    [Language.EL]: { label: 'Φροντίδα Χειλιών', sub: 'Tint τατουάζ μακράς διάρκειας' },
                     [Language.HU]: { label: 'Ajakápolás', sub: 'Hosszan tartó tetoválás ajaktinták' },
                     [Language.ET]: { label: 'Huulehooldus', sub: 'Kauakestvad tätoveeringu huulevärvid' }
                 }
@@ -286,6 +292,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Brauenpflege', sub: '8 Tage langanhaltende Definition' },
                     [Language.KR]: { label: '아이브로우', sub: '최대 8일 지속, 자연스러운 눈썹 타투' },
                     [Language.CN]: { label: '眉部护理', sub: '8天持久自然眉妆' },
+                    [Language.RU]: { label: 'Уход за бровями', sub: 'Естественный вид на 8 дней' },
+                    [Language.EL]: { label: 'Φροντίδα Φρυδιών', sub: 'Φυσικό σχήμα για 8 ημέρες' },
                     [Language.HU]: { label: 'Szemöldök Ápolás', sub: '8 napig tartó természetes definiálás' },
                     [Language.ET]: { label: 'Kulmude Hooldus', sub: '8 päeva püsiv loomulik kuju' }
                 }
@@ -300,6 +308,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Konturierung', sub: '7 Tage anhaltendes 3D-Shading' },
                     [Language.KR]: { label: '쉐딩 타투', sub: '7일 지속 3D 윤곽 메이크업' },
                     [Language.CN]: { label: '修容纹身', sub: '7天持久立体修容' },
+                    [Language.RU]: { label: '3D Контуринг', sub: 'Стойкость на 7 дней' },
+                    [Language.EL]: { label: 'Contouring', sub: '3D αποτέλεσμα για 7 ημέρες' },
                     [Language.HU]: { label: 'Árnyékoló Tetoválás', sub: '7 napig tartó 3D kontúrozás' },
                     [Language.ET]: { label: 'Varjutav Tätoveering', sub: '7 päeva püsiv 3D kontuurimine' }
                 }
@@ -320,6 +330,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.DE]: { title: 'Hautpflege', subtitle: 'G9SKIN: Feuchtigkeit mit Milchproteinen' },
             [Language.KR]: { title: '스킨케어', subtitle: 'G9SKIN: 우유 단백질로 완성하는 촉촉한 피부' },
             [Language.CN]: { title: '护肤', subtitle: 'G9SKIN: 牛奶蛋白保湿护理' },
+            [Language.RU]: { title: 'Уход за кожей', subtitle: 'G9SKIN: Глубокое увлажнение с молоком' },
+            [Language.EL]: { title: 'Φροντίδα Δέρματος', subtitle: 'G9SKIN: Ενυδάτωση με Γάλα' },
             [Language.HU]: { title: 'Bőrápolás', subtitle: 'G9SKIN: Jellegzetes Tej és Hidratálás' },
             [Language.ET]: { title: 'Nahahooldus', subtitle: 'G9SKIN: Piima ja niisutav hooldus' }
         },
@@ -334,6 +346,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Tone-up Pflege', sub: 'Sofortige Leuchtkraft-Creme' },
                     [Language.KR]: { label: '톤업 케어', sub: '즉각적인 화이트닝 & 톤업 효과' },
                     [Language.CN]: { label: '提亮护理', sub: '瞬间提亮美白霜' },
+                    [Language.RU]: { label: 'Осветление', sub: 'Крем для мгновенного сияния' },
+                    [Language.EL]: { label: 'Λάμψη', sub: 'Κρέμα άμεσης φωτεινότητας' },
                     [Language.HU]: { label: 'Tónusjavítás', sub: 'Azonnali ragyogást adó krém' },
                     [Language.ET]: { label: 'Tooniv Hooldus', sub: 'Kohene sära andev kreem' }
                 }
@@ -348,6 +362,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Feuchtigkeitskur', sub: 'Tiefenwirksame Feuchtigkeitspflege' },
                     [Language.KR]: { label: '수분 케어', sub: '피부 깊숙이 채워지는 강력한 보습' },
                     [Language.CN]: { label: '保湿护理', sub: '深层补水保湿' },
+                    [Language.RU]: { label: 'Увлажнение', sub: 'Глубокое увлажнение' },
+                    [Language.EL]: { label: 'Ενυδάτωση', sub: 'Βαθιά ενυδάτωση' },
                     [Language.HU]: { label: 'Hidratálás', sub: 'Mélyhidratáló ápolás' },
                     [Language.ET]: { label: 'Niisutav Hooldus', sub: 'Sügavniisutus' }
                 }
@@ -362,6 +378,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Maskenpflege', sub: 'Professionelle Wirkstoffmasken' },
                     [Language.KR]: { label: '마스크 케어', sub: '집에서 즐기는 에스테틱 홈케어' },
                     [Language.CN]: { label: '面膜护理', sub: '专业美容院级面膜' },
+                    [Language.RU]: { label: 'Маски', sub: 'Профессиональный эстетический уход' },
+                    [Language.EL]: { label: 'Μάσκες', sub: 'Επαγγελματική αισθητική περιποίηση' },
                     [Language.HU]: { label: 'Maszk Ápolás', sub: 'Professzionális esztétikai maszkok' },
                     [Language.ET]: { label: 'Maski Hooldus', sub: 'Professisonaalsed esteetilised maskid' }
                 }
@@ -382,6 +400,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.DE]: { title: 'Tiefenreinigung', subtitle: 'AMILL: Reinigung mit Getreideextrakten' },
             [Language.KR]: { title: '딥 클렌징', subtitle: 'AMILL: 곡물 에너지로 맑고 깨끗하게' },
             [Language.CN]: { title: '深层清洁', subtitle: 'AMILL: 超级谷物净化' },
+            [Language.RU]: { title: 'Глубокое очищение', subtitle: 'AMILL: Очищение суперзлаками' },
+            [Language.EL]: { title: 'Βαθύς Καθαρισμός', subtitle: 'AMILL: Καθαρισμός με δημητριακά' },
             [Language.HU]: { title: 'Mélytisztítás', subtitle: 'AMILL: Szuper Gabona Tisztítás' },
             [Language.ET]: { title: 'Sügavpuhastus', subtitle: 'AMILL: Superteravilja puhastus' }
         },
@@ -396,6 +416,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Reinigungsschaum', sub: 'Cremiger Schaum mit Getreide' },
                     [Language.KR]: { label: '폼 클렌징', sub: '부드러운 곡물 거품 세안' },
                     [Language.CN]: { label: '泡沫洁面', sub: '柔滑谷物洁面泡沫' },
+                    [Language.RU]: { label: 'Пенка', sub: 'Кремовая пенка со злаками' },
+                    [Language.EL]: { label: 'Αφρός', sub: 'Κρεμώδης αφρός καθαρισμού' },
                     [Language.HU]: { label: 'Hab Típus', sub: 'Krémes gabona tisztító hab' },
                     [Language.ET]: { label: 'Vahtpuitastus', sub: 'Kreemjas teraviljavaht' }
                 }
@@ -410,6 +432,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Reinigungsöl', sub: 'Mildes Öl mit Reisextrakten' },
                     [Language.KR]: { label: '오일 클렌징', sub: '순한 쌀겨 오일 클렌징' },
                     [Language.CN]: { label: '卸妆油', sub: '温和米糠卸妆油' },
+                    [Language.RU]: { label: 'Гидрофильное масло', sub: 'Мягкое рисовое масло' },
+                    [Language.EL]: { label: 'Λάδι Καθαρισμού', sub: 'Απαλό λάδι ρυζιού' },
                     [Language.HU]: { label: 'Olaj Termék', sub: 'Kíméletes rizs tisztító olaj' },
                     [Language.ET]: { label: 'Õlipuhastus', sub: 'Mahe riisi puhastusõli' }
                 }
@@ -430,6 +454,8 @@ export const CATEGORIES: CategoryData[] = [
             [Language.DE]: { title: 'Anti-Aging', subtitle: 'COSCELL: Klinische Zellreparatur' },
             [Language.KR]: { title: '안티에이징', subtitle: 'COSCELL: 전문가급 리페어 솔루션' },
             [Language.CN]: { title: '抗衰老', subtitle: 'COSCELL: 临床级修复护理' },
+            [Language.RU]: { title: 'Антивозрастной уход', subtitle: 'COSCELL: Клиническое восстановление' },
+            [Language.EL]: { title: 'Αντιγήρανση', subtitle: 'COSCELL: Κλινική Επανόρθωση' },
             [Language.HU]: { title: 'Öregedésgátlás', subtitle: 'COSCELL: Klinikai Szintű Helyreállítás' },
             [Language.ET]: { title: 'Vananemisvastane', subtitle: 'COSCELL: Kliiniline nahaparandus' }
         },
@@ -444,6 +470,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Augenpflege', sub: 'Retinol-Intensivkur' },
                     [Language.KR]: { label: '아이백 케어', sub: '레티놀 집중 아이 트리트먼트' },
                     [Language.CN]: { label: '眼袋护理', sub: '视黄醇眼部护理' },
+                    [Language.RU]: { label: 'Уход за зоной вокруг глаз', sub: 'Ретиноловый уход' },
+                    [Language.EL]: { label: 'Περιοχή Ματιών', sub: 'Θεραπεία ρετινόλης' },
                     [Language.HU]: { label: 'Szemtáska Ápolás', sub: 'Retinolos szemkezelés' },
                     [Language.ET]: { label: 'Silmakotid', sub: 'Retinooliga silmaravi' }
                 }
@@ -458,6 +486,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Halspflege', sub: 'Straffung in nur 1 Minute' },
                     [Language.KR]: { label: '넥 케어', sub: '1분 만에 되찾는 목주름 탄력' },
                     [Language.CN]: { label: '颈部护理', sub: '1分钟紧致修复' },
+                    [Language.RU]: { label: 'Уход за шеей', sub: 'Восстановление упругости за 1 мин' },
+                    [Language.EL]: { label: 'Φροντίδα Λαιμού', sub: 'Σύσφιξη σε 1 λεπτό' },
                     [Language.HU]: { label: 'Nyak Ápolás', sub: 'Feszesség helyreállítása 1 perc alatt' },
                     [Language.ET]: { label: 'Kaelahooldus', sub: 'Trimmib 1 minutiga' }
                 }
@@ -472,6 +502,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Serumpflege', sub: 'Galvanik- & Retinol-Kur' },
                     [Language.KR]: { label: '세럼 케어', sub: '갈바닉 & 레티놀 더블 케어' },
                     [Language.CN]: { label: '精华护理', sub: '电离子视黄醇护理' },
+                    [Language.RU]: { label: 'Сыворотка', sub: 'Гальванический и ретиноловый уход' },
+                    [Language.EL]: { label: 'Ορός', sub: 'Θεραπεία ρετινόλης και ρεύματος' },
                     [Language.HU]: { label: 'Szérum Ápolás', sub: 'Galván és Retinol kezelés' },
                     [Language.ET]: { label: 'Seerumhooldus', sub: 'Galvaaniline ja retinoolhooldus' }
                 }
@@ -486,6 +518,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'Grüne Papaya-Linie', sub: 'Poren-Care mit PDRN' },
                     [Language.KR]: { label: '그린 파파야 라인', sub: 'PDRN 모공 집중 케어' },
                     [Language.CN]: { label: '青木瓜系列', sub: 'PDRN毛孔护理系列' },
+                    [Language.RU]: { label: 'Линия Green Papaya', sub: 'Уход за порами с PDRN' },
+                    [Language.EL]: { label: 'Σειρά Green Papaya', sub: 'Φροντίδα πόρων με PDRN' },
                     [Language.HU]: { label: 'Zöld Papaya Család', sub: 'PDRN pórusápoló család' },
                     [Language.ET]: { label: 'Rohelise Papaia Sari', sub: 'PDRN pooride hooldus' }
                 }
@@ -500,6 +534,8 @@ export const CATEGORIES: CategoryData[] = [
                     [Language.DE]: { label: 'VITA-LINIE', sub: '99% reine Vitamin-C-Kapseln' },
                     [Language.KR]: { label: '비타 라인', sub: '순수 비타민 C 99% 캡슐 라인' },
                     [Language.CN]: { label: '维他命系列', sub: '99%纯维生素C胶囊系列' },
+                    [Language.RU]: { label: 'Линия VITA', sub: 'Капсулы с 99% витамином C' },
+                    [Language.EL]: { label: 'Σειρά VITA', sub: 'Κάψουλες με 99% Βιταμίνη C' },
                     [Language.HU]: { label: 'VITA CSALÁD', sub: 'C-vitamin 99% kapszula család' },
                     [Language.ET]: { label: 'VITA SARI', sub: '99% C-vitamiini kapslid' }
                 }
@@ -621,7 +657,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'تاتو الشفاه الأصلي', description: 'أول صبغة شفاه قابلة للتقشير. تضمن لونًا حيويًا لمدة 32 ساعة دون تلطيخ.' },
             [Language.FR]: { name: 'LIP TATTOO TINT PACK', description: "L'emblématique tattoo à lèvres pelable. Couleur vibrante 32h sans transfert." },
             [Language.DE]: { name: 'LIP TATTOO TINT PACK', description: 'Die weltweit erste abziehbare Lippentönung. Hält 32 Stunden ohne abzufärben.' },
-            [Language.KR]: { name: '립 타투 틴트 팩', description: '원조 뜯는 틴트. 묻어남 없이 32시간 지속되는 선명한 발색을 경험하세요.' },
+            [Language.KR]: { name: '립 타투 틴트 팩', description: '바르고 5분 뒤 떼어내면 32시간동안 묻어남 없이 색이 지속된다.' },
             [Language.HU]: { name: 'LIP TATTOO TINT PACK', description: "Az ikonikus lehúzható tinta. Élénk színt biztosít 32 órán át, elkenődés nélkül." },
             [Language.ET]: { name: 'LIP TATTOO TINT PACK', description: "Ikooniline mahakooritav tint. Tagab elava värvi 32 tunniks ilma määrimata." }
         }
@@ -640,7 +676,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'جيلي تاتو تينت', description: 'صبغة شفاه جيلي قابلة للتقشير بلون غني وملمس مريح.' },
             [Language.FR]: { name: 'JELLY TATTOO TINT', description: 'Tattoo à lèvres pelable au fini gelée pour une couleur éclatante.' },
             [Language.DE]: { name: 'JELLY TATTOO TINT', description: 'Ein abziehbares Lippen-Tattoo mit lebendigen Farben und geschmeidigem Jelly-Finish.' },
-            [Language.KR]: { name: '젤리 타투 틴트', description: '촉촉한 젤리 텍스처로 완성하는 생생한 컬러와 편안한 사용감.' },
+            [Language.KR]: { name: '젤리 타투 틴트', description: '색이 3~4시간 동안 묻어남 없이 유지되고 비비드한 컬러로 젤리 느낌 즉 그로시한 효과가 극대화 되는 제품' },
             [Language.HU]: { name: 'JELLY TATTOO TINT', description: 'Fényes lehúzható tinta csomag, amely élénk színt ad kényelmes zselés felülettel.' },
             [Language.ET]: { name: 'JELLY TATTOO TINT', description: 'Läikiv mahakooritav tint, mis annab elava värvi ja mugava želee-viimistluse.' }
         }
@@ -1243,7 +1279,7 @@ export const PRODUCTS: Product[] = [
         brand: 'COSCELL',
         name: 'NECK CREAM',
         description: 'Advanced neck cream tailored to smooth out wrinkles and restore firmness.',
-        imageUrl: getDriveUrl('1w-8d0j5cOpJ_2T8qT2Y6JDvVngfW-Q7L'),
+        imageUrl: getDriveUrl('1Beh78CyFxVlkYlKT6qTLHBuVe9Av_6Fp'),
         subNeed: ['wrinkle_neck'],
         tags: ['Firming', 'Smooth'],
         translations: {
@@ -1252,7 +1288,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'كريم الرقبة', description: 'كريم متطور للرقبة مصمم لتنعيم التجاعيد واستعادة المرونة.' },
             [Language.FR]: { name: 'CRÈME COU', description: 'Crème avancée pour lisser les rides et raffermir le cou.' },
             [Language.DE]: { name: 'HALS CREME', description: 'Fortschrittliche Halscreme zur Glättung von Falten und Straffung.' },
-            [Language.KR]: { name: '넥 크림', description: '목 주름을 집중 케어하여 매끈하고 탄력 있는 목 라인을 완성합니다.' },
+            [Language.KR]: { name: '넥 크림', description: '단 1분만에 즉각적인 주름 개선 효과를 부여하여 매끈한 목 라인을 완성합니다.' },
             [Language.HU]: { name: 'NECK CREAM', description: 'Fejlett nyakkrém a ráncok kisimítására és a feszesség helyreállítására.' },
             [Language.ET]: { name: 'NECK CREAM', description: 'Täiustatud kaelakreem kortsude silumiseks ja elastsuse taastamiseks.' }
         }
@@ -1262,7 +1298,7 @@ export const PRODUCTS: Product[] = [
         brand: 'COSCELL',
         name: 'RETINO GALVANIC SERUM 100',
         description: 'Microcurrent-inspired serum that boosts retinol absorption for maximum efficacy.',
-        imageUrl: getDriveUrl('1qI6G5ZfCgP44_Qn4r0qE1O0T0k2d8r'),
+        imageUrl: getDriveUrl('1eBIVdSOBZchQ_j98U-IkG5qIJ7T-LcPG'),
         subNeed: ['serum_care'],
         tags: ['Galvanic', 'Boost'],
         snsFeedback: {
@@ -1333,7 +1369,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'سيروم جلفاني', description: 'سيروم مستوحى من التيارات الدقيقة يعزز امتصاص الريتينول.' },
             [Language.FR]: { name: 'SÉRUM GALVANIQUE', description: 'Sérum inspiré des micro-courants pour une absorption maximale du rétinol.' },
             [Language.DE]: { name: 'GALVANIC SERUM', description: 'Von Mikrostrom inspiriertes Serum, das die Retinolaufnahme verstärkt.' },
-            [Language.KR]: { name: '레티노 갈바닉 세럼 100', description: '갈바닉 미세전류 기술로 레티놀 흡수율을 극대화한 고기능성 세럼.' },
+            [Language.KR]: { name: '레티노 갈바닉 세럼 100', description: '사용하고 4주뒤에 피부나이지수 -9살 개선 효과를 선사하는 고기능성 세럼.' },
             [Language.HU]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikroáram ihlette szérum, amely fokozza a retinol felszívódását a maximális hatékonyságért.' },
             [Language.ET]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikrovoolust inspireeritud seerum, mis võimendab retinooli imendumist.' }
         }
@@ -1498,6 +1534,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'كريم كبسولات فيتا', description: 'كريم جل غني بكبسولات فيتامين سي لاستعادة حيوية البشرة.' },
             [Language.FR]: { name: 'VITA CAPSULE CRÈME', description: "Crème gel aux capsules de vitamines pour restaurer l'éclat." },
             [Language.DE]: { name: 'VITA KAPSEL CREME', description: 'Gel-Creme mit verkapseltem Vitamin C für neue Vitalität und Ausstrahlung.' },
+            [Language.KR]: { name: '비타 캡슐 크림', description: 'PIGMENTATION 27.33% 개선 및 멜라닌 레벨 7.67% 개선 효과를 입증받은 미백 크림.' },
             [Language.HU]: { name: 'VITA CAPSULE CREAM', description: 'Kapszulázott C-vitamin gél krém, amely helyreállítja a ragyogást és a vitalitást.' },
             [Language.ET]: { name: 'VITA CAPSULE CREAM', description: 'Kapseldatud C-vitamiini geelkreem, mis taastab sära ja elujõu.' }
         }
@@ -1516,6 +1553,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'أمبولة فيتا سي', description: 'أمبولة فيتامين سي عالية الفعالية لتفتيح البشرة المكثف.' },
             [Language.FR]: { name: 'AMPOULE VITA C', description: 'Soin concentré à la vitamine C pour un éclat intense.' },
             [Language.DE]: { name: 'VITA C AMPOULE', description: 'Hochkonzentrierte Vitamin-C-Ampulle zur intensiven Aufhellung von Pigmentflecken.' },
+            [Language.KR]: { name: '비타 C 앰플', description: 'PIGMENTATION 27.33% 개선 및 멜라닌 레벨 7.67% 개선 효과를 입증받은 고농축 앰플.' },
             [Language.HU]: { name: 'VITA C AMPOULE', description: 'Nagy hatékonyságú C-vitamin ampulla az intenzív világosításért és a sötét foltok kezelésére.' },
             [Language.ET]: { name: 'VITA C AMPOULE', description: 'Tugevatoimeline C-vitamiini ampull intensiivseks helestamiseks ja tumedate laikude raviks.' }
         }
@@ -1525,7 +1563,7 @@ export const PRODUCTS: Product[] = [
 export const BRAND_INTRODUCE_URL = 'https://drive.google.com/drive/folders/1aj_ywbMoTFFoquVHwGn8Y41ldE0jEPfF?usp=drive_link';
 
 export const getBuyingLink = (language: Language, product: Product | undefined): string => {
-    // 0. Estonia -> Hoolbeauty (B2B Specific)
+    // 0. Estonia -> Geeliekspert
     if (language === Language.ET) {
         return 'https://hoolbeauty.ee/password';
     }
@@ -1554,8 +1592,8 @@ export const getBuyingLink = (language: Language, product: Product | undefined):
         return 'https://www.boutiqaat.com/en-kw/women/g9-skin';
     }
 
-    // 5. Group 1: English, Spanish, Russian, Greek -> Amazon
-    if ([Language.US, Language.ES, Language.RU, Language.EL].includes(language)) {
+    // 5. Group 1: English, Spanish, Russian, Greek, Hungarian -> Amazon
+    if ([Language.US, Language.ES, Language.RU, Language.EL, Language.HU].includes(language)) {
         const brand = product?.brand;
         if (brand === 'BERRISOM') return 'https://www.amazon.com/s?srs=9400023011';
         if (brand === 'G9SKIN') return 'https://www.amazon.com/g9skin/s?k=g9skin';
