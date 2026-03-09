@@ -146,36 +146,89 @@ export default function Quiz({ locale }: QuizProps) {
                         variants={fadeUp}
                         className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-16 w-full"
                     >
-                        {/* LEFT: TEXT */}
-                        <div className="flex-1 text-center md:text-left space-y-8">
-                            <div className="space-y-4">
-                                <h2 className="text-sm font-bold tracking-[0.3em] text-blue-600 uppercase">{t.hero.sub}</h2>
-                                <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight whitespace-pre-line">
-                                    {t.hero.title}
-                                </h1>
-                                <p className="text-lg text-gray-600 max-w-xl mx-auto md:mx-0 leading-relaxed">
-                                    {t.hero.desc}
-                                </p>
+                        {/* CENTER CONTENT */}
+                        <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 w-full max-w-2xl mx-auto">
+                            {/* SMALL IMAGE REPLACING TEXT */}
+                            <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
+                                <div className="absolute inset-0 bg-gray-100 rounded-[2rem] shadow-xl overflow-hidden">
+                                    <Image
+                                        src={getDriveUrl('1Y6m6R0z_7wBpxY6FRZSPtpKJ-cjpgwNg')}
+                                        alt="Cosmelab Curation"
+                                        fill
+                                        className="object-cover"
+                                        priority
+                                    />
+                                </div>
                             </div>
 
                             <button
                                 onClick={() => setStep(QuizStepId.FOCUS)}
-                                className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-black rounded-full overflow-hidden transition-all hover:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                                className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-black rounded-full overflow-hidden transition-all hover:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 w-full sm:w-auto mt-4"
                             >
                                 <span className="mr-2">{t.start}</span>
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </button>
-                        </div>
 
-                        {/* RIGHT: IMAGE */}
-                        <div className="flex-1 relative w-full max-w-md aspect-square hidden md:block">
-                            <div className="absolute inset-0 bg-gray-100 rounded-[2rem] transform rotate-3 transition-transform hover:rotate-0 shadow-2xl overflow-hidden">
-                                <Image
-                                    src={getDriveUrl('1Y6m6R0z_7wBpxY6FRZSPtpKJ-cjpgwNg')}
-                                    alt="Cosmelab Curation"
-                                    fill
-                                    className="object-cover"
-                                />
+                            {/* Social Links under START DIAGNOSIS */}
+                            <div className="flex items-center justify-center gap-5 pt-4">
+                                <a
+                                    href="https://www.instagram.com/cosmelab_official_global/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="group relative flex items-center justify-center w-12 h-12 rounded-2xl bg-white shadow-[0_4px_10px_rgba(0,0,0,0.1),_inset_0_-3px_5px_rgba(0,0,0,0.05),_inset_0_2px_4px_rgba(255,255,255,0.8)] hover:shadow-[0_8px_15px_rgba(0,0,0,0.15)] transform transition-all hover:-translate-y-1"
+                                >
+                                    <div className="absolute inset-[2px] rounded-xl bg-gradient-to-tr from-[#FFDC80] via-[#F56040] to-[#C13584] opacity-90 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                        <Instagram className="w-6 h-6 text-white" />
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.linkedin.com/company/104779203/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="group relative flex items-center justify-center w-12 h-12 rounded-2xl bg-white shadow-[0_4px_10px_rgba(0,0,0,0.1),_inset_0_-3px_5px_rgba(0,0,0,0.05),_inset_0_2px_4px_rgba(255,255,255,0.8)] hover:shadow-[0_8px_15px_rgba(0,0,0,0.15)] transform transition-all hover:-translate-y-1"
+                                >
+                                    <div className="absolute inset-[2px] rounded-xl bg-[#0a66c2] opacity-90 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                        <Linkedin className="w-6 h-6 text-white" fill="currentColor" />
+                                    </div>
+                                </a>
+                            </div>
+
+                            {/* Contact Info */}
+                            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-2 pt-6 border-t border-gray-100 w-full max-w-lg mx-auto">
+                                {/* Email */}
+                                <a
+                                    href="mailto:overseas@cosmelab.com"
+                                    className="group flex flex-1 items-center gap-3 px-4 py-3 bg-white/60 backdrop-blur-sm rounded-2xl shadow-sm hover:shadow-lg transition-all border border-gray-100/50 w-full overflow-hidden relative"
+                                >
+                                    <div className="absolute inset-0 bg-gradient-to-r from-blue-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                                    <div className="w-10 h-10 rounded-xl bg-blue-100/80 text-blue-600 flex items-center justify-center group-hover:scale-110 transition-transform relative z-10 flex-shrink-0">
+                                        <Mail className="w-5 h-5" />
+                                    </div>
+                                    <div className="flex flex-col relative z-10 text-left overflow-hidden">
+                                        <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Email Us</span>
+                                        <span className="text-[13px] font-semibold text-gray-800 truncate">overseas@cosmelab.com</span>
+                                    </div>
+                                </a>
+
+                                {/* WhatsApp */}
+                                <a
+                                    href="https://wa.me/821050938474"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="group relative flex flex-1 items-center gap-3 px-4 py-3 bg-white/60 backdrop-blur-sm rounded-2xl shadow-sm hover:shadow-lg transition-all border border-gray-100/50 w-full overflow-hidden"
+                                >
+                                    <div className="absolute inset-0 bg-gradient-to-r from-green-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                                    {/* 3D WhatsApp Icon */}
+                                    <div className="relative flex items-center justify-center w-10 h-10 flex-shrink-0 rounded-xl bg-white shadow-[0_2px_5px_rgba(0,0,0,0.1),_inset_0_-2px_3px_rgba(0,0,0,0.05),_inset_0_1px_2px_rgba(255,255,255,0.8)] z-10">
+                                        <div className="absolute inset-[1.5px] rounded-[10px] bg-gradient-to-tr from-[#128C7E] to-[#25D366] opacity-90 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                            <MessageCircle className="w-5 h-5 text-white" fill="currentColor" />
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col relative z-10 text-left overflow-hidden">
+                                        <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">WhatsApp</span>
+                                        <span className="text-[13px] font-semibold text-gray-800 truncate">+82 10-5093-8474</span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </motion.div>
