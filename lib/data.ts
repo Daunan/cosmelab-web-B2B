@@ -19,7 +19,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab Co., Ltd.",
             title: "COSMELAB\nPREMIUM\nCURATION.",
-            desc: "Discover the synergy of Korea's finest beauty innovations. Expertly curated solutions from Berrisom, G9SKIN, AMILL, and COSCELL."
+            desc: "Expertly curated solutions from Berrisom, G9SKIN, AMILL, and COSCELL."
         },
         phases: ["PHASE 01: Care Focus", "PHASE 02: Key Concern", "Your Tailored Solution"],
         instructions: ["Select your primary care focus", "Identify your main skin concern", "We have selected these premium essentials for you:"],
@@ -39,7 +39,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab Co., Ltd.",
             title: "CURACIÓN\nDE BELLEZA\nCOSMELAB.",
-            desc: "Descubra la excelencia de la K-Beauty a través de nuestras prestigiosas marcas globales."
+            desc: "Soluciones de expertos de Berrisom, G9SKIN, AMILL y COSCELL."
         },
         phases: ["PASO 01: Categoría", "PASO 02: Preocupación", "Tu Rutina Experta"],
         instructions: ["Seleccione el área de cuidado", "¿Cuál es su principal necesidad?", "Hemos seleccionado estos productos esenciales para su perfil:"],
@@ -59,7 +59,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "شركة كوزميلاب المحدودة",
             title: "نخبة منتجات\nكوزميلاب\nالعالمية",
-            desc: "اكتشفوا الحل الأمثل للعناية بالبشرة من خلال علاماتنا التجارية المتميزة والأكثر مبيعاً."
+            desc: "حلول مختارة بعناية من Berrisom وG9SKIN وAMILL وCOSCELL."
         },
         phases: ["الخطوة 01: الفئة", "الخطوة 02: الاهتمام", "الروتين الموصى به"],
         instructions: ["يرجى اختيار فئة العناية", "حدد احتياجات بشرتك بدقة", "تم اختيار هذه المنتجات بعناية لتناسب متطلبات بشرتكم:"],
@@ -79,7 +79,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "株式会社コスメラボ",
             title: "COSMELAB\nプレミアム\nキュレーション",
-            desc: "Berrisom、G9SKIN、AMILL、COSCELL。厳選された韓国コスメで、あなたの理想の肌を叶えます。"
+            desc: "Berrisom、G9SKIN、AMILL、COSCELLが提供する、専門家が厳選したソリューション。"
         },
         phases: ["STEP 01: カテゴリー", "STEP 02: お悩み解決", "あなたへの推奨ルーティン"],
         instructions: ["ケアカテゴリーを選択してください", "具体的なお悩みをお聞かせください", "お悩みに合わせた最適な製品をご提案いたします："],
@@ -99,7 +99,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab Co., Ltd.",
             title: "CURATION\nDE BEAUTÉ\nEXPERTE.",
-            desc: "L'excellence de la K-Beauty au service de votre peau à travers nos marques premium."
+            desc: "Des solutions sélectionnées par des experts de Berrisom, G9SKIN, AMILL et COSCELL."
         },
         phases: ["ÉTAPE 01 : Focus", "ÉTAPE 02 : Besoins", "Votre Routine Idéale"],
         instructions: ["Choisissez votre catégorie de soin", "Identifiez votre besoin spécifique", "Voici notre sélection de soins experts adaptée à votre profil :"],
@@ -119,7 +119,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab Co., Ltd.",
             title: "COSMELAB\nPREMIUM\nKURATION.",
-            desc: "Erleben Sie die Synergie unserer Hochleistungsmarken für ein vollendetes Hautbild."
+            desc: "Meisterhaft kuratierte Lösungen von Berrisom, G9SKIN, AMILL und COSCELL."
         },
         phases: ["SCHRITT 01: Fokus", "SCHRITT 02: Anliegen", "Ihre Pflegeroutine"],
         instructions: ["Wählen Sie einen Pflegebereich", "Welches Hautbedürfnis steht im Fokus?", "Diese Produkte wurden speziell für Ihr Profil ausgewählt:"],
@@ -139,7 +139,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "(주)코스메랩",
             title: "코스메랩\n프리미엄\n큐레이션.",
-            desc: "베리썸, G9SKIN, 에이밀, 코스셀. 엄선된 4대 K-뷰티 브랜드의 시너지를 경험하세요."
+            desc: "베리썸, G9SKIN, 에이밀, 코스셀이 제공하는 전문적인 큐레이션 솔루션."
         },
         phases: ["STEP 01: 집중 케어", "STEP 02: 피부 고민", "맞춤 솔루션"],
         instructions: ["가장 관심 있는 케어 분야를 선택해주세요", "현재 가장 큰 피부 고민은 무엇인가요?", "고객님의 피부 타입에 최적화된 솔루션을 제안합니다:"],
@@ -158,7 +158,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab有限公司",
             title: "COSMELAB\n严选\n护肤方案",
-            desc: "体验Berrisom, G9SKIN, AMILL, COSCELL四大K-Beauty品牌的协同效应。"
+            desc: "Berrisom, G9SKIN, AMILL, COSCELL四大K-Beauty品牌专家推荐方案。"
         },
         sidebar: ["首页", "护理重点", "肌肤困扰", "推荐结果"],
         phases: ["第一步：重点护理", "第二步：肌肤困扰", "您的专属方案"],
@@ -178,7 +178,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab Co., Ltd.",
             title: "COSMELAB\nПРЕМИУМ\nУХОД.",
-            desc: "Откройте синергию лучших брендов K-Beauty: Berrisom, G9SKIN, AMILL и COSCELL."
+            desc: "Экспертные решения от Berrisom, G9SKIN, AMILL и COSCELL."
         },
         sidebar: ["ГЛАВНАЯ", "УХОД", "ПРОБЛЕМЫ", "РЕШЕНИЕ"],
         phases: ["ЭТАП 01: Фокус", "ЭТАП 02: Проблема", "Ваш уход"],
@@ -197,7 +197,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         b2b: "ΣΥΝΕΡΓΑΣΙΑ B2B",
         hero: {
             title: "COSMELAB\nPREMIUM\nΦΡΟΝΤΙΔΑ.",
-            desc: "Ζήστε τη συνέργεια των κορυφαίων μαρκών K-Beauty: Berrisom, G9SKIN, AMILL και COSCELL."
+            desc: "Ειδικά επιλεγμένες λύσεις από Berrisom, G9SKIN, AMILL και COSCELL."
         },
         phases: ["ΒΗΜΑ 01: Κατηγορία", "ΒΗΜΑ 02: Πρόβλημα", "Η Ρουτίνα Σας"],
         instructions: ["Επιλέξτε κατηγορία φροντίδας", "Ποιο είναι το κύριο πρόβλημά σας;", "Επιλέξαμε αυτά τα προϊόντα για εσάς:"],
@@ -217,7 +217,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab Co., Ltd.",
             title: "COSMELAB\nPRÉMIUM\nKURÁCIÓ.",
-            desc: "Fedezze fel a legjobb K-Beauty innovációk szinergiáját. Berrisom, G9SKIN, AMILL és COSCELL szakértői megoldások."
+            desc: "Berrisom, G9SKIN, AMILL és COSCELL szakértői megoldások."
         },
         phases: ["01. LÉPÉS: Fókusz", "02. LÉPÉS: Probléma", "Személyre Szabott Megoldás"],
         instructions: ["Válassza ki az elsődleges célt", "Mi a fő bőrproblémája?", "Ezeket a prémium termékeket választottuk Önnek:"],
@@ -236,7 +236,7 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab Co., Ltd.",
             title: "COSMELAB\nPREMIUM\nKURATSIOON.",
-            desc: "Avastage parim K-Beauty innovatsiooni sünergia. Berrisom, G9SKIN, AMILL ja COSCELL ekspertlahendused."
+            desc: "Berrisom, G9SKIN, AMILL ja COSCELL ekspertlahendused."
         },
         sidebar: ["AVALEHT", "HOOLDUS", "VAJADUS", "SOOVITUS"],
         phases: ["SAMM 01: Fookus", "SAMM 02: Probleem", "Meie Soovitus"],
