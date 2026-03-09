@@ -89,7 +89,7 @@ export default function Quiz({ locale }: QuizProps) {
             </AnimatePresence>
 
             {/* Language Switcher */}
-            <div className="absolute top-4 right-4 flex flex-wrap justify-end gap-3 z-50">
+            <div className="fixed top-1/2 left-4 -translate-y-1/2 flex flex-col gap-2 z-50 bg-white/50 backdrop-blur-md p-2 rounded-2xl shadow-lg border border-white/60 max-h-[80vh] overflow-y-auto scrollbar-hide">
                 {[
                     { code: Language.US, flag: '🇺🇸', label: 'English' },
                     { code: Language.JP, flag: '🇯🇵', label: '日本語' },
@@ -107,8 +107,8 @@ export default function Quiz({ locale }: QuizProps) {
                         key={lang.code}
                         onClick={() => window.location.href = `/${lang.code}`}
                         className={cn(
-                            "text-2xl hover:scale-110 transition-transform p-1 rounded-md",
-                            currentLang === lang.code ? "bg-gray-100 ring-2 ring-blue-500" : "opacity-70 hover:opacity-100"
+                            "text-2xl hover:scale-110 transition-transform p-1 rounded-full flex items-center justify-center w-10 h-10",
+                            currentLang === lang.code ? "bg-white shadow-md ring-2 ring-blue-500/50" : "opacity-70 hover:opacity-100 hover:bg-white/50"
                         )}
                         title={lang.label}
                     >
@@ -148,9 +148,17 @@ export default function Quiz({ locale }: QuizProps) {
                     >
                         {/* CENTER CONTENT */}
                         <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 w-full max-w-2xl mx-auto">
-                            {/* SMALL IMAGE REPLACING TEXT */}
-                            <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
-                                <div className="absolute inset-0 bg-gray-100 rounded-[2rem] shadow-xl overflow-hidden">
+                            
+                            {/* RESTORED TEXT BLOCK */}
+                            <div className="space-y-4">
+                                <p className="text-xl md:text-2xl font-medium text-gray-800 max-w-xl mx-auto leading-relaxed whitespace-pre-line">
+                                    {t.hero.desc}
+                                </p>
+                            </div>
+
+                            {/* SMALL IMAGE */}
+                            <div className="relative w-40 h-40 md:w-48 md:h-48 mx-auto mt-4">
+                                <div className="absolute inset-0 bg-gray-100 rounded-[1.5rem] shadow-lg overflow-hidden">
                                     <Image
                                         src={getDriveUrl('1Y6m6R0z_7wBpxY6FRZSPtpKJ-cjpgwNg')}
                                         alt="Cosmelab Curation"
