@@ -152,15 +152,15 @@ export default function Quiz({ locale }: QuizProps) {
                         {/* CENTER CONTENT */}
                         <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 w-full max-w-2xl mx-auto">
                             
-                            {/* Brand Logos Placeholder */}
-                            <div className="w-full flex items-center justify-center gap-4 sm:gap-8 mt-4 mb-2 flex-wrap px-4">
+                            {/* Brand Logos */}
+                            <div className="w-full flex items-center justify-center gap-2 sm:gap-6 mt-4 mb-4 px-2 sm:px-4">
                                 {[
                                     { id: '1aa9z02iTMiqLiOHW3ujP2fFBawwGTxn2', name: 'AMILL' },
                                     { id: '1Fly3BgsqqvDDQBvRhZ_EaOfPqe4t0hu_', name: 'BERRISOM' },
                                     { id: '1PaKz8pdLy9O8731O_Jnw4lufTnoOIPYY', name: 'COSCELL' },
                                     { id: '1qxe4dgm1DVuMrBY6Rjdqn67zmZbENkQh', name: 'G9SKIN' },
                                 ].map((brand, idx) => (
-                                    <div key={idx} className="relative w-20 h-10 sm:w-28 sm:h-14 hover:scale-105 transition-transform drop-shadow-sm">
+                                    <div key={idx} className="relative flex-1 max-w-[70px] sm:max-w-[110px] h-10 sm:h-14 hover:scale-105 transition-transform drop-shadow-sm shrink">
                                         <Image
                                             src={getDriveUrl(brand.id)}
                                             alt={brand.name}
