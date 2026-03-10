@@ -152,11 +152,24 @@ export default function Quiz({ locale }: QuizProps) {
                         {/* CENTER CONTENT */}
                         <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 w-full max-w-2xl mx-auto">
                             
-                            {/* RESTORED TEXT BLOCK */}
-                            <div className="space-y-4">
-                                <p className="text-xl md:text-2xl font-medium text-gray-800 max-w-xl mx-auto leading-relaxed whitespace-pre-line">
-                                    {t.hero.desc}
-                                </p>
+                            {/* Brand Logos Placeholder */}
+                            <div className="w-full flex items-center justify-center gap-4 sm:gap-8 mt-4 mb-2 flex-wrap px-4">
+                                {[
+                                    { id: '1aa9z02iTMiqLiOHW3ujP2fFBawwGTxn2', name: 'AMILL' },
+                                    { id: '1Fly3BgsqqvDDQBvRhZ_EaOfPqe4t0hu_', name: 'BERRISOM' },
+                                    { id: '1PaKz8pdLy9O8731O_Jnw4lufTnoOIPYY', name: 'COSCELL' },
+                                    { id: '1qxe4dgm1DVuMrBY6Rjdqn67zmZbENkQh', name: 'G9SKIN' },
+                                ].map((brand, idx) => (
+                                    <div key={idx} className="relative w-20 h-10 sm:w-28 sm:h-14 hover:scale-105 transition-transform drop-shadow-sm">
+                                        <Image
+                                            src={getDriveUrl(brand.id)}
+                                            alt={brand.name}
+                                            fill
+                                            className="object-contain"
+                                            sizes="(max-width: 640px) 80px, 112px"
+                                        />
+                                    </div>
+                                ))}
                             </div>
 
                             {/* SMALL IMAGE */}
@@ -172,13 +185,22 @@ export default function Quiz({ locale }: QuizProps) {
                                 </div>
                             </div>
 
-                            <button
-                                onClick={() => setStep(QuizStepId.FOCUS)}
-                                className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-black rounded-full overflow-hidden transition-all hover:bg-gray-800 shadow-lg hover:shadow-xl transform hover:-translate-y-1 w-full sm:w-auto mt-4"
-                            >
-                                <span className="mr-2">{t.start}</span>
-                                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                            </button>
+                            {/* 3D START DIAGNOSIS BUTTON */}
+                            <div className="relative mt-8 w-full flex flex-col items-center pb-8 border-b-2 sm:border-b-0 border-transparent">
+                                <button
+                                    onClick={() => setStep(QuizStepId.FOCUS)}
+                                    className="btn-3d-orange relative px-10 py-5 sm:px-12 sm:py-6 rounded-2xl flex items-center justify-center min-w-[280px] sm:min-w-[320px] select-none cursor-pointer group mx-auto"
+                                >
+                                    <div className="btn-gloss"></div>
+                                    <span className="text-white text-xl sm:text-2xl md:text-3xl font-bold tracking-tight shadow-sm flex items-center drop-shadow-md relative z-10 w-full justify-center text-center">
+                                        <span className="mr-3">{t.start}</span>
+                                        <ArrowRight className="w-6 h-6 sm:w-8 sm:h-8 group-hover:translate-x-2 transition-transform drop-shadow-md" />
+                                    </span>
+                                    <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity bg-white z-0"></div>
+                                </button>
+                                {/* Subtle floor shadow */}
+                                <div className="mt-8 sm:mt-12 w-4/5 sm:w-3/5 mx-auto h-4 sm:h-6 bg-black/15 rounded-[100%] blur-xl sm:blur-2xl"></div>
+                            </div>
 
                             {/* Social Links under START DIAGNOSIS */}
                             <div className="flex items-center justify-center gap-5 pt-4">
