@@ -663,7 +663,8 @@ export const PRODUCTS: Product[] = [
             [Language.DE]: { name: 'LIP TATTOO TINT PACK', description: 'Die weltweit erste abziehbare Lippentönung. Hält 32 Stunden ohne abzufärben.' },
             [Language.KR]: { name: '립 타투 틴트 팩', description: '바르고 5분 뒤 떼어내면 32시간동안 묻어남 없이 색이 지속된다.' },
             [Language.HU]: { name: 'LIP TATTOO TINT PACK', description: "Az ikonikus lehúzható tinta. Élénk színt biztosít 32 órán át, elkenődés nélkül." },
-            [Language.ET]: { name: 'LIP TATTOO TINT PACK', description: "Ikooniline mahakooritav tint. Tagab elava värvi 32 tunniks ilma määrimata." }
+            [Language.ET]: { name: 'LIP TATTOO TINT PACK', description: "Ikooniline mahakooritav tint. Tagab elava värvi 32 tunniks ilma määrimata." },
+            [Language.US]: { name: 'LIP TATTOO TINT PACK', description: 'Apply, let sit for 5 mins, peel off. Provides 32 hours of vibrant, transfer-proof color.' }
         }
     },
     {
@@ -686,7 +687,8 @@ export const PRODUCTS: Product[] = [
             [Language.DE]: { name: 'JELLY TATTOO TINT', description: 'Ein abziehbares Lippen-Tattoo mit lebendigen Farben und geschmeidigem Jelly-Finish.' },
             [Language.KR]: { name: '젤리 타투 틴트', description: '색이 3~4시간 동안 묻어남 없이 유지되고 비비드한 컬러로 젤리 느낌 즉 그로시한 효과가 극대화 되는 제품' },
             [Language.HU]: { name: 'JELLY TATTOO TINT', description: 'Fényes lehúzható tinta csomag, amely élénk színt ad kényelmes zselés felülettel.' },
-            [Language.ET]: { name: 'JELLY TATTOO TINT', description: 'Läikiv mahakooritav tint, mis annab elava värvi ja mugava želee-viimistluse.' }
+            [Language.ET]: { name: 'JELLY TATTOO TINT', description: 'Läikiv mahakooritav tint, mis annab elava värvi ja mugava želee-viimistluse.' },
+            [Language.US]: { name: 'JELLY TATTOO TINT', description: 'Vivid color lasts 3-4 hours with zero transfer, maximizing a glossy, vibrant jelly effect.' }
         }
     },
     {
@@ -1340,7 +1342,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'كريم الرقبة', description: 'كريم متطور للرقبة مصمم لتنعيم التجاعيد واستعادة المرونة.' },
             [Language.FR]: { name: 'CRÈME COU', description: 'Crème avancée pour lisser les rides et raffermir le cou.' },
             [Language.DE]: { name: 'HALS CREME', description: 'Fortschrittliche Halscreme zur Glättung von Falten und Straffung.' },
-            [Language.KR]: { name: '넥 크림', description: '단 1분만에 즉각적인 주름 개선 효과를 부여하여 매끈한 목 라인을 완성합니다.' },
+            [Language.KR]: { name: '넥 크림', description: '매끄러운 목 라인 완성을 위해 1분만에 즉각적인 주름 개선 효과를 부여하는 크림.' },
             [Language.HU]: { name: 'NECK CREAM', description: 'Fejlett nyakkrém a ráncok kisimítására és a feszesség helyreállítására.' },
             [Language.ET]: { name: 'NECK CREAM', description: 'Täiustatud kaelakreem kortsude silumiseks ja elastsuse taastamiseks.' }
         }
@@ -1425,7 +1427,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'سيروم جلفاني', description: 'سيروم مستوحى من التيارات الدقيقة يعزز امتصاص الريتينول.' },
             [Language.FR]: { name: 'SÉRUM GALVANIQUE', description: 'Sérum inspiré des micro-courants pour une absorption maximale du rétinol.' },
             [Language.DE]: { name: 'GALVANIC SERUM', description: 'Von Mikrostrom inspiriertes Serum, das die Retinolaufnahme verstärkt.' },
-            [Language.KR]: { name: '레티노 갈바닉 세럼 100', description: '사용하고 4주뒤에 피부나이지수 -9살 개선 효과를 선사하는 고기능성 세럼.' },
+            [Language.KR]: { name: '레티노 갈바닉 세럼 100', description: '미세전류(갈바닉) 기술을 적용, 4주 사용 뒤 피부 나이 지수 -9살 개선 효과가 임상 검증된 세럼.' },
             [Language.HU]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikroáram ihlette szérum, amely fokozza a retinol felszívódását a maximális hatékonyságért.' },
             [Language.ET]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikrovoolust inspireeritud seerum, mis võimendab retinooli imendumist.' }
         }
@@ -1602,7 +1604,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'كريم كبسولات فيتا', description: 'كريم جل غني بكبسولات فيتامين سي لاستعادة حيوية البشرة.' },
             [Language.FR]: { name: 'VITA CAPSULE CRÈME', description: "Crème gel aux capsules de vitamines pour restaurer l'éclat." },
             [Language.DE]: { name: 'VITA KAPSEL CREME', description: 'Gel-Creme mit verkapseltem Vitamin C für neue Vitalität und Ausstrahlung.' },
-            [Language.KR]: { name: '비타 캡슐 크림', description: 'PIGMENTATION 27.33% 개선 및 멜라닌 레벨 7.67% 개선 효과를 입증받은 미백 크림.' },
+            [Language.KR]: { name: '비타 캡슐 크림', description: 'PIGMENTATION 27.33% 개선과 멜라닌 레벨 7.67% 개선 효과가 검증된 일루미네이팅 겔 크림.' },
             [Language.HU]: { name: 'VITA CAPSULE CREAM', description: 'Kapszulázott C-vitamin gél krém, amely helyreállítja a ragyogást és a vitalitást.' },
             [Language.ET]: { name: 'VITA CAPSULE CREAM', description: 'Kapseldatud C-vitamiini geelkreem, mis taastab sära ja elujõu.' }
         }
@@ -1625,7 +1627,7 @@ export const PRODUCTS: Product[] = [
             [Language.ME]: { name: 'أمبولة فيتا سي', description: 'أمبولة فيتامين سي عالية الفعالية لتفتيح البشرة المكثف.' },
             [Language.FR]: { name: 'AMPOULE VITA C', description: 'Soin concentré à la vitamine C pour un éclat intense.' },
             [Language.DE]: { name: 'VITA C AMPOULE', description: 'Hochkonzentrierte Vitamin-C-Ampulle zur intensiven Aufhellung von Pigmentflecken.' },
-            [Language.KR]: { name: '비타 C 앰플', description: 'PIGMENTATION 27.33% 개선 및 멜라닌 레벨 7.67% 개선 효과를 입증받은 고농축 앰플.' },
+            [Language.KR]: { name: '비타 C 앰플', description: 'PIGMENTATION 27.33% 개선과 멜라닌 레벨 7.67% 감소가 입증된 강력 미백 앰플.' },
             [Language.HU]: { name: 'VITA C AMPOULE', description: 'Nagy hatékonyságú C-vitamin ampulla az intenzív világosításért és a sötét foltok kezelésére.' },
             [Language.ET]: { name: 'VITA C AMPOULE', description: 'Tugevatoimeline C-vitamiini ampull intensiivseks helestamiseks ja tumedate laikude raviks.' }
         }
