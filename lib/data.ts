@@ -653,17 +653,17 @@ export const PRODUCTS: Product[] = [
         },
         translations: {
             
-            [Language.RU]: { name: 'ЛЮКСОВЫЙ ТИНТ-ТАТУ ДЛЯ ГУБ', description: 'Культовый отшелушивающий тинт. Обеспечивает яркий цвет на 32 часа без отпечатков.' },
-            [Language.EL]: { name: 'TINT ΤΑΤΟΥΑΖ ΧΕΙΛΙΩΝ', description: 'Το εμβληματικό peel-off tint. Εξασφαλίζει ζωντανό χρώμα για 32 ώρες χωρίς να λερώνει.' },
-            [Language.CN]: { name: '唇纹身染唇液', description: '标志性撕拉式染唇液。32小时锁色不沾杯。' },
-            [Language.ES]: { name: 'LIP TATTOO TINT PACK', description: 'El tinte labial peel-off original. Color vibrante durante 32 horas sin manchas.' },
-            [Language.JP]: { name: 'リップタトゥーパック', description: '世界中で愛される元祖「剥がすリップ」。32時間塗りたての色をキープ。' },
-            [Language.ME]: { name: 'تاتو الشفاه الأصلي', description: 'أول صبغة شفاه قابلة للتقشير. تضمن لونًا حيويًا لمدة 32 ساعة دون تلطيخ.' },
-            [Language.FR]: { name: 'LIP TATTOO TINT PACK', description: "L'emblématique tattoo à lèvres pelable. Couleur vibrante 32h sans transfert." },
-            [Language.DE]: { name: 'LIP TATTOO TINT PACK', description: 'Die weltweit erste abziehbare Lippentönung. Hält 32 Stunden ohne abzufärben.' },
+            [Language.RU]: { name: 'ЛЮКСОВЫЙ ТИНТ-ТАТУ ДЛЯ ГУБ', description: 'Нанесите, подождите 5 минут и снимите. Обеспечивает яркий цвет на 32 часа без отпечатков.' },
+            [Language.EL]: { name: 'TINT ΤΑΤΟΥΑΖ ΧΕΙΛΙΩΝ', description: 'Εφαρμόστε, αφήστε 5 λεπτά και αφαιρέστε. Εξασφαλίζει ζωντανό χρώμα για 32 ώρες χωρίς να λερώνει.' },
+            [Language.CN]: { name: '唇纹身染唇液', description: '涂抹5分钟后撕拉，实现32小时持色不沾杯。' },
+            [Language.ES]: { name: 'LIP TATTOO TINT PACK', description: 'Aplica, deja actuar 5 min y retira. Garantiza 32 horas de color vibrante sin transferencias.' },
+            [Language.JP]: { name: 'リップタトゥーパック', description: '塗って5分後にはがすだけ。32時間、色移りせずに鮮の発色を持続します。' },
+            [Language.ME]: { name: 'تاتو الشفاه الأصلي', description: 'ضعيه، اتركيه يجف 5 دقائق ثم انزعيه. لون حيوي يدوم 32 ساعة بلا تلطيخ نهائيًا.' },
+            [Language.FR]: { name: 'LIP TATTOO TINT PACK', description: 'Appliquer, laisser 5 min et décoller. Offre 32 heures de couleur vibrante sans transfert.' },
+            [Language.DE]: { name: 'LIP TATTOO TINT PACK', description: 'Auftragen, 5 Min. warten, abziehen. Sorgt 32 Stunden lang für lebendige, wischfeste Farbe.' },
             [Language.KR]: { name: '립 타투 틴트 팩', description: '바르고 5분 뒤 떼어내면 32시간동안 묻어남 없이 색이 지속된다.' },
-            [Language.HU]: { name: 'LIP TATTOO TINT PACK', description: "Az ikonikus lehúzható tinta. Élénk színt biztosít 32 órán át, elkenődés nélkül." },
-            [Language.ET]: { name: 'LIP TATTOO TINT PACK', description: "Ikooniline mahakooritav tint. Tagab elava värvi 32 tunniks ilma määrimata." },
+            [Language.HU]: { name: 'LIP TATTOO TINT PACK', description: 'Vigye fel, hagyja 5 percig száradni, majd húzza le. 32 órán át tartó élénk, elkenődésmentes szín.' },
+            [Language.ET]: { name: 'LIP TATTOO TINT PACK', description: 'Kanna peale, lase 5 min mõjuda ja koori. Tagab 32 tundi erksa ja määrimiskindla värvi.' },
             [Language.US]: { name: 'LIP TATTOO TINT PACK', description: 'Apply, let sit for 5 mins, peel off. Provides 32 hours of vibrant, transfer-proof color.' }
         }
     },
@@ -677,17 +677,17 @@ export const PRODUCTS: Product[] = [
         tags: ['Glossy', 'Comfort'],
         translations: {
             
-            [Language.RU]: { name: 'ГЕЛЕВЫЙ ТИНТ-ТАТУ', description: 'Глянцевый отшелушивающий тинт-маска, обеспечивающий яркий цвет и комфортный гелевый финиш.' },
-            [Language.EL]: { name: 'JELLY ΤΑΤΟΥΑΖ TINT', description: 'Ένα γυαλιστερό peel-off tint pack που προσφέρει ζωντανό χρώμα με άνετο φινίρισμα ζελέ.' },
-            [Language.CN]: { name: '果冻纹身染唇液', description: '光泽感撕拉唇膜，色彩鲜艳，佩戴舒适如啫喱。' },
-            [Language.ES]: { name: 'JELLY TATTOO TINT', description: 'Tinte peel-off con textura gelatina para un color intenso y labios hidratados.' },
-            [Language.JP]: { name: 'ジェリータトゥーティント', description: 'ぷるんとしたジェリーのような質感。鮮やかな発色と潤いが持続します。' },
-            [Language.ME]: { name: 'جيلي تاتو تينت', description: 'صبغة شفاه جيلي قابلة للتقشير بلون غني وملمس مريح.' },
-            [Language.FR]: { name: 'JELLY TATTOO TINT', description: 'Tattoo à lèvres pelable au fini gelée pour une couleur éclatante.' },
-            [Language.DE]: { name: 'JELLY TATTOO TINT', description: 'Ein abziehbares Lippen-Tattoo mit lebendigen Farben und geschmeidigem Jelly-Finish.' },
+            [Language.RU]: { name: 'ГЕЛЕВЫЙ ТИНТ-ТАТУ', description: 'Яркий цвет держится 3-4 часа без отпечатков с глянцевым желеобразным эффектом.' },
+            [Language.EL]: { name: 'JELLY ΤΑΤΟΥΑΖ TINT', description: 'Το χρώμα διαρκεί 3-4 ώρες χωρίς μεταφορά, με έντονο εφέ ζελέ.' },
+            [Language.CN]: { name: '果冻纹身染唇液', description: '持妆3~4小时不沾杯，极致展现水润光泽的果冻感。' },
+            [Language.ES]: { name: 'JELLY TATTOO TINT', description: 'Color vivo que dura 3-4 horas sin transferencias, con efecto gelatina brillante.' },
+            [Language.JP]: { name: 'ジェリータトゥーティント', description: '色移りせず3〜4時間鮮やかな発色をキープ。グロッシーなジェリー感が極立ちます。' },
+            [Language.ME]: { name: 'جيلي تاتو تينت', description: 'لون حيوي يدوم 3-4 ساعات دون تلطيخ، ليعزز تأثير الجيلي اللامع.' },
+            [Language.FR]: { name: 'JELLY TATTOO TINT', description: 'Couleur vive 3-4h sans transfert, avec un effet gelée brillant.' },
+            [Language.DE]: { name: 'JELLY TATTOO TINT', description: 'Vivid Farbe hält 3-4 Stunden ohne Transfer, mit glänzendem Jelly-Effekt.' },
             [Language.KR]: { name: '젤리 타투 틴트', description: '색이 3~4시간 동안 묻어남 없이 유지되고 비비드한 컬러로 젤리 느낌 즉 그로시한 효과가 극대화 되는 제품' },
-            [Language.HU]: { name: 'JELLY TATTOO TINT', description: 'Fényes lehúzható tinta csomag, amely élénk színt ad kényelmes zselés felülettel.' },
-            [Language.ET]: { name: 'JELLY TATTOO TINT', description: 'Läikiv mahakooritav tint, mis annab elava värvi ja mugava želee-viimistluse.' },
+            [Language.HU]: { name: 'JELLY TATTOO TINT', description: 'Az élénk szín 3-4 órán át tart, elkenődés nélkül, fényes, zselés hatással.' },
+            [Language.ET]: { name: 'JELLY TATTOO TINT', description: 'Elav värv püsib 3-4 tundi ilma määrimata, läikiva želee-efektiga.' },
             [Language.US]: { name: 'JELLY TATTOO TINT', description: 'Vivid color lasts 3-4 hours with zero transfer, maximizing a glossy, vibrant jelly effect.' }
         }
     },
@@ -1334,17 +1334,17 @@ export const PRODUCTS: Product[] = [
         tags: ['Firming', 'Smooth'],
         translations: {
             
-            [Language.RU]: { name: 'КРЕМ ДЛЯ ШЕИ', description: 'Передовой крем для шеи, разглаживающий морщины и восстанавливающий упругость.' },
-            [Language.EL]: { name: 'ΚΡΕΜΑ ΛΑΙΜΟΥ', description: 'Προηγμένη κρέμα λαιμού ειδικά σχεδιασμένη για λείανση ρυτίδων και σύσφιξη.' },
-            [Language.CN]: { name: '抗皱抚纹颈霜', description: '专为颈部研发，强效抚平皱纹，恢复肌肤弹性和紧致度。' },
-            [Language.ES]: { name: 'CREMA CUELLO', description: 'Crema avanzada para alisar arrugas y restaurar la firmeza del cuello.' },
-            [Language.JP]: { name: 'ネッククリーム', description: '首元のシワをケアし、ハリを取り戻す専用クリーム。' },
-            [Language.ME]: { name: 'كريم الرقبة', description: 'كريم متطور للرقبة مصمم لتنعيم التجاعيد واستعادة المرونة.' },
-            [Language.FR]: { name: 'CRÈME COU', description: 'Crème avancée pour lisser les rides et raffermir le cou.' },
-            [Language.DE]: { name: 'HALS CREME', description: 'Fortschrittliche Halscreme zur Glättung von Falten und Straffung.' },
+            [Language.RU]: { name: 'КРЕМ ДЛЯ ШЕИ', description: 'Мгновенное улучшение морщин за 1 минуту для гладкой линии шеи.' },
+            [Language.EL]: { name: 'ΚΡΕΜΑ ΛΑΙΜΟΥ', description: 'Άμεση βελτίωση ρυτίδων σε 1 λεπτό για λεία γραμμή λαιμού.' },
+            [Language.CN]: { name: '抗皱抚纹颈霜', description: '1分钟即可见效，瞬间改善皱纹，打造平滑颈部线条。' },
+            [Language.ES]: { name: 'CREMA CUELLO', description: 'Efecto de mejora de arrugas instantáneo en 1 minuto para un cuello suave.' },
+            [Language.JP]: { name: 'ネッククリーム', description: 'たった1分で即時的なシワ改善効果を与え、なめらかな首のラインを完成させます。' },
+            [Language.ME]: { name: 'كريم الرقبة', description: 'تأثير فوري لتحسين التجاعيد في دقيقة واحدة لخط رقبة ناعم.' },
+            [Language.FR]: { name: 'CRÈME COU', description: 'Amélioration instantanée des rides en 1 minute pour un cou lissé.' },
+            [Language.DE]: { name: 'HALS CREME', description: 'Sofortiger Faltenverbesserungseffekt in 1 Minute für eine glatte Halslinie.' },
             [Language.KR]: { name: '넥 크림', description: '매끄러운 목 라인 완성을 위해 1분만에 즉각적인 주름 개선 효과를 부여하는 크림.' },
-            [Language.HU]: { name: 'NECK CREAM', description: 'Fejlett nyakkrém a ráncok kisimítására és a feszesség helyreállítására.' },
-            [Language.ET]: { name: 'NECK CREAM', description: 'Täiustatud kaelakreem kortsude silumiseks ja elastsuse taastamiseks.' }
+            [Language.HU]: { name: 'NECK CREAM', description: 'Azonnali ráncjavító hatás 1 perc alatt a sima nyakvonalért.' },
+            [Language.ET]: { name: 'NECK CREAM', description: 'Kohene kortsude paranemise efekt 1 minutiga sujuva kaelajoone jaoks.' }
         }
     },
     {
@@ -1419,17 +1419,17 @@ export const PRODUCTS: Product[] = [
         },
         translations: {
             
-            [Language.RU]: { name: 'СЫВОРОТКА RETINO GALVANIC', description: 'Сыворотка стимулирует впитывание ретинола для максимальной эффективности.' },
-            [Language.EL]: { name: 'ΟΡΟΣ 100 RETINO GALVANIC', description: 'Ορός εμπνευσμένος από μικρορεύματα που ενισχύει την απορρόφηση της ρετινόλης.' },
-            [Language.CN]: { name: '视黄醇电离子精华', description: '受微电流启发的视黄醇精华，大幅度提升抗老吸收效率。' },
-            [Language.ES]: { name: 'SÉRUM GALVÁNICO', description: 'Sérum inspirado en microcorrientes que potencia la absorción del retinol.' },
-            [Language.JP]: { name: 'レチノガルバニックセラム100', description: '美顔器の原理を応用。レチノールの吸収を極大化し、肌の奥まで届けます。' },
-            [Language.ME]: { name: 'سيروم جلفاني', description: 'سيروم مستوحى من التيارات الدقيقة يعزز امتصاص الريتينول.' },
-            [Language.FR]: { name: 'SÉRUM GALVANIQUE', description: 'Sérum inspiré des micro-courants pour une absorption maximale du rétinol.' },
-            [Language.DE]: { name: 'GALVANIC SERUM', description: 'Von Mikrostrom inspiriertes Serum, das die Retinolaufnahme verstärkt.' },
+            [Language.RU]: { name: 'СЫВОРОТКА RETINO GALVANIC', description: 'Клинически доказанное улучшение индекса возраста кожи на -9 лет после 4 недель.' },
+            [Language.EL]: { name: 'ΟΡΟΣ 100 RETINO GALVANIC', description: 'Κλινικά αποδεδειγμένη βελτίωση δείκτη ηλικίας δέρματος κατά -9 χρόνια μετά από 4 εβδομάδες.' },
+            [Language.CN]: { name: '视黄醇电离子精华', description: '临床验证：使用4周后肌肤年龄指数改善-9岁。' },
+            [Language.ES]: { name: 'SÉRUM GALVÁNICO', description: 'Mejora del índice de edad de la piel en -9 años tras 4 semanas de uso.' },
+            [Language.JP]: { name: 'レチノガルバニックセラム100', description: '4週間の使用で肌年齢指数を-9歳改善することが臨床的に証明されたセラム。' },
+            [Language.ME]: { name: 'سيروم جلفاني', description: 'تحسن مثبت سريرياً في مؤشر عمر البشرة بمقدار -9 سنوات بعد 4 أسابيع.' },
+            [Language.FR]: { name: 'SÉRUM GALVANIQUE', description: 'Amélioration cliniquement prouvée de l\'âge de la peau de -9 ans après 4 semaines.' },
+            [Language.DE]: { name: 'GALVANIC SERUM', description: 'Klinisch bewiesene Verbesserung des Hautalterungsindex um -9 Jahre nach 4 Wochen.' },
             [Language.KR]: { name: '레티노 갈바닉 세럼 100', description: '미세전류(갈바닉) 기술을 적용, 4주 사용 뒤 피부 나이 지수 -9살 개선 효과가 임상 검증된 세럼.' },
-            [Language.HU]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikroáram ihlette szérum, amely fokozza a retinol felszívódását a maximális hatékonyságért.' },
-            [Language.ET]: { name: 'RETINO GALVANIC SERUM 100', description: 'Mikrovoolust inspireeritud seerum, mis võimendab retinooli imendumist.' }
+            [Language.HU]: { name: 'RETINO GALVANIC SERUM 100', description: 'Klinikailag igazolt, 4 hét után -9 év bőrkor index javulás.' },
+            [Language.ET]: { name: 'RETINO GALVANIC SERUM 100', description: 'Kliiniliselt tõestatud naha vanuse indeksi pikenemine -9 aasta võrra 4 nädala pärast.' }
         }
     },
     {
@@ -1596,17 +1596,17 @@ export const PRODUCTS: Product[] = [
         },
         translations: {
             
-            [Language.RU]: { name: 'КАПСУЛЬНЫЙ КРЕМ VITA', description: 'Гель-крем с капсулированным витамином С для восстановления сияния и жизненной силы.' },
-            [Language.EL]: { name: 'ΚΡΕΜΑ VITA', description: 'Κρέμα-τζελ με εγκλωβισμένη βιταμίνη C που επαναφέρει τη λάμψη και τη ζωτικότητα.' },
-            [Language.CN]: { name: '维他命C胶囊面霜', description: '包裹式纯维生素C凝胶面霜，恢复光彩与活力。' },
-            [Language.ES]: { name: 'VITA CAPSULE CREAM', description: 'Crema en gel con cápsulas de Vitamina C pura para una piel luminosa.' },
-            [Language.JP]: { name: 'ビタCカプセルクリーム', description: '高濃度ビタミンCを凝縮。シミやくすみをケアするスペシャルケアアイテム。' },
-            [Language.ME]: { name: 'كريم كبسولات فيتا', description: 'كريم جل غني بكبسولات فيتامين سي لاستعادة حيوية البشرة.' },
-            [Language.FR]: { name: 'VITA CAPSULE CRÈME', description: "Crème gel aux capsules de vitamines pour restaurer l'éclat." },
-            [Language.DE]: { name: 'VITA KAPSEL CREME', description: 'Gel-Creme mit verkapseltem Vitamin C für neue Vitalität und Ausstrahlung.' },
+            [Language.RU]: { name: 'КАПСУЛЬНЫЙ КРЕМ VITA', description: 'Клинически доказанное улучшение пигментации на 27.33% и уровня меланина на 7.67%.' },
+            [Language.EL]: { name: 'ΚΡΕΜΑ VITA', description: 'Κλινικά αποδεδειγμένη βελτίωση μελάγχρωσης 27.33% και επιπέδου μελανίνης 7.67%.' },
+            [Language.CN]: { name: '维他命C胶囊面霜', description: '临床验证：色斑改善27.33%，黑色素水平降低7.67%。' },
+            [Language.ES]: { name: 'VITA CAPSULE CREAM', description: 'Efecto iluminador comprobado: Pigmentación mejorada en 27.33% y nivel de melanina en 7.67%.' },
+            [Language.JP]: { name: 'ビタCカプセルクリーム', description: '臨床試験で色素沈着27.33%改善、メラニンレベル7.67%改善が証明されたクリーム。' },
+            [Language.ME]: { name: 'كريم كبسولات فيتا', description: 'تحسن التصبغ بنسبة 27.33% ومستوى الميلانين بنسبة 7.67% مثبت سريرياً.' },
+            [Language.FR]: { name: 'VITA CAPSULE CRÈME', description: 'Amélioration cliniquement prouvée de la pigmentation de 27.33% et de la mélanine de 7.67%.' },
+            [Language.DE]: { name: 'VITA KAPSEL CREME', description: 'Klinisch erwiesen: Pigmentierung um 27.33% und Melanin um 7.67% verbessert.' },
             [Language.KR]: { name: '비타 캡슐 크림', description: 'PIGMENTATION 27.33% 개선과 멜라닌 레벨 7.67% 개선 효과가 검증된 일루미네이팅 겔 크림.' },
-            [Language.HU]: { name: 'VITA CAPSULE CREAM', description: 'Kapszulázott C-vitamin gél krém, amely helyreállítja a ragyogást és a vitalitást.' },
-            [Language.ET]: { name: 'VITA CAPSULE CREAM', description: 'Kapseldatud C-vitamiini geelkreem, mis taastab sära ja elujõu.' }
+            [Language.HU]: { name: 'VITA CAPSULE CREAM', description: 'Klinikailag bizonyítottan 27.33%-os pigmentáció és 7.67%-os melanin szint javulás.' },
+            [Language.ET]: { name: 'VITA CAPSULE CREAM', description: 'Kliiniliselt tõestatud pigmentatsiooni 27.33% ja melaniini taseme 7.67% paranemine.' }
         }
     },
     {
@@ -1619,17 +1619,17 @@ export const PRODUCTS: Product[] = [
         tags: ['Intensive', 'Glow'],
         translations: {
             
-            [Language.RU]: { name: 'АМПУЛА VITA C', description: 'Высокоактивная ампула с витамином С для интенсивного осветления и ухода за пигментацией.' },
-            [Language.EL]: { name: 'ΑΜΠΟΥΛΑ VITA C', description: 'Ισχυρή αμπούλα βιταμίνης C για εντατική λεύκανση.' },
-            [Language.CN]: { name: '高浓缩维他命C安瓶', description: '高能维C精华安瓶，密集美白提亮并淡化黑斑。' },
-            [Language.ES]: { name: 'VITA C AMPOULE', description: 'Ampolla de Vitamina C de alta potencia para un brillo y claridad intensos.' },
-            [Language.JP]: { name: 'ビタCアンプル', description: '高濃度ビタミンCを凝縮。シミやくすみをケアする スペシャルケアアイテム。' },
-            [Language.ME]: { name: 'أمبولة فيتا سي', description: 'أمبولة فيتامين سي عالية الفعالية لتفتيح البشرة المكثف.' },
-            [Language.FR]: { name: 'AMPOULE VITA C', description: 'Soin concentré à la vitamine C pour un éclat intense.' },
-            [Language.DE]: { name: 'VITA C AMPOULE', description: 'Hochkonzentrierte Vitamin-C-Ampulle zur intensiven Aufhellung von Pigmentflecken.' },
+            [Language.RU]: { name: 'АМПУЛА VITA C', description: 'Сыворотка: Пигментация уменьшена на 27.33%, уровень меланина на 7.67%.' },
+            [Language.EL]: { name: 'ΑΜΠΟΥΛΑ VITA C', description: 'Ορός: Μείωση μελάγχρωσης κατά 27.33% και επιπέδου μελανίνης κατά 7.67%.' },
+            [Language.CN]: { name: '高浓缩维他命C安瓶', description: '浓缩安瓶：色斑改善27.33%，黑色素水平降低7.67%。' },
+            [Language.ES]: { name: 'VITA C AMPOULE', description: 'Ampolla: Reducción probada de pigmentación en 27.33% y nivel de melanina en 7.67%.' },
+            [Language.JP]: { name: 'ビタCアンプル', description: '色素沈着27.33%減少、メラニンレベル7.67%改善が証明された美白アンプル。' },
+            [Language.ME]: { name: 'أمبولة فيتا سي', description: 'أمبولة: انخفاض التصبغ بنسبة 27.33% ومستوى الميلانين بنسبة 7.67%.' },
+            [Language.FR]: { name: 'AMPOULE VITA C', description: 'Ampoule : Pigmentation réduite de 27.33% et mélanine de 7.67%.' },
+            [Language.DE]: { name: 'VITA C AMPOULE', description: 'Ampulle: Pigmentierung um 27.33% und Melanin um 7.67% reduziert.' },
             [Language.KR]: { name: '비타 C 앰플', description: 'PIGMENTATION 27.33% 개선과 멜라닌 레벨 7.67% 감소가 입증된 강력 미백 앰플.' },
-            [Language.HU]: { name: 'VITA C AMPOULE', description: 'Nagy hatékonyságú C-vitamin ampulla az intenzív világosításért és a sötét foltok kezelésére.' },
-            [Language.ET]: { name: 'VITA C AMPOULE', description: 'Tugevatoimeline C-vitamiini ampull intensiivseks helestamiseks ja tumedate laikude raviks.' }
+            [Language.HU]: { name: 'VITA C AMPOULE', description: 'Ampulla: Pigmentáció csökkenés 27.33%-kal, melanin 7.67%-kal.' },
+            [Language.ET]: { name: 'VITA C AMPOULE', description: 'Ampull: Pigmentatsiooni vähenemine 27.33% ja melaniini taseme paranemine 7.67%.' }
         }
     }
 ];
