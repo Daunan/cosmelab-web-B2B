@@ -189,14 +189,14 @@ export default function Quiz({ locale }: QuizProps) {
                             <div className="relative mt-8 w-full flex flex-col items-center pb-8 border-b-2 sm:border-b-0 border-transparent">
                                 <button
                                     onClick={() => setStep(QuizStepId.FOCUS)}
-                                    className="btn-3d-orange relative px-10 py-5 sm:px-12 sm:py-6 rounded-2xl flex items-center justify-center min-w-[280px] sm:min-w-[320px] select-none cursor-pointer group mx-auto"
+                                    className="relative px-10 py-5 sm:px-12 sm:py-6 rounded-2xl flex items-center justify-center min-w-[280px] sm:min-w-[320px] select-none cursor-pointer group mx-auto bg-gradient-to-b from-[#ff9d5c] via-[#ff8a3d] to-[#e66a15] shadow-[0_15px_30px_rgba(0,0,0,0.2),0_10px_10px_rgba(230,106,21,0.4),inset_0_3px_2px_rgba(255,255,255,0.6),inset_0_-8px_15px_rgba(0,0,0,0.2),inset_0_1px_1px_rgba(255,255,255,0.2)] hover:shadow-[0_20px_40px_rgba(0,0,0,0.25),0_12px_15px_rgba(230,106,21,0.5),inset_0_3px_2px_rgba(255,255,255,0.7),inset_0_-8px_15px_rgba(0,0,0,0.15)] active:shadow-[0_4px_8px_rgba(0,0,0,0.2),inset_0_6px_10px_rgba(0,0,0,0.3),inset_0_-2px_5px_rgba(255,255,255,0.2)] transition-all duration-150 border border-black/10 text-white hover:-translate-y-1 active:translate-y-1 [text-shadow:0_2px_4px_rgba(0,0,0,0.3)]"
                                 >
-                                    <div className="btn-gloss"></div>
+                                    <div className="absolute top-[2px] left-[2px] right-[2px] h-[45%] bg-gradient-to-b from-white/40 to-white/5 pointer-events-none rounded-[14px_14px_4px_4px]"></div>
                                     <span className="text-white text-xl sm:text-2xl md:text-3xl font-bold tracking-tight shadow-sm flex items-center drop-shadow-md relative z-10 w-full justify-center text-center">
                                         <span className="mr-3">{t.start}</span>
                                         <ArrowRight className="w-6 h-6 sm:w-8 sm:h-8 group-hover:translate-x-2 transition-transform drop-shadow-md" />
                                     </span>
-                                    <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity bg-white z-0"></div>
+                                    <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity bg-white/20 z-0"></div>
                                 </button>
                                 {/* Subtle floor shadow */}
                                 <div className="mt-8 sm:mt-12 w-4/5 sm:w-3/5 mx-auto h-4 sm:h-6 bg-black/15 rounded-[100%] blur-xl sm:blur-2xl"></div>
