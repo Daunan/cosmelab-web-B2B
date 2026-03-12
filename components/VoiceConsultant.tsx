@@ -184,14 +184,54 @@ export default function VoiceConsultant({ currentLang }: VoiceConsultantProps) {
             'coscell-vita-ampoule': ['vita ampoule', 'vitamin c', '비타민', '잡티', '기미', 'シミ', 'manchas', 'taches', 'flecken', 'folt', 'laigud', 'فيتامين', 'витамин', 'βιταμίνη', 'bitamin', 'beta']
         };
 
-        // 2. Score calculation
+        // 2. Score calculation using Levenshtein Fuzzy Matching
         let maxScore = 0;
         let matchedProductId = '';
+
+        const isFuzzyMatch = (textStr: string, keyword: string) => {
+            if (textStr.includes(keyword)) return true;
+            
+            const distance = (a: string, b: string) => {
+                if (a.length === 0) return b.length;
+                if (b.length === 0) return a.length;
+                const matrix = [];
+                for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+                for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+                for (let i = 1; i <= b.length; i++) {
+                    for (let j = 1; j <= a.length; j++) {
+                        if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                            matrix[i][j] = matrix[i - 1][j - 1];
+                        } else {
+                            matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, Math.min(matrix[i][j - 1] + 1, matrix[i - 1][j] + 1));
+                        }
+                    }
+                }
+                return matrix[b.length][a.length];
+            };
+
+            const cleanText = textStr.replace(/\s+/g, '');
+            const cleanKey = keyword.replace(/\s+/g, '');
+            
+            const maxErr = cleanKey.length <= 2 ? 0 : (cleanKey.length <= 5 ? 1 : 2);
+            if (maxErr === 0) return cleanText.includes(cleanKey);
+
+            for (let i = 0; i <= cleanText.length - cleanKey.length + maxErr; i++) {
+                for (let len = Math.max(1, cleanKey.length - maxErr); len <= cleanKey.length + maxErr; len++) {
+                    if (i + len > cleanText.length) continue;
+                    const sub = cleanText.substring(i, i + len);
+                    if (distance(sub, cleanKey) <= maxErr) return true;
+                }
+            }
+            return false;
+        };
 
         for (const [id, keys] of Object.entries(productKeywords)) {
             let score = 0;
             keys.forEach(k => {
-                if (lowerText.includes(k)) score += 2;
+                if (isFuzzyMatch(lowerText, k)) {
+                    // Exact match gives +3, fuzzy gives +2
+                    score += lowerText.includes(k) ? 3 : 2; 
+                }
             });
 
             if (score > maxScore) {
