@@ -175,7 +175,7 @@ export default function VoiceConsultant({ currentLang }: VoiceConsultantProps) {
             'amill-oil': ['oil', '오일', 'オイル', 'aceite', 'huile', 'öl', 'olaj', 'õli', 'زيت', 'масло', 'λάδι', 'oleo', 'oel'],
             'amill-foam': ['foam', 'cleanse', '폼', '클렌징', '洗顔', 'limpieza', 'nettoyage', 'reinigung', 'tisztítás', 'puhastus', 'تنظيف', 'очищение', 'καθαρισμός', 'cleansing', 'wash'],
             'amill-bubble': ['bubble', '버블', '泡', 'bulles', 'blasen', 'buborék', 'mullid', 'فقاعة', 'пузырь', 'φούσκα', 'buble', 'booble'],
-            'coscell-eye': ['eye bag', 'eyebag', 'eye', 'retinol', '아이백', '눈밑', '눈가', 'レチノール', '目元', 'ojos', 'yeux', 'augen', 'szem', 'silmad', 'عين', 'глаза', 'μάτια', 'retynol', 'wrinkle'],
+            'coscell-eye': ['eye bag', 'eyebag', 'eye', 'retinol', '아이백', '눈밑', '눈가', '아이크림', '아이스크림', 'レチノール', '目元', 'ojos', 'yeux', 'augen', 'szem', 'silmad', 'عين', 'глаза', 'μάτια', 'retynol', 'wrinkle'],
             'coscell-neck': ['neck', '목주름', '목', '首', 'cou', 'cuello', 'hals', 'nyak', 'kael', 'رقبة', 'шея', 'λαιμός', 'rimpier', 'hal'],
             'coscell-serum': ['serum', 'galvanic', '세럼', '갈바닉', 'セラム', 'sérum', 'szérum', 'seerum', 'سيروم', 'сыворотка', 'ορός', 'cerum', 'galvan'],
             'coscell-papaya-ampoule': ['papaya', 'pdrn', 'ampoule', '파파야', '앰플', 'アンプル', 'ampolla', 'ampul', 'امبولة', 'ампула', 'αμπούλα', 'pepaya'],
