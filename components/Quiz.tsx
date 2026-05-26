@@ -66,6 +66,7 @@ export default function Quiz({ locale }: QuizProps) {
                     { code: Language.KR, flag: '🇰🇷', label: '한국어' },
                     { code: Language.HU, flag: '🇭🇺', label: 'Magyar' },
                     { code: Language.ET, flag: '🇪🇪', label: 'Eesti' },
+                    { code: Language.VI, flag: '🇻🇳', label: 'Tiếng Việt' },
                 ].map((lang) => (
                     <button
                         key={lang.code}

@@ -236,12 +236,29 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab Co., Ltd.",
             title: "COSMELAB\nPREMIUM\nKURATSIOON.",
-            desc: "Berrisom, G9SKIN, AMILL ja COSCELL ekspertlahendused."
-        },
-        sidebar: ["AVALEHT", "HOOLDUS", "VAJADUS", "SOOVITUS"],
         phases: ["SAMM 01: Fookus", "SAMM 02: Probleem", "Meie Soovitus"],
         instructions: ["Vali hoolduse kategooria", "Mis on sinu peamine nahamure?", "Valisime sulle need tooted:"],
         snsFeedbackBtn: "SNS Tagasiside maailmast"
+    },
+    [Language.VI]: {
+        start: "BẮT ĐẦU CHẨN ĐOÁN",
+        next: "TIẾP THEO",
+        back: "QUAY LẠI",
+        reset: "ĐẶT LẠI",
+        buyingLink: "MUA NGAY",
+        brandFile: "HỒ SƠ THƯƠNG HIỆU",
+        catalog: "TẢI DANH MỤC",
+        contact: "LIÊN HỆ",
+        b2b: "HỢP TÁC B2B TOÀN CẦU",
+        hero: {
+            sub: "CosmeLab Co., Ltd.",
+            title: "COSMELAB\nTUYỂN CHỌN\nCAO CẤP.",
+            desc: "Giải pháp được chuyên gia tuyển chọn từ Berrisom, G9SKIN, AMILL và COSCELL."
+        },
+        sidebar: ["TRANG CHỦ", "DANH MỤC", "NHU CẦU", "KẾT QUẢ"],
+        phases: ["BƯỚC 01: Danh Mục", "BƯỚC 02: Nhu Cầu", "Giải Pháp Dành Cho Bạn"],
+        instructions: ["Chọn danh mục chăm sóc của bạn", "Nhu cầu chính của da bạn là gì?", "Chúng tôi đã chọn những sản phẩm cao cấp này cho bạn:"],
+        snsFeedbackBtn: "Phản hồi từ khách hàng toàn cầu"
     }
 };
 
