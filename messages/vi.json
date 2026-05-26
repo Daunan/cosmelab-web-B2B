@@ -1,0 +1,35 @@
+{
+    "Hero": {
+        "title": "Đối Tác Toàn Cầu Cho K-Beauty",
+        "subtitle": "Cầu nối hàng đầu dẫn bạn đến thế giới mỹ phẩm Hàn Quốc chất lượng cao.",
+        "cta": "Khám Phá Thương Hiệu"
+    },
+    "Brands": {
+        "title": "Thương Hiệu Nổi Bật",
+        "description": "Khám phá bộ sưu tập các thương hiệu K-Beauty hàng đầu được tuyển chọn kỹ lưỡng."
+    },
+    "WhyUs": {
+        "title": "Tại Sao Chọn Chúng Tôi",
+        "items": {
+            "direct": "Cung Cấp Trực Tiếp Từ Nhà Sản Xuất",
+            "logistics": "Mạng Lưới Logistics Toàn Cầu",
+            "terms": "Điều Kiện B2B Linh Hoạt"
+        }
+    },
+    "Collections": {
+        "title": "Bộ Sưu Tập Nổi Bật"
+    },
+    "Footer": {
+        "copyright": "© 2026 COSMELAB. Bảo lưu mọi quyền."
+    },
+    "Navigation": {
+        "home": "Trang Chủ",
+        "brands": "Thương Hiệu",
+        "about": "Về Chúng Tôi",
+        "contact": "Liên Hệ"
+    },
+    "Recommendation": {
+        "start": "Tìm Sản Phẩm Phù Hợp Với Bạn",
+        "cta": "Bắt Đầu Quiz"
+    }
+}
