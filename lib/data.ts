@@ -236,6 +236,9 @@ export const UI_TRANSLATIONS: Record<string, any> = {
         hero: {
             sub: "CosmeLab Co., Ltd.",
             title: "COSMELAB\nPREMIUM\nKURATSIOON.",
+            desc: "Berrisom, G9SKIN, AMILL ja COSCELL ekspertlahendused."
+        },
+        sidebar: ["AVALEHT", "HOOLDUS", "VAJADUS", "SOOVITUS"],
         phases: ["SAMM 01: Fookus", "SAMM 02: Probleem", "Meie Soovitus"],
         instructions: ["Vali hoolduse kategooria", "Mis on sinu peamine nahamure?", "Valisime sulle need tooted:"],
         snsFeedbackBtn: "SNS Tagasiside maailmast"
