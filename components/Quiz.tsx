@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronRight, RefreshCcw, ShoppingBag, ArrowRight, Sparkles } from 'lucide-react';
+import { ChevronRight, RefreshCcw, ShoppingBag, ArrowRight, Sparkles, Instagram, Linkedin, Mail, MessageCircle } from 'lucide-react';
 import { CATEGORIES, PRODUCTS, UI_TRANSLATIONS, getBuyingLink, BRAND_INTRODUCE_URL, getDriveUrl } from '@/lib/data';
 import { Category, Language, QuizStepId } from '@/lib/types';
 import { cn } from '@/lib/utils';
