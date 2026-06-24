@@ -1115,18 +1115,7 @@ export const PRODUCTS: Product[] = [
                 <p>Populaarne Euroopas (nt MiiN Cosmetics) ja kogu maailmas kui unikaalne "enesehoolduse" kingitus tänu oma erilisele ajakirja stiilis pakendile.</p>
             `,
             [Language.VI]: `
-                <ul class="list-disc pl-5 space-y-1 text-sm">
-                    <li><strong>Công Nghệ Tiên Tiến (Galvanic):</strong> Sử dụng vi dòng điện (Galvanic) giúp Retinol thẩm thấu sâu hơn mà không gây kích ứng, phù hợp cho vùng da nhạy cảm quanh mắt.</li>
-                </ul>
-            `,
-            [Language.VI]: `
-                <h4 class="font-bold mb-2">Viên Nang Vita C: Rạng Rỡ Như Làn Da Kính</h4>
-                <ul class="list-disc pl-5 space-y-1 text-sm">
-                    <li><strong>Định Vị:</strong> Giải pháp làm sáng da mạnh mẽ, tạo hiệu ứng "Glass Skin" tức thì.</li>
-                    <li><strong>Thành Phần:</strong> Công thức cô đặc 99% Vitamin C thuần khiết và 66% nước cây Vitamin.</li>
-                    <li><strong>Kết Cấu:</strong> Viên nang độc đáo tan ngay khi chạm da, đưa dưỡng chất tươi mới vào sâu.</li>
-                    <li><strong>Lợi Ích:</strong> Hiệu ứng "glow-up" tức thì, hồi sinh làn da xỉn màu, đặc biệt hiệu quả trong mùa đông.</li>
-                </ul>
+                <p>Được ưa chuộng tại châu Âu (MiiN Cosmetics) và toàn cầu như món quà "tự chăm sóc" độc đáo nhờ bao bì phong cách tạp chí đặc biệt.</p>
             `
         },
         translations: {
@@ -1142,7 +1131,7 @@ export const PRODUCTS: Product[] = [
             [Language.KR]: { name: '비타 캡슐 크림', description: 'PIGMENTATION 27.33% 개선과 멜라닌 레벨 7.67% 개선 효과가 검증된 일루미네이팅 겔 크림.' },
             [Language.HU]: { name: 'VITA CAPSULE CREAM', description: 'Klinikailag bizonyítottan 27.33%-os pigmentáció és 7.67%-os melanin szint javulás.' },
             [Language.ET]: { name: 'VITA CAPSULE CREAM', description: 'Kliiniliselt tõestatud pigmentatsiooni 27.33% ja melaniini taseme 7.67% paranemine.' },
-            [Language.VI]: { name: 'KEM VIÊN NANG VITAMIN C', description: 'Kliiniliselt tõestatud pigmentatsiooni 27.33% ja melaniini taseme 7.67% paranemine.' }
+            [Language.VI]: { name: 'KEM VIÊN NANG VITAMIN C', description: 'Được kiểm chứng lâm sàng: cải thiện sắc tố 27.33% và mức melanin 7.67%.' }
         }
     },
     {
